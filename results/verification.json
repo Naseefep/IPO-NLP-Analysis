@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": {
+    "completed_research_run": true,
+    "input_hashes_match": true,
+    "all_news_strictly_prelisting": true,
+    "all_news_within_window": true,
+    "finite_valid_probabilities": true,
+    "sentiment_score_matches_probabilities": true,
+    "no_missing_price_in_frozen_cohort": true,
+    "exact_listing_dates": true,
+    "nominal_prices_verified": true,
+    "missing_news_remains_missing": true,
+    "test_dates_finbert_score_listing_return_pct": true,
+    "test_dates_finbert_score_parkinson_daily": true,
+    "test_dates_lm_score_listing_return_pct": true,
+    "test_dates_lm_score_parkinson_daily": true
+  },
+  "counts": {
+    "ipos": 46,
+    "ipos_with_news": 44,
+    "headlines": 406
+  }
+}

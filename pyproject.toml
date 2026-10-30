@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipo-sentiment-research"
+version = "1.0.0"
+description = "Auditable pre-listing financial news sentiment and Indian IPO outcomes"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.2,<3", "numpy>=1.26,<3", "scipy>=1.12,<2", "statsmodels>=0.14,<0.15", "matplotlib>=3.8,<4", "requests>=2.31,<3"]
+
+[project.optional-dependencies]
+finbert = ["torch>=2.6,<3", "transformers>=4.48,<5", "safetensors>=0.5"]
+collect = ["yfinance>=0.2.54,<1"]
+report = ["reportlab>=4,<5", "pypdf>=5,<7"]
+
+[project.scripts]
+ipo-sentiment = "iposent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

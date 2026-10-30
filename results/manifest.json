@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-29T05:25:48.922701+00:00",
+  "python": "3.12.10",
+  "status": "complete",
+  "mode": "research",
+  "lookback_calendar_days": 30,
+  "text_field": "headline",
+  "model": "both",
+  "inputs": {
+    "data/research/ipos.csv": "c361e80ad9fa6d1e4eb8ec57842bf9d49217d902a0f5be0b88021779c93c5f42",
+    "data/research/prices.csv": "7bba9defcfd4b9b89fa1f6c2c4fa4c40f4907437eaf78ecb2ea0c149fb9f973a",
+    "data/research/news.csv": "06faef5201e08c92a3ee71b75d027b930fc7ed47ead0f94a2117be107385f841"
+  },
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.4",
+    "statsmodels": "0.14.6",
+    "scipy": "1.18.1",
+    "transformers": "4.57.6",
+    "torch": "2.15.0+cpu"
+  },
+  "counts": {
+    "ipos": 46,
+    "news_input": 828,
+    "news_retained": 406,
+    "verified_prices": 46
+  },
+  "news_rejections": {
+    "": 406,
+    "relevance_not_verified": 230,
+    "at_or_after_cutoff": 192
+  },
+  "lm_dictionary_sha256": "147cb24a1687ccde60363a0fa29c62be4097debcc698c01a83e51bb8a176dbb3",
+  "lm_dictionary_path": "data/lexicons/Loughran-McDonald_MasterDictionary_1993-2025.csv",
+  "finbert_revision": "0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031",
+  "finbert_labels": {
+    "positive": 0,
+    "negative": 1,
+    "neutral": 2
+  },
+  "skipped_models": [],
+  "interpretation": "Associational estimates; inspect audits, confidence intervals and holdout errors."
+}

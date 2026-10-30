@@ -1,0 +1,790 @@
+[
+  {
+    "file": "data/raw/collection2023/nse_past_issues.json",
+    "url": "https://www.nseindia.com/api/public-past-issues?category=equities&type=all",
+    "params": null,
+    "sha256": "8e7699dade31220a73a98d2b13405d2071e34e511cc471ba8e89592f00448290"
+  },
+  {
+    "file": "data/raw/collection2023/20230314.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm14MAR2023bhav.csv.zip",
+    "params": null,
+    "sha256": "5b6f3d7ce9fa1d9dcbfd8bf8fc574958409b3d2cdd26f87337b16400727a315f"
+  },
+  {
+    "file": "data/raw/collection2023/DIVGIITTS.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Divgi TorqTransfer Systems\" IPO after:2023-02-12 before:2023-03-14",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "cce7586a178301d2ef8ff672a68a3a23c589b5fccbb239f63c7e235c80d9b718"
+  },
+  {
+    "file": "data/raw/collection2023/20230418.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm18APR2023bhav.csv.zip",
+    "params": null,
+    "sha256": "a622a399c03a62553ae098d1d018eeb367c2eb7351f58781abb1f33ca43a5814"
+  },
+  {
+    "file": "data/raw/collection2023/AVALON.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Avalon Technologies\" IPO after:2023-03-19 before:2023-04-18",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "215ea0ff465bd0dc5dd291e7894adb223145163dfc462819a4555323ece57cd2"
+  },
+  {
+    "file": "data/raw/collection2023/20230509.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm09MAY2023bhav.csv.zip",
+    "params": null,
+    "sha256": "a593be3309f1e4295533e47dd6b4029c7806c10a9d3b8f34d7f20c1ffabc8b4c"
+  },
+  {
+    "file": "data/raw/collection2023/MANKIND.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Mankind Pharma\" IPO after:2023-04-09 before:2023-05-09",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "a489bb5d7adf862bf12331e08ff8c18b883619bd60b546609d1e5df3779b8d07"
+  },
+  {
+    "file": "data/raw/collection2023/20230616.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm16JUN2023bhav.csv.zip",
+    "params": null,
+    "sha256": "707daca7d6594ae68c70de844397026d3f7e65293218b48218b0957671fd672b"
+  },
+  {
+    "file": "data/raw/collection2023/IKIO.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"IKIO Lighting\" IPO after:2023-05-17 before:2023-06-16",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "15cd9bee89e4f13727108908662fa772c2569927e788b2004113c1962b01166e"
+  },
+  {
+    "file": "data/raw/collection2023/20230704.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm04JUL2023bhav.csv.zip",
+    "params": null,
+    "sha256": "3b127cbc5e7dadd7da5f297c24225d689143eb525b00ccfa38a31f7e2695e0bd"
+  },
+  {
+    "file": "data/raw/collection2023/HMAAGRO.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"HMA Agro Industries\" IPO after:2023-06-04 before:2023-07-04",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "adc0fbf29450a3d9d47388d3ae6db0ed41021d134169b30e9c976fdc39bfeb78"
+  },
+  {
+    "file": "data/raw/collection2023/20230707.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm07JUL2023bhav.csv.zip",
+    "params": null,
+    "sha256": "598411427ca798122e98e9b736f4d18980eea1e991ab646132cb5b0262ae5e0a"
+  },
+  {
+    "file": "data/raw/collection2023/IDEAFORGE.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Ideaforge Technology\" IPO after:2023-06-07 before:2023-07-07",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "d1a9d020dc5fe6d7046b64d3b9faa4b4c1acb6f916b4330de3e8fe526a3853bf"
+  },
+  {
+    "file": "data/raw/collection2023/20230710.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm10JUL2023bhav.csv.zip",
+    "params": null,
+    "sha256": "e4ae3f02de52361cdc7b0fbc931a67cfec8f2adf9e42015c600d58ad39bc5027"
+  },
+  {
+    "file": "data/raw/collection2023/CYIENTDLM.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Cyient DLM\" IPO after:2023-06-10 before:2023-07-10",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "b51969b42e9c6c4c77a9006caa95d7205e9ed46669aec443eb14be4e3d040d27"
+  },
+  {
+    "file": "data/raw/collection2023/20230714.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm14JUL2023bhav.csv.zip",
+    "params": null,
+    "sha256": "12836dcbc036214b2fcbd51b6c84057560d0ad3cd4e93f9e062327854dcc0284"
+  },
+  {
+    "file": "data/raw/collection2023/SENCO.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Senco Gold\" IPO after:2023-06-14 before:2023-07-14",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "5bfbc70c2251cdcbfab6e4aa3a9a84ba05d370c727aa37eb2ec37511e8ffb35c"
+  },
+  {
+    "file": "data/raw/collection2023/20230721.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm21JUL2023bhav.csv.zip",
+    "params": null,
+    "sha256": "aac88ccbbd5bb41c3d9bd8bb880b8f4adf644083e94882af17393e4678d2d1dc"
+  },
+  {
+    "file": "data/raw/collection2023/UTKARSHBNK.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Utkarsh Small Finance Bank\" IPO after:2023-06-21 before:2023-07-21",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "44cef20a955c71764992b3c894b92174036479a72dd050dc6dba72e473e3d1e5"
+  },
+  {
+    "file": "data/raw/collection2023/20230727.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm27JUL2023bhav.csv.zip",
+    "params": null,
+    "sha256": "be5e42a10d8326c66a5753e6e5ddcbc89d5df386e5a786ea3e9a04d1cd6f8192"
+  },
+  {
+    "file": "data/raw/collection2023/NETWEB.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Netweb Technologies India\" IPO after:2023-06-27 before:2023-07-27",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "27128b6704e0c22511ab57c463c472311d9116662b4f39d89d43ee21ecb11879"
+  },
+  {
+    "file": "data/raw/collection2023/20230807.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm07AUG2023bhav.csv.zip",
+    "params": null,
+    "sha256": "3857edac8aa2ecbbceec05f42d88cac9510f11fe58a7e3c0742cf863bce50e80"
+  },
+  {
+    "file": "data/raw/collection2023/YATHARTH.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Yatharth Hospital and Trauma Care Services\" IPO after:2023-07-08 before:2023-08-07",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "0a3c66f0ee3680a0b604a6872f7411339073fc6d0f0dad7620c489d8e568a911"
+  },
+  {
+    "file": "data/raw/collection2023/20230816.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm16AUG2023bhav.csv.zip",
+    "params": null,
+    "sha256": "c89d1f13e4ab4ba23769d9610e4568d4d31bc4517943cbfb703bc85fb8d028c4"
+  },
+  {
+    "file": "data/raw/collection2023/SBFC.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"SBFC Finance\" IPO after:2023-07-17 before:2023-08-16",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "bfd19002c2416f4973194a8baccf2fba08ff29c1896efe60515ccdcf9583c8b7"
+  },
+  {
+    "file": "data/raw/collection2023/20230818.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm18AUG2023bhav.csv.zip",
+    "params": null,
+    "sha256": "e086d2841296be4cd1022ed87ad9b33be80b16813b3df857696503ceab7e21a5"
+  },
+  {
+    "file": "data/raw/collection2023/CONCORDBIO.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Concord Biotech\" IPO after:2023-07-19 before:2023-08-18",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "ed2b312e558ec7d9f7f013bbd4bb8f09e9b11a2a933c3ebbc6b32add5d86f229"
+  },
+  {
+    "file": "data/raw/collection2023/20230823.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm23AUG2023bhav.csv.zip",
+    "params": null,
+    "sha256": "dd80a57131cdb5403f5074ddd6783727303e5e029509f8adc56744f6905f181f"
+  },
+  {
+    "file": "data/raw/collection2023/TVSSCS.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"TVS Supply Chain Solutions\" IPO after:2023-07-24 before:2023-08-23",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "2569fc3ea258f3018c04657b8856e11c4ee2228594b79ac072ea164560869dd3"
+  },
+  {
+    "file": "data/raw/collection2023/20230831.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm31AUG2023bhav.csv.zip",
+    "params": null,
+    "sha256": "7123bca37df56d0ccf2a59c39d93f6edcb8de674ab2b0c84debb8a3e81659793"
+  },
+  {
+    "file": "data/raw/collection2023/AEROFLEX.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Aeroflex Industries\" IPO after:2023-08-01 before:2023-08-31",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "591b923b8bc51ea998d156381c2206a2e60395f7824d55871044ffeef7e64ed0"
+  },
+  {
+    "file": "data/raw/collection2023/20230905.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm05SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "cc837a2ac70a3117ebd0d278ca80840f4e2361d1e5e0284a3bcd40037ef5fb51"
+  },
+  {
+    "file": "data/raw/collection2023/VPRPL.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Vishnu Prakash R Punglia\" IPO after:2023-08-06 before:2023-09-05",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "896cd87b8a7c1d72be7ad9f2eeb0d4304ae9622f756520263b91d7101e90dd23"
+  },
+  {
+    "file": "data/raw/collection2023/20230911.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm11SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "bae8faeb20406a410b8abaebf9a612d8b8c73a1d7358f71b548cd243cc1ccdff"
+  },
+  {
+    "file": "data/raw/collection2023/RISHABH.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Rishabh Instruments\" IPO after:2023-08-12 before:2023-09-11",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "b0b06db5532942e176c102882ac5671763edf17953dc0b7141af1772d8295f00"
+  },
+  {
+    "file": "data/raw/collection2023/20230918.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm18SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "5df8f2290bc25897855fe569cf623a1c1e51799903e335411a6e8e95b2586933"
+  },
+  {
+    "file": "data/raw/collection2023/JLHL.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Jupiter Life Line Hospitals\" IPO after:2023-08-19 before:2023-09-18",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "8013a780e0b0623551150ee07d93bcf7a059120f251c69e4f552e270b64dff4f"
+  },
+  {
+    "file": "data/raw/collection2023/20230920.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm20SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "775ba805dcb9b215ab11e59b5d0c62568dbcdaba8378545280dec98243811903"
+  },
+  {
+    "file": "data/raw/collection2023/RRKABEL.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"R R Kabel\" IPO after:2023-08-21 before:2023-09-20",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "fc79507968c81b5ea25437a296a28ab29278ca5478cbcf89390487d6b5d9e5e1"
+  },
+  {
+    "file": "data/raw/collection2023/20230921.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm21SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "37746a75823606f6e90f13e6a1d2c77da20fdb76da8dd283ab8e760104d557c6"
+  },
+  {
+    "file": "data/raw/collection2023/EMSLIMITED.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"EMS\" IPO after:2023-08-22 before:2023-09-21",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "1c61bbb0289719b2268301b0e62777cbaea9514059784f1f53a800e39554c1cf"
+  },
+  {
+    "file": "data/raw/collection2023/20230922.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm22SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "65f89fc5f61340e61a0d89a9436ae223d5c2456d3a444c230a51eea4b1406801"
+  },
+  {
+    "file": "data/raw/collection2023/ZAGGLE.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Zaggle Prepaid Ocean Services\" IPO after:2023-08-23 before:2023-09-22",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "57a1d33953c88de9e953fe0d4cc54901d0b20460c07288b9a00990ca8d064778"
+  },
+  {
+    "file": "data/raw/collection2023/20230922.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm22SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "65f89fc5f61340e61a0d89a9436ae223d5c2456d3a444c230a51eea4b1406801"
+  },
+  {
+    "file": "data/raw/collection2023/SAMHI.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"SAMHI Hotels\" IPO after:2023-08-23 before:2023-09-22",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "ff9718df94bc01cd2e8e4eded103903db898cba103fc6b6f434883830ddd34e5"
+  },
+  {
+    "file": "data/raw/collection2023/20230927.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm27SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "21d0d727a80f7d0e6eb61d7c654ae601e279419fb314fe59f994324cbb161838"
+  },
+  {
+    "file": "data/raw/collection2023/SIGNATURE.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Signatureglobal (India)\" IPO after:2023-08-28 before:2023-09-27",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "ceb244bc5841036955d70a3e6674bd556c8fd3908fd6d8b36c7d14e4022e1b38"
+  },
+  {
+    "file": "data/raw/collection2023/20230927.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm27SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "21d0d727a80f7d0e6eb61d7c654ae601e279419fb314fe59f994324cbb161838"
+  },
+  {
+    "file": "data/raw/collection2023/KALAMANDIR.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Sai Silks (Kalamandir)\" IPO after:2023-08-28 before:2023-09-27",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "85f12abf54259015c72a965c3e71e4ff59f20a04592cd3d1ef6016a44dbabd7b"
+  },
+  {
+    "file": "data/raw/collection2023/20230928.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm28SEP2023bhav.csv.zip",
+    "params": null,
+    "sha256": "11ace8e5eb4bb96fbb9093ab871c4191f6d7a954f6d3e86363eee8c227806045"
+  },
+  {
+    "file": "data/raw/collection2023/YATRA.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Yatra Online\" IPO after:2023-08-29 before:2023-09-28",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "8573ac269346bb3cf5e23ba7cee1280c9148a11704a34389043c372bf8f8e575"
+  },
+  {
+    "file": "data/raw/collection2023/20231003.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm03OCT2023bhav.csv.zip",
+    "params": null,
+    "sha256": "33e95645a539d966cdb1426cb8d7dbc0f1fbc98c920bb5e65a94b031ace41f28"
+  },
+  {
+    "file": "data/raw/collection2023/JSWINFRA.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"JSW Infrastructure\" IPO after:2023-09-03 before:2023-10-03",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "18696e2e0a548f31433ec8508cddd1a7b3817940d0f3e0b176a8ac871bf85c9a"
+  },
+  {
+    "file": "data/raw/collection2023/20231003.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm03OCT2023bhav.csv.zip",
+    "params": null,
+    "sha256": "33e95645a539d966cdb1426cb8d7dbc0f1fbc98c920bb5e65a94b031ace41f28"
+  },
+  {
+    "file": "data/raw/collection2023/MVGJL.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Manoj Vaibhav Gems N Jewellers\" IPO after:2023-09-03 before:2023-10-03",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "ad64651a5868d6d42c25c93275cb78e511e8e19165e21c66f627ac195b22fdb2"
+  },
+  {
+    "file": "data/raw/collection2023/20231004.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm04OCT2023bhav.csv.zip",
+    "params": null,
+    "sha256": "948f428b517de5eb558f08cf4b0b71fd608d4b854e340efd38c28c3cd4cc8d78"
+  },
+  {
+    "file": "data/raw/collection2023/UDS.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Updater Services\" IPO after:2023-09-04 before:2023-10-04",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "b9c642d513da8aa715284ce35d0f03a80e2ff5017092368a856e5b8b73b5dae0"
+  },
+  {
+    "file": "data/raw/collection2023/20231026.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm26OCT2023bhav.csv.zip",
+    "params": null,
+    "sha256": "82a58957be35542c637ef5ac557738b75c661833523c8bf44acb04fdad82105e"
+  },
+  {
+    "file": "data/raw/collection2023/IRMENERGY.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"IRM ENERGY\" IPO after:2023-09-26 before:2023-10-26",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "7098a4c9ff61bdaf7a066920227d904264cd5b7a2c66ef2e1dccf119631ee9ed"
+  },
+  {
+    "file": "data/raw/collection2023/20231101.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm01NOV2023bhav.csv.zip",
+    "params": null,
+    "sha256": "10e5cfa92e9c25ce6dc5032b65de2a3db0cecdb4af214f9a56659b2ea745a2f9"
+  },
+  {
+    "file": "data/raw/collection2023/BLUEJET.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Blue Jet Healthcare\" IPO after:2023-10-02 before:2023-11-01",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "f8cca880a843c5961f214880dc0bc79021e57122409c786b324962f3c892e9c5"
+  },
+  {
+    "file": "data/raw/collection2023/20231106.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm06NOV2023bhav.csv.zip",
+    "params": null,
+    "sha256": "57a6ef92fc94247ca70d9b11ca22cda072daba6cc174b05ff91171f130c37727"
+  },
+  {
+    "file": "data/raw/collection2023/CELLO.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Cello World\" IPO after:2023-10-07 before:2023-11-06",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "87c337bba15fadac425d55e60a819ed3166affb8409d6b499627c552e42156ed"
+  },
+  {
+    "file": "data/raw/collection2023/20231107.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm07NOV2023bhav.csv.zip",
+    "params": null,
+    "sha256": "5d11fd11d76195bf593ed4a87b89d7579c578246406b422e362ed6d770859911"
+  },
+  {
+    "file": "data/raw/collection2023/HONASA.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Honasa Consumer\" IPO after:2023-10-08 before:2023-11-07",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "f054a7838857e1d9faa430fca5ea7028c53c14df119f220d40b1974bc2aba950"
+  },
+  {
+    "file": "data/raw/collection2023/20231115.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm15NOV2023bhav.csv.zip",
+    "params": null,
+    "sha256": "20757957582a8bbe2b3414b7915732c266c5cbe6c3cec7e1098481124f6c19f6"
+  },
+  {
+    "file": "data/raw/collection2023/ASKAUTOLTD.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"ASK Automotive\" IPO after:2023-10-16 before:2023-11-15",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "ad8520a8c64b35ea3d244d93e49896bbcf1bdbffb98e237f5947b484f49ce05a"
+  },
+  {
+    "file": "data/raw/collection2023/20231130.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm30NOV2023bhav.csv.zip",
+    "params": null,
+    "sha256": "a7bcd60a1cab39363ec4beaab83a7a3ffdb91c543a9eeb7235af17e4629484a7"
+  },
+  {
+    "file": "data/raw/collection2023/GANDHAR.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Gandhar Oil Refinery (India)\" IPO after:2023-10-31 before:2023-11-30",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "de9f001501c53f2ffb98484535aa1453999d373fa6c64bec5e0c3f35c67e3a84"
+  },
+  {
+    "file": "data/raw/collection2023/20231130.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm30NOV2023bhav.csv.zip",
+    "params": null,
+    "sha256": "a7bcd60a1cab39363ec4beaab83a7a3ffdb91c543a9eeb7235af17e4629484a7"
+  },
+  {
+    "file": "data/raw/collection2023/TATATECH.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Tata Technologies\" IPO after:2023-10-31 before:2023-11-30",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "c8901e8bcb97d2676e66802aedb438108efef131c352e6199ce51a3c66f1e5bd"
+  },
+  {
+    "file": "data/raw/collection2023/20231130.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm30NOV2023bhav.csv.zip",
+    "params": null,
+    "sha256": "a7bcd60a1cab39363ec4beaab83a7a3ffdb91c543a9eeb7235af17e4629484a7"
+  },
+  {
+    "file": "data/raw/collection2023/FEDFINA.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Fedbank Financial Services\" IPO after:2023-10-31 before:2023-11-30",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "e52fabf25ee35c69bc682ce052de2477529325401c5720d678990e8463ce93f9"
+  },
+  {
+    "file": "data/raw/collection2023/20231201.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm01DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "a9c334d95399c23a19febefd6b0ae8c9426cf0e031048763f01731577b634216"
+  },
+  {
+    "file": "data/raw/collection2023/FLAIR.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Flair Writing Industries\" IPO after:2023-11-01 before:2023-12-01",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "0e81353e3fba1342fe04bad40e9277434201a8afa999051915c4006a29e7e3dd"
+  },
+  {
+    "file": "data/raw/collection2023/20231220.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm20DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "bba843bad431477272fba87af092ba6fcfe46d2359d8367f6a20ee49a47888fc"
+  },
+  {
+    "file": "data/raw/collection2023/INDIASHLTR.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"India Shelter Finance Corporation\" IPO after:2023-11-20 before:2023-12-20",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "7fcd41f854dc1b71931348e04c113e4e52582ffdc60dafb4b963a8107a15b4bc"
+  },
+  {
+    "file": "data/raw/collection2023/20231220.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm20DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "bba843bad431477272fba87af092ba6fcfe46d2359d8367f6a20ee49a47888fc"
+  },
+  {
+    "file": "data/raw/collection2023/DOMS.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"DOMS Industries\" IPO after:2023-11-20 before:2023-12-20",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "87e491112d71fd08b8681cd98ae49e89dfaa78b323baecea9059b4a5f5991325"
+  },
+  {
+    "file": "data/raw/collection2023/20231221.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm21DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "759bd7390b8115e9cc4870838e1bce883508ca057da35fa36024a7171ff98a2f"
+  },
+  {
+    "file": "data/raw/collection2023/INOXINDIA.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"INOX India\" IPO after:2023-11-21 before:2023-12-21",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "bc56eca8da4547de8267719ed8e9944fbbcce139b4bc462052e0f746aa8b7309"
+  },
+  {
+    "file": "data/raw/collection2023/20231226.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm26DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "39502d2033a536decdabcfdceb17f075a404f9ea07b17ecb175c03a8414f6421"
+  },
+  {
+    "file": "data/raw/collection2023/MUTHOOTMF.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Muthoot Microfin\" IPO after:2023-11-26 before:2023-12-26",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "790f0a27bf988553cfbd1ab1e51ca3b3f65ec3952a673b9dc21f09a0af044442"
+  },
+  {
+    "file": "data/raw/collection2023/20231226.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm26DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "39502d2033a536decdabcfdceb17f075a404f9ea07b17ecb175c03a8414f6421"
+  },
+  {
+    "file": "data/raw/collection2023/SURAJEST.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Suraj Estate Developers\" IPO after:2023-11-26 before:2023-12-26",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "eb0b97859dc03faba908c0830b1ab96753f4e7fcfa212c1ecd344850963e963c"
+  },
+  {
+    "file": "data/raw/collection2023/20231227.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm27DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "3b92bdf70454148037b653ba4bcedee25ae97e511db27c63800582d2832bbfeb"
+  },
+  {
+    "file": "data/raw/collection2023/MUFTI.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Credo Brands Marketing\" IPO after:2023-11-27 before:2023-12-27",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "8d3ea48f5cf42118c0cf9590465718a32fd1e4ab18fe0a4e07bbd2dfe4cee171"
+  },
+  {
+    "file": "data/raw/collection2023/20231227.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm27DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "3b92bdf70454148037b653ba4bcedee25ae97e511db27c63800582d2832bbfeb"
+  },
+  {
+    "file": "data/raw/collection2023/HAPPYFORGE.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Happy Forging\" IPO after:2023-11-27 before:2023-12-27",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "c750020b20432b69cd815e806d26994dbee7f0ea0d70cfebc159e958c4f38152"
+  },
+  {
+    "file": "data/raw/collection2023/20231228.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm28DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "8c296c0a66cf4008a98b1b5b8d2683c05834cd706b8778df4b375018de2ba9ca"
+  },
+  {
+    "file": "data/raw/collection2023/AZAD.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Azad Engineering\" IPO after:2023-11-28 before:2023-12-28",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "9dd70f649786a4547f9aeb3d88fab619e4e07e782c73f81a8893b6a03baf6a02"
+  },
+  {
+    "file": "data/raw/collection2023/20231229.zip",
+    "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm29DEC2023bhav.csv.zip",
+    "params": null,
+    "sha256": "ba5c7e44708ea3df65a022cdf842eb3fd341421bbf4498c0ea06b3843f8a7cc3"
+  },
+  {
+    "file": "data/raw/collection2023/INNOVACAP.xml",
+    "url": "https://news.google.com/rss/search",
+    "params": {
+      "q": "\"Innova Captab\" IPO after:2023-11-29 before:2023-12-29",
+      "hl": "en-IN",
+      "gl": "IN",
+      "ceid": "IN:en"
+    },
+    "sha256": "5b2fdb0ae7da6bca55952c4319f1bfb03a222fc95bcd00e354597ec947cb1840"
+  }
+]
