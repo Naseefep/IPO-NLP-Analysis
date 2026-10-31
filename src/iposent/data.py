@@ -92,6 +92,8 @@ def filter_news(ipos, news, lookback_days=30):
     n["published_local"] = pd.to_datetime(n.published_at.map(timestamp), utc=True).dt.tz_convert("Asia/Kolkata")
     cutoff = n.listing_date.dt.tz_localize("Asia/Kolkata")
     n["headline"] = n.headline.map(clean_text)
+    n["text"] = n.apply(lambda row: row.headline[:-len(" - " + str(row.source))].strip()
+                        if row.headline.endswith(" - " + str(row.source)) else row.headline, axis=1)
     n["rejection"] = ""
     def reject(mask, reason):
         n.loc[mask & n.rejection.eq(""), "rejection"] = reason
@@ -105,7 +107,7 @@ def filter_news(ipos, news, lookback_days=30):
     n = n.sort_values(["published_local", "input_row"], na_position="last")
     seen_titles, seen_urls = set(), set()
     for i, row in n[n.rejection.eq("")].iterrows():
-        title_key = (row.symbol, normalise_headline(row.headline))
+        title_key = (row.symbol, normalise_headline(row.text))
         url_key = (row.symbol, str(row.url).strip())
         if title_key in seen_titles or url_key in seen_urls:
             n.loc[i, "rejection"] = "duplicate"
@@ -113,6 +115,4 @@ def filter_news(ipos, news, lookback_days=30):
             seen_titles.add(title_key)
             seen_urls.add(url_key)
     # Headlines are primary: snippets often repeat the headline or contain search boilerplate.
-    n["text"] = n.apply(lambda row: row.headline[:-len(" - " + str(row.source))].strip()
-                        if row.headline.endswith(" - " + str(row.source)) else row.headline, axis=1)
     return n[n.rejection.eq("")].copy(), n.sort_values("input_row")

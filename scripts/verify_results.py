@@ -27,10 +27,15 @@ def main():
     checks["exact_listing_dates"]=bool(p.observed_date.eq(p.listing_date).all())
     checks["nominal_prices_verified"]=bool(p.verified.all() and p.quote_basis.eq("listing_day_nominal").all())
     checks["missing_news_remains_missing"]=bool(p.loc[p.article_count.eq(0),["finbert_score","lm_score"]].isna().all().all())
+    years=pd.to_datetime(p.listing_date).dt.year
+    checks["all_seven_listing_years_present"]=set(years.unique())==set(range(2020,2027))
+    checks["at_least_ten_verified_ipos_each_year"]=bool(years.value_counts().reindex(range(2020,2027),fill_value=0).ge(10).all())
+    checks["at_least_ten_news_covered_ipos_each_year"]=bool(years[p.article_count.gt(0)].value_counts().reindex(range(2020,2027),fill_value=0).ge(10).all())
     metrics=json.loads((results/"holdout_metrics.json").read_text(encoding="utf8"))
     for m in metrics:
         pred=pd.read_csv(results/f"holdout_{m['score']}_{m['target']}.csv")
         checks[f"test_dates_{m['score']}_{m['target']}"]=bool((pd.to_datetime(pred.listing_date)>=pd.Timestamp(m['cutoff'])).all() and len(pred)==m['n_test'])
+        checks[f"pre2026_training_{m['score']}_{m['target']}"]=pd.Timestamp(m['cutoff'])==pd.Timestamp('2026-01-01')
     report={"status":"passed" if all(checks.values()) else "failed","checks":checks,
             "counts":{"ipos":len(p),"ipos_with_news":int(p.article_count.gt(0).sum()),"headlines":len(a)}}
     (results/"verification.json").write_text(json.dumps(report,indent=2),encoding="utf8")

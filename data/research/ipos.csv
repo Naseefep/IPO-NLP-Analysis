@@ -1,47 +1,163 @@
-symbol,company,listing_date,issue_price,issue_open_date,issue_close_date,universe_source
-DIVGIITTS,Divgi TorqTransfer Systems Limited,2023-03-14,590.0,2023-03-01,2023-03-03,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-AVALON,Avalon Technologies Limited,2023-04-18,436.0,2023-04-03,2023-04-06,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-MANKIND,Mankind Pharma Limited,2023-05-09,1080.0,2023-04-25,2023-04-27,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-IKIO,IKIO Lighting Limited,2023-06-16,285.0,2023-06-06,2023-06-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-HMAAGRO,HMA Agro Industries Limited,2023-07-04,585.0,2023-06-20,2023-06-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-IDEAFORGE,Ideaforge Technology Limited,2023-07-07,672.0,2023-06-26,2023-06-30,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-CYIENTDLM,Cyient DLM Limited,2023-07-10,265.0,2023-06-27,2023-06-30,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-SENCO,Senco Gold Limited,2023-07-14,317.0,2023-07-04,2023-07-06,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-UTKARSHBNK,Utkarsh Small Finance Bank Limited,2023-07-21,25.0,2023-07-12,2023-07-14,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-NETWEB,Netweb Technologies India Limited,2023-07-27,500.0,2023-07-17,2023-07-19,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-YATHARTH,Yatharth Hospital and Trauma Care Services Limited,2023-08-07,300.0,2023-07-26,2023-07-28,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-SBFC,SBFC Finance Limited,2023-08-16,57.0,2023-08-03,2023-08-07,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-CONCORDBIO,Concord Biotech Limited,2023-08-18,741.0,2023-08-04,2023-08-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-TVSSCS,TVS Supply Chain Solutions Limited,2023-08-23,197.0,2023-08-10,2023-08-14,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-AEROFLEX,Aeroflex Industries Limited,2023-08-31,108.0,2023-08-22,2023-08-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-VPRPL,Vishnu Prakash R Punglia Limited,2023-09-05,99.0,2023-08-24,2023-08-28,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-RISHABH,Rishabh Instruments Limited,2023-09-11,441.0,2023-08-30,2023-09-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-JLHL,Jupiter Life Line Hospitals Limited,2023-09-18,735.0,2023-09-06,2023-09-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-RRKABEL,R R Kabel Limited,2023-09-20,1035.0,2023-09-13,2023-09-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-EMSLIMITED,EMS Limited,2023-09-21,211.0,2023-09-08,2023-09-12,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-ZAGGLE,Zaggle Prepaid Ocean Services Limited,2023-09-22,164.0,2023-09-14,2023-09-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-SAMHI,SAMHI Hotels Limited,2023-09-22,126.0,2023-09-14,2023-09-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-SIGNATURE,Signatureglobal (India) Limited,2023-09-27,385.0,2023-09-20,2023-09-22,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-KALAMANDIR,Sai Silks (Kalamandir) Limited,2023-09-27,222.0,2023-09-20,2023-09-22,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-YATRA,Yatra Online Limited,2023-09-28,142.0,2023-09-15,2023-09-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-JSWINFRA,JSW Infrastructure Limited,2023-10-03,119.0,2023-09-25,2023-09-27,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-MVGJL,Manoj Vaibhav Gems N Jewellers Limited,2023-10-03,215.0,2023-09-22,2023-09-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-UDS,Updater Services Limited,2023-10-04,300.0,2023-09-25,2023-09-27,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-IRMENERGY,IRM ENERGY LIMITED,2023-10-26,505.0,2023-10-18,2023-10-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-BLUEJET,Blue Jet Healthcare Limited,2023-11-01,346.0,2023-10-25,2023-10-27,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-CELLO,Cello World Limited,2023-11-06,648.0,2023-10-30,2023-11-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-HONASA,Honasa Consumer Limited,2023-11-07,324.0,2023-10-31,2023-11-02,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-ASKAUTOLTD,ASK Automotive Limited,2023-11-15,282.0,2023-11-07,2023-11-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-GANDHAR,Gandhar Oil Refinery (India) Limited,2023-11-30,169.0,2023-11-22,2023-11-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-TATATECH,Tata Technologies Limited,2023-11-30,500.0,2023-11-22,2023-11-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-FEDFINA,Fedbank Financial Services Limited,2023-11-30,140.0,2023-11-22,2023-11-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-FLAIR,Flair Writing Industries Limited,2023-12-01,304.0,2023-11-22,2023-11-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-INDIASHLTR,India Shelter Finance Corporation Limited,2023-12-20,493.0,2023-12-13,2023-12-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-DOMS,DOMS Industries Limited,2023-12-20,790.0,2023-12-13,2023-12-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-INOXINDIA,INOX India Limited,2023-12-21,660.0,2023-12-14,2023-12-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-MUTHOOTMF,Muthoot Microfin Limited,2023-12-26,291.0,2023-12-18,2023-12-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-SURAJEST,Suraj Estate Developers Limited,2023-12-26,360.0,2023-12-18,2023-12-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-MUFTI,Credo Brands Marketing Limited,2023-12-27,280.0,2023-12-19,2023-12-21,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-HAPPYFORGE,Happy Forging Limited,2023-12-27,850.0,2023-12-19,2023-12-21,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-AZAD,Azad Engineering Limited,2023-12-28,524.0,2023-12-20,2023-12-22,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
-INNOVACAP,Innova Captab Limited,2023-12-29,448.0,2023-12-21,2023-12-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all
+symbol,company,listing_date,issue_price,year,issue_open_date,issue_close_date,universe_source,sampling_rank
+SBICARD,SBI Cards and Payment Services Limited,2020-03-16,755.0,2020,2020-03-02,2020-03-05,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ROSSARI,Rossari Biotech Limited,2020-07-23,425.0,2020,2020-07-13,2020-07-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+HAPPSTMNDS,Happiest Minds Technologies Limited,2020-09-17,166.0,2020,2020-09-07,2020-09-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ROUTE,Route Mobile Limited,2020-09-21,350.0,2020,2020-09-09,2020-09-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CHEMCON,Chemcon Speciality Chemicals Limited,2020-10-01,340.0,2020,2020-09-21,2020-09-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ANGELBRKG,Angel Broking Limited,2020-10-05,306.0,2020,2020-09-22,2020-09-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MAZDOCK,Mazagon Dock Shipbuilders Limited,2020-10-12,145.0,2020,2020-09-29,2020-10-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+UTIAMC,UTI Asset Management Company Limited,2020-10-12,554.0,2020,2020-09-29,2020-10-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+EQUITASBNK,Equitas Small Finance Bank Limited,2020-11-02,33.0,2020,2020-10-20,2020-10-22,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GLAND,Gland Pharma Limited,2020-11-20,1500.0,2020,2020-11-09,2020-11-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BURGERKING,Burger King India Limited,2020-12-14,60.0,2020,2020-12-02,2020-12-04,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BECTORFOOD,Mrs. Bectors Food Specialities Limited,2020-12-24,288.0,2020,2020-12-15,2020-12-17,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AWHCL,Antony Waste Handling Cell Limited,2021-01-01,315.0,2021,2020-12-21,2020-12-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+HOMEFIRST,Home First Finance Company India Limited,2021-02-03,518.0,2021,2021-01-21,2021-01-25,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+HERANBA,Heranba Industries Limited,2021-03-05,627.0,2021,2021-02-23,2021-02-25,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+EASEMYTRIP,Easy Trip Planners Limited,2021-03-19,187.0,2021,2021-03-08,2021-03-10,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LXCHEM,Laxmi Organic Industries Limited,2021-03-25,130.0,2021,2021-03-15,2021-03-17,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SURYODAY,Suryoday Small Finance Bank Limited,2021-03-26,305.0,2021,2021-03-17,2021-03-19,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LODHA,Macrotech Developers Limited,2021-04-19,486.0,2021,2021-04-07,2021-04-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SONACOMS,Sona BLW Precision Forgings Limited,2021-06-24,291.0,2021,2021-06-14,2021-06-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+KIMS,Krishna Institute of Medical Sciences Limited,2021-06-28,825.0,2021,2021-06-16,2021-06-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GRINFRA,G R Infraprojects Limited,2021-07-19,837.0,2021,2021-07-07,2021-07-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+TATVA,Tatva Chintan Pharma Chem Limited,2021-07-29,1083.0,2021,2021-07-16,2021-07-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ROLEXRINGS,Rolex Rings Limited,2021-08-09,900.0,2021,2021-07-28,2021-07-30,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+WINDLAS,Windlas Biotech Limited,2021-08-16,460.0,2021,2021-08-04,2021-08-06,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+APTUS,Aptus Value Housing Finance India Limited,2021-08-24,353.0,2021,2021-08-10,2021-08-12,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AMIORG,Ami Organics Limited,2021-09-14,610.0,2021,2021-09-01,2021-09-03,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SANSERA,Sansera Engineering Limited,2021-09-24,744.0,2021,2021-09-14,2021-09-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+FINOPB,FINO Payments Bank Limited,2021-11-12,577.0,2021,2021-10-29,2021-11-02,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SJS,S J S Enterprises Limited,2021-11-15,542.0,2021,2021-11-01,2021-11-03,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SAPPHIRE,Sapphire Foods India Limited,2021-11-18,1180.0,2021,2021-11-09,2021-11-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GOCOLORS,Go Fashion (India) Limited,2021-11-30,690.0,2021,2021-11-17,2021-11-22,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+TEGA,Tega Industries Limited,2021-12-13,453.0,2021,2021-12-01,2021-12-03,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RATEGAIN,RateGain Travel Technologies Limited,2021-12-17,425.0,2021,2021-12-07,2021-12-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MAPMYINDIA,C.E. Info Systems Limited,2021-12-21,1033.0,2021,2021-12-09,2021-12-13,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+DATAPATTNS,Data Patterns (India) Limited,2021-12-24,585.0,2021,2021-12-14,2021-12-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CMSINFO,CMS Info Systems Limited,2021-12-31,216.0,2021,2021-12-21,2021-12-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AGSTRA,AGS Transact Technologies Limited,2022-01-31,175.0,2022,2022-01-19,2022-01-21,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AWL,Adani Wilmar Limited,2022-02-08,230.0,2022,2022-01-27,2022-01-31,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CAMPUS,Campus Activewear Limited,2022-05-09,292.0,2022,2022-04-26,2022-04-28,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RAINBOW,Rainbow Childrens Medicare Limited,2022-05-10,542.0,2022,2022-04-27,2022-04-29,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LICI,Life Insurance Corporation of India,2022-05-17,949.0,2022,2022-05-04,2022-05-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+DELHIVERY,Delhivery Limited,2022-05-24,487.0,2022,2022-05-11,2022-05-13,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PARADEEP,Paradeep Phosphates Limited,2022-05-27,42.0,2022,2022-05-17,2022-05-19,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+EMUDHRA,eMudhra Limited,2022-06-01,256.0,2022,2022-05-20,2022-05-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AETHER,Aether Industries Limited,2022-06-03,642.0,2022,2022-05-24,2022-05-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SYRMA,Syrma SGS Technology Limited,2022-08-26,220.0,2022,2022-08-12,2022-08-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+HARSHA,Harsha Engineers International Limited,2022-09-26,330.0,2022,2022-09-14,2022-09-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+EMIL,Electronics Mart India Limited,2022-10-17,59.0,2022,2022-10-04,2022-10-07,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+TRACXN,Tracxn Technologies Limited,2022-10-20,80.0,2022,2022-10-10,2022-10-12,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BIKAJI,Bikaji Foods International Limited,2022-11-16,300.0,2022,2022-11-03,2022-11-07,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MEDANTA,Global Health Limited,2022-11-16,336.0,2022,2022-11-03,2022-11-07,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ACI,Archean Chemical Industries Limited,2022-11-21,407.0,2022,2022-11-09,2022-11-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+KAYNES,Kaynes Technology India Limited,2022-11-22,587.0,2022,2022-11-10,2022-11-14,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+INOXGREEN,Inox Green Energy Services Limited,2022-11-23,65.0,2022,2022-11-11,2022-11-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RUSTOMJEE,Keystone Realtors Limited,2022-11-24,541.0,2022,2022-11-14,2022-11-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+UNIPARTS,Uniparts India Limited,2022-12-12,577.0,2022,2022-11-30,2022-12-02,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SULA,Sula Vineyards Limited,2022-12-22,357.0,2022,2022-12-12,2022-12-14,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AHL,Abans Holdings Limited,2022-12-23,270.0,2022,2022-12-12,2022-12-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+KFINTECH,KFin Technologies Limited,2022-12-29,366.0,2022,2022-12-19,2022-12-21,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ELIN,Elin Electronics Limited,2022-12-30,247.0,2022,2022-12-20,2022-12-22,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MANYAVAR,Vedant Fashions Limited,2022-02-16,866.0,2022,2022-02-04,2022-02-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,reserve_after_price_exclusion
+RADIANTCMS,Radiant Cash Management Services Limited,2023-01-04,94.0,2023,2022-12-23,2022-12-27,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AVALON,Avalon Technologies Limited,2023-04-18,436.0,2023,2023-04-03,2023-04-06,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+IKIO,IKIO Lighting Limited,2023-06-16,285.0,2023,2023-06-06,2023-06-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+IDEAFORGE,Ideaforge Technology Limited,2023-07-07,672.0,2023,2023-06-26,2023-06-30,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SENCO,Senco Gold Limited,2023-07-14,317.0,2023,2023-07-04,2023-07-06,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+NETWEB,Netweb Technologies India Limited,2023-07-27,500.0,2023,2023-07-17,2023-07-19,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SBFC,SBFC Finance Limited,2023-08-16,57.0,2023,2023-08-03,2023-08-07,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CONCORDBIO,Concord Biotech Limited,2023-08-18,741.0,2023,2023-08-04,2023-08-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AEROFLEX,Aeroflex Industries Limited,2023-08-31,108.0,2023,2023-08-22,2023-08-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RISHABH,Rishabh Instruments Limited,2023-09-11,441.0,2023,2023-08-30,2023-09-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RRKABEL,R R Kabel Limited,2023-09-20,1035.0,2023,2023-09-13,2023-09-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SAMHI,SAMHI Hotels Limited,2023-09-22,126.0,2023,2023-09-14,2023-09-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+KALAMANDIR,Sai Silks (Kalamandir) Limited,2023-09-27,222.0,2023,2023-09-20,2023-09-22,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+YATRA,Yatra Online Limited,2023-09-28,142.0,2023,2023-09-15,2023-09-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MVGJL,Manoj Vaibhav Gems N Jewellers Limited,2023-10-03,215.0,2023,2023-09-22,2023-09-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+IRMENERGY,IRM ENERGY LIMITED,2023-10-26,505.0,2023,2023-10-18,2023-10-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CELLO,Cello World Limited,2023-11-06,648.0,2023,2023-10-30,2023-11-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ASKAUTOLTD,ASK Automotive Limited,2023-11-15,282.0,2023,2023-11-07,2023-11-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+FEDFINA,Fedbank Financial Services Limited,2023-11-30,140.0,2023,2023-11-22,2023-11-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+TATATECH,Tata Technologies Limited,2023-11-30,500.0,2023,2023-11-22,2023-11-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+DOMS,DOMS Industries Limited,2023-12-20,790.0,2023,2023-12-13,2023-12-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+INOXINDIA,INOX India Limited,2023-12-21,660.0,2023,2023-12-14,2023-12-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SURAJEST,Suraj Estate Developers Limited,2023-12-26,360.0,2023,2023-12-18,2023-12-20,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MUFTI,Credo Brands Marketing Limited,2023-12-27,280.0,2023,2023-12-19,2023-12-21,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+INNOVACAP,Innova Captab Limited,2023-12-29,448.0,2023,2023-12-21,2023-12-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+JYOTICNC,Jyoti CNC Automation Limited,2024-01-16,331.0,2024,2024-01-09,2024-01-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BLSE,BLS E- Services Limited,2024-02-06,135.0,2024,2024-01-30,2024-02-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+JSFB,Jana Small Finance Bank Limited,2024-02-14,414.0,2024,2024-02-07,2024-02-09,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+JUNIPER,Juniper Hotels Limited,2024-02-28,360.0,2024,2024-02-21,2024-02-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RKSWAMY,R K Swamy Limited,2024-03-12,288.0,2024,2024-03-04,2024-03-06,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PVSL,Popular Vehicles and Services Limited,2024-03-19,295.0,2024,2024-03-12,2024-03-14,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+JNKINDIA,JNK India Limited,2024-04-30,415.0,2024,2024-04-23,2024-04-25,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+TBOTEK,TBO Tek Limited,2024-05-15,920.0,2024,2024-05-08,2024-05-10,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+STANLEY,Stanley Lifestyles Limited,2024-06-28,369.0,2024,2024-06-21,2024-06-25,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+EMCURE,Emcure Pharmaceuticals Limited,2024-07-10,1008.0,2024,2024-07-03,2024-07-05,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CEIGALL,Ceigall India Limited,2024-08-08,401.0,2024,2024-08-01,2024-08-05,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+UNIECOM,Unicommerce eSolutions Limited,2024-08-13,108.0,2024,2024-08-06,2024-08-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PREMIERENE,Premier Energies Limited,2024-09-03,450.0,2024,2024-08-27,2024-08-29,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BAJAJHFL,Bajaj Housing Finance Limited,2024-09-16,70.0,2024,2024-09-09,2024-09-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ARKADE,Arkade Developers Limited,2024-09-24,128.0,2024,2024-09-16,2024-09-19,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GARUDA,Garuda Construction and Engineering Limited,2024-10-15,95.0,2024,2024-10-08,2024-10-10,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+WAAREEENER,Waaree Energies Limited,2024-10-28,1503.0,2024,2024-10-21,2024-10-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ACMESOLAR,ACME Solar Holdings Limited,2024-11-13,289.0,2024,2024-11-06,2024-11-08,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BLACKBUCK,Zinka Logistics Solutions Limited,2024-11-22,273.0,2024,2024-11-13,2024-11-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MOBIKWIK,One MobiKwik Systems Limited,2024-12-18,279.0,2024,2024-12-11,2024-12-13,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+IKS,Inventurus Knowledge Solutions Limited,2024-12-19,1329.0,2024,2024-12-12,2024-12-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+DAMCAPITAL,DAM Capital Advisors Limited,2024-12-27,283.0,2024,2024-12-19,2024-12-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CARRARO,Carraro India Limited,2024-12-30,704.0,2024,2024-12-20,2024-12-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+UNIMECH,Unimech Aerospace and Manufacturing Limited,2024-12-31,785.0,2024,2024-12-23,2024-12-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MEDIASSIST,Medi Assist Healthcare Services Limited,2024-01-23,418.0,2024,2024-01-15,2024-01-17,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,reserve_after_price_exclusion
+INDOFARM,Indo Farm Equipment Limited,2025-01-07,215.0,2025,2024-12-31,2025-01-02,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LAXMIDENTL,Laxmi Dental Limited,2025-01-20,428.0,2025,2025-01-13,2025-01-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+QPOWER,Quality Power Electrical Equipments Limited,2025-02-24,425.0,2025,2025-02-14,2025-02-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+THELEELA,Schloss Bangalore Limited,2025-06-02,435.0,2025,2025-05-26,2025-05-28,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+KALPATARU,Kalpataru Limited,2025-07-01,414.0,2025,2025-06-24,2025-06-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CRIZAC,CRIZAC LIMITED,2025-07-09,245.0,2025,2025-07-02,2025-07-04,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ANTHEM,Anthem Biosciences Limited,2025-07-21,570.0,2025,2025-07-14,2025-07-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SHANTIGOLD,Shanti Gold International Limited,2025-08-01,199.0,2025,2025-07-25,2025-07-29,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LOTUSDEV,Sri Lotus Developers and Realty Limited,2025-08-06,150.0,2025,2025-07-30,2025-08-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+JSWCEMENT,JSW Cement Limited,2025-08-14,147.0,2025,2025-08-07,2025-08-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SHREEJISPG,Shreeji Shipping Global Limited,2025-08-26,252.0,2025,2025-08-19,2025-08-21,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+VIKRAN,Vikran Engineering Limited,2025-09-03,97.0,2025,2025-08-26,2025-08-29,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+EUROPRATIK,Euro Pratik Sales Limited,2025-09-23,247.0,2025,2025-09-16,2025-09-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+ATLANTAELE,Atlanta Electricals Limited,2025-09-29,754.0,2025,2025-09-22,2025-09-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+JARO,Jaro Institute of Technology Management and Research Limited,2025-09-30,890.0,2025,2025-09-23,2025-09-25,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+JAINREC,Jain Resource Recycling Limited,2025-10-01,232.0,2025,2025-09-24,2025-09-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GLOTTIS,Glottis Limited,2025-10-07,129.0,2025,2025-09-29,2025-10-01,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CRAMC,Canara Robeco Asset Management Company Limited,2025-10-16,266.0,2025,2025-10-09,2025-10-13,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+STUDDS,Studds Accessories Limited,2025-11-07,585.0,2025,2025-10-30,2025-11-03,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PINELABS,Pine Labs Limited,2025-11-14,221.0,2025,2025-11-07,2025-11-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+UTLSOLAR,Fujiyama Power Systems Limited,2025-11-20,228.0,2025,2025-11-13,2025-11-17,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SUDEEPPHRM,Sudeep Pharma Limited,2025-11-28,593.0,2025,2025-11-21,2025-11-25,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+VIDYAWIRES,Vidya Wires Limited,2025-12-10,52.0,2025,2025-12-03,2025-12-05,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PARKHOSPS,Park Medi World Limited,2025-12-17,162.0,2025,2025-12-10,2025-12-12,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GKSL,Gujarat Kidney and Super Speciality Limited,2025-12-30,114.0,2025,2025-12-22,2025-12-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BHARATCOAL,Bharat Coking Coal Limited,2026-01-19,23.0,2026,2026-01-09,2026-01-13,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PNGSREVA,PNGS Reva Diamond Jewellery Limited,2026-03-04,386.0,2026,2026-02-24,2026-02-26,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RSL,Rajputana Stainless Limited,2026-03-19,122.0,2026,2026-03-09,2026-03-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CMPDI,Central Mine Planning & Design Institute Limited,2026-03-30,172.0,2026,2026-03-20,2026-03-24,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+KISSHT,Onemi Technology Solutions Limited,2026-05-08,171.0,2026,2026-04-30,2026-05-05,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+CORDELIA,Waterways Leisure Tourism Limited,2026-07-01,808.0,2026,2026-06-23,2026-06-25,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LASERPOWER,Laser Power & Infra Limited,2026-07-16,214.0,2026,2026-07-09,2026-07-13,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LCL,Lohia Corp Limited,2026-07-30,425.0,2026,2026-07-23,2026-07-27,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+MVELECTRO,MV Electrosystems Limited,2026-08-06,425.0,2026,2026-07-30,2026-08-03,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+TECHNOCRAF,Technocraft Ventures Limited,2026-08-14,212.0,2026,2026-08-07,2026-08-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+BLEL,Behari Lal Engineering Limited,2026-08-19,285.0,2026,2026-08-12,2026-08-14,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+LALITHAA,Lalithaa Jewellery Mart Limited,2026-08-24,201.0,2026,2026-08-17,2026-08-19,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GAJA,Gaja Alternative Asset Management Limited,2026-08-26,160.0,2026,2026-08-19,2026-08-21,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SYMBIOTEC,Symbiotec Pharmalab Limited,2026-09-01,988.0,2026,2026-08-24,2026-08-27,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PERNIASPOP,Purple Style Labs Limited,2026-09-07,575.0,2026,2026-08-31,2026-09-02,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GLASSWALL,Glass Wall Systems (India) Limited,2026-09-16,182.0,2026,2026-09-08,2026-09-10,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+KARAMTARA,Karamtara Engineering Limited,2026-09-17,254.0,2026,2026-09-09,2026-09-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+RENTOMOJO,Rentomojo Limited,2026-09-17,404.0,2026,2026-09-09,2026-09-11,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+SSRETAIL,SS Retail Limited,2026-09-23,424.0,2026,2026-09-16,2026-09-18,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AONESTEELS,A-One Steels India Limited,2026-10-01,405.0,2026,2026-09-24,2026-09-28,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+GERMAN,German Green Steel and Power Limited,2026-10-05,139.0,2026,2026-09-25,2026-09-29,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+HDFIRE,HD Fire Protect Limited,2026-10-21,271.0,2026,2026-10-13,2026-10-15,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+TONBO,Tonbo Imaging India Limited,2026-10-23,700.0,2026,2026-10-15,2026-10-19,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+PARASHLTH,Paras Healthcare Limited,2026-10-28,693.0,2026,2026-10-21,2026-10-23,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,primary_date_stratum
+AMAGI,Amagi Media Labs Limited,2026-01-21,361.0,2026,2026-01-13,2026-01-16,https://www.nseindia.com/api/public-past-issues?category=equities&type=all,reserve_after_price_exclusion

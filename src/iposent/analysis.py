@@ -58,7 +58,7 @@ def estimate(panel):
     return coefficients, pd.DataFrame(correlations), pd.DataFrame(diagnostics), skipped
 
 
-def holdout(panel, score, target, fraction=0.75):
+def holdout(panel, score, target, fraction=0.75, cutoff_date=None):
     """Hold out whole listing dates. Future years never enter training dummies.
 
     Compare intercept-only historical mean, controls, and controls plus sentiment.
@@ -68,7 +68,7 @@ def holdout(panel, score, target, fraction=0.75):
     dates = sorted(d.listing_date.unique())
     if len(dates) < 8:
         return {"score": score, "target": target, "status": "too_few_unique_dates"}, pd.DataFrame()
-    cutoff = dates[max(1, min(len(dates)-1, int(len(dates)*fraction)))]
+    cutoff = pd.Timestamp(cutoff_date) if cutoff_date else dates[max(1, min(len(dates)-1, int(len(dates)*fraction)))]
     train, test = d[d.listing_date < cutoff], d[d.listing_date >= cutoff]
     if len(train) < 12 or len(test) < 3:
         return {"score": score, "target": target, "status": "too_few_rows"}, pd.DataFrame()
@@ -79,7 +79,8 @@ def holdout(panel, score, target, fraction=0.75):
         return x
     predictions = test[["symbol", "listing_date", target]].copy()
     predictions["historical_mean"] = train[target].mean()
-    metrics = {"score": score, "target": target, "status": "ok", "cutoff": str(cutoff), "n_train": len(train), "n_test": len(test)}
+    metrics = {"score": score, "target": target, "status": "ok", "cutoff": str(cutoff), "n_train": len(train), "n_test": len(test),
+               "split_rule": "predeclared_calendar_cutoff" if cutoff_date else "latest_quarter_of_unique_listing_dates"}
     for name, sentiment in [("controls", False), ("controls_sentiment", True)]:
         x = design(train, sentiment)
         if np.linalg.matrix_rank(x) < x.shape[1]:

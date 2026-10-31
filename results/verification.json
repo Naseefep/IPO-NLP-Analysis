@@ -11,14 +11,21 @@
     "exact_listing_dates": true,
     "nominal_prices_verified": true,
     "missing_news_remains_missing": true,
+    "all_seven_listing_years_present": true,
+    "at_least_ten_verified_ipos_each_year": true,
+    "at_least_ten_news_covered_ipos_each_year": true,
     "test_dates_finbert_score_listing_return_pct": true,
+    "pre2026_training_finbert_score_listing_return_pct": true,
     "test_dates_finbert_score_parkinson_daily": true,
+    "pre2026_training_finbert_score_parkinson_daily": true,
     "test_dates_lm_score_listing_return_pct": true,
-    "test_dates_lm_score_parkinson_daily": true
+    "pre2026_training_lm_score_listing_return_pct": true,
+    "test_dates_lm_score_parkinson_daily": true,
+    "pre2026_training_lm_score_parkinson_daily": true
   },
   "counts": {
-    "ipos": 46,
-    "ipos_with_news": 44,
-    "headlines": 406
+    "ipos": 162,
+    "ipos_with_news": 158,
+    "headlines": 2830
   }
 }

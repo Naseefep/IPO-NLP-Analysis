@@ -1,0 +1,384 @@
+symbol,company,listing_date,year,issue_price
+SBICARD,SBI Cards and Payment Services Limited,2020-03-16,2020,755.0
+ROSSARI,Rossari Biotech Limited,2020-07-23,2020,425.0
+HAPPSTMNDS,Happiest Minds Technologies Limited,2020-09-17,2020,166.0
+ROUTE,Route Mobile Limited,2020-09-21,2020,350.0
+CHEMCON,Chemcon Speciality Chemicals Limited,2020-10-01,2020,340.0
+ANGELBRKG,Angel Broking Limited,2020-10-05,2020,306.0
+MAZDOCK,Mazagon Dock Shipbuilders Limited,2020-10-12,2020,145.0
+UTIAMC,UTI Asset Management Company Limited,2020-10-12,2020,554.0
+EQUITASBNK,Equitas Small Finance Bank Limited,2020-11-02,2020,33.0
+GLAND,Gland Pharma Limited,2020-11-20,2020,1500.0
+BURGERKING,Burger King India Limited,2020-12-14,2020,60.0
+BECTORFOOD,Mrs. Bectors Food Specialities Limited,2020-12-24,2020,288.0
+AWHCL,Antony Waste Handling Cell Limited,2021-01-01,2021,315.0
+INDIGOPNTS,Indigo Paints Limited,2021-02-02,2021,1490.0
+HOMEFIRST,Home First Finance Company India Limited,2021-02-03,2021,518.0
+STOVEKRAFT,Stove Kraft Limited,2021-02-05,2021,385.0
+RAILTEL,RailTel Corporation of India Limited,2021-02-26,2021,94.0
+HERANBA,Heranba Industries Limited,2021-03-05,2021,627.0
+MTARTECH,MTAR Technologies Limited,2021-03-15,2021,575.0
+EASEMYTRIP,Easy Trip Planners Limited,2021-03-19,2021,187.0
+CRAFTSMAN,Craftsman Automation Limited,2021-03-25,2021,1490.0
+LXCHEM,Laxmi Organic Industries Limited,2021-03-25,2021,130.0
+KALYANKJIL,Kalyan Jewellers India Limited,2021-03-26,2021,87.0
+SURYODAY,Suryoday Small Finance Bank Limited,2021-03-26,2021,305.0
+NAZARA,Nazara Technologies Limited,2021-03-30,2021,1101.0
+BARBEQUE,Barbeque-Nation Hospitality Limited,2021-04-07,2021,500.0
+LODHA,Macrotech Developers Limited,2021-04-19,2021,486.0
+SHYAMMETL,Shyam Metalics and Energy Limited,2021-06-24,2021,306.0
+SONACOMS,Sona BLW Precision Forgings Limited,2021-06-24,2021,291.0
+DODLA,Dodla Dairy Limited,2021-06-28,2021,428.0
+KIMS,Krishna Institute of Medical Sciences Limited,2021-06-28,2021,825.0
+IPL,India Pesticides Limited,2021-07-05,2021,296.0
+CLEAN,Clean Science and Technology Limited,2021-07-19,2021,900.0
+GRINFRA,G R Infraprojects Limited,2021-07-19,2021,837.0
+ZOMATO,Zomato Limited,2021-07-23,2021,76.0
+TATVA,Tatva Chintan Pharma Chem Limited,2021-07-29,2021,1083.0
+GLS,Glenmark Life Sciences Limited,2021-08-06,2021,720.0
+ROLEXRINGS,Rolex Rings Limited,2021-08-09,2021,900.0
+DEVYANI,Devyani International Limited,2021-08-16,2021,90.0
+KRSNAA,Krsnaa Diagnostics Limited,2021-08-16,2021,954.0
+WINDLAS,Windlas Biotech Limited,2021-08-16,2021,460.0
+CARTRADE,CarTrade Tech Limited,2021-08-20,2021,1618.0
+APTUS,Aptus Value Housing Finance India Limited,2021-08-24,2021,353.0
+CHEMPLASTS,Chemplast Sanmar Limited,2021-08-24,2021,541.0
+AMIORG,Ami Organics Limited,2021-09-14,2021,610.0
+VIJAYA,Vijaya Diagnostic Centre Limited,2021-09-14,2021,531.0
+SANSERA,Sansera Engineering Limited,2021-09-24,2021,744.0
+ABSLAMC,Aditya Birla Sun Life AMC Limited,2021-10-11,2021,712.0
+NYKAA,FSN Ecommerce Ventures Limited,2021-11-10,2021,1125.0
+FINOPB,FINO Payments Bank Limited,2021-11-12,2021,577.0
+POLICYBZR,PB Fintech Limited,2021-11-15,2021,980.0
+SJS,S J S Enterprises Limited,2021-11-15,2021,542.0
+PAYTM,One 97 Communications Limited,2021-11-18,2021,2150.0
+SAPPHIRE,Sapphire Foods India Limited,2021-11-18,2021,1180.0
+LATENTVIEW,Latent View Analytics Limited,2021-11-23,2021,197.0
+TARSONS,Tarsons Products Limited,2021-11-26,2021,662.0
+GOCOLORS,Go Fashion (India) Limited,2021-11-30,2021,690.0
+STARHEALTH,Star Health and Allied Insurance Company Limited,2021-12-10,2021,900.0
+TEGA,Tega Industries Limited,2021-12-13,2021,453.0
+ANANDRATHI,Anand Rathi Wealth Limited,2021-12-14,2021,550.0
+RATEGAIN,RateGain Travel Technologies Limited,2021-12-17,2021,425.0
+SHRIRAMPPS,Shriram Properties Limited,2021-12-20,2021,118.0
+MAPMYINDIA,C.E. Info Systems Limited,2021-12-21,2021,1033.0
+METROBRAND,Metro Brands Limited,2021-12-22,2021,500.0
+MEDPLUS,MedPlus Health Services Limited,2021-12-23,2021,796.0
+DATAPATTNS,Data Patterns (India) Limited,2021-12-24,2021,585.0
+SUPRIYA,Supriya Lifescience Limited,2021-12-28,2021,274.0
+CMSINFO,CMS Info Systems Limited,2021-12-31,2021,216.0
+AGSTRA,AGS Transact Technologies Limited,2022-01-31,2022,175.0
+AWL,Adani Wilmar Limited,2022-02-08,2022,230.0
+MANYAVAR,Vedant Fashions Limited,2022-02-16,2022,866.0
+CAMPUS,Campus Activewear Limited,2022-05-09,2022,292.0
+RAINBOW,Rainbow Childrens Medicare Limited,2022-05-10,2022,542.0
+LICI,Life Insurance Corporation of India,2022-05-17,2022,949.0
+PRUDENT,Prudent Corporate Advisory Services Limited,2022-05-20,2022,630.0
+DELHIVERY,Delhivery Limited,2022-05-24,2022,487.0
+VENUSPIPES,Venus Pipes and Tubes Limited,2022-05-24,2022,326.0
+PARADEEP,Paradeep Phosphates Limited,2022-05-27,2022,42.0
+ETHOSLTD,ETHOS Limited,2022-05-30,2022,878.0
+EMUDHRA,eMudhra Limited,2022-06-01,2022,256.0
+AETHER,Aether Industries Limited,2022-06-03,2022,642.0
+SYRMA,Syrma SGS Technology Limited,2022-08-26,2022,220.0
+DREAMFOLKS,Dreamfolks Services Limited,2022-09-06,2022,326.0
+HARSHA,Harsha Engineers International Limited,2022-09-26,2022,330.0
+EMIL,Electronics Mart India Limited,2022-10-17,2022,59.0
+TRACXN,Tracxn Technologies Limited,2022-10-20,2022,80.0
+FUSION,Fusion Micro Finance Limited,2022-11-15,2022,368.0
+BIKAJI,Bikaji Foods International Limited,2022-11-16,2022,300.0
+MEDANTA,Global Health Limited,2022-11-16,2022,336.0
+ACI,Archean Chemical Industries Limited,2022-11-21,2022,407.0
+FIVESTAR,FiveStar Business Finance Limited,2022-11-21,2022,474.0
+KAYNES,Kaynes Technology India Limited,2022-11-22,2022,587.0
+INOXGREEN,Inox Green Energy Services Limited,2022-11-23,2022,65.0
+RUSTOMJEE,Keystone Realtors Limited,2022-11-24,2022,541.0
+DHARMAJ,Dharmaj Crop Guard Limited,2022-12-08,2022,237.0
+UNIPARTS,Uniparts India Limited,2022-12-12,2022,577.0
+SULA,Sula Vineyards Limited,2022-12-22,2022,357.0
+AHL,Abans Holdings Limited,2022-12-23,2022,270.0
+LANDMARK,Landmark Cars Limited,2022-12-23,2022,506.0
+KFINTECH,KFin Technologies Limited,2022-12-29,2022,366.0
+ELIN,Elin Electronics Limited,2022-12-30,2022,247.0
+RADIANTCMS,Radiant Cash Management Services Limited,2023-01-04,2023,94.0
+DIVGIITTS,Divgi TorqTransfer Systems Limited,2023-03-14,2023,590.0
+AVALON,Avalon Technologies Limited,2023-04-18,2023,436.0
+MANKIND,Mankind Pharma Limited,2023-05-09,2023,1080.0
+IKIO,IKIO Lighting Limited,2023-06-16,2023,285.0
+HMAAGRO,HMA Agro Industries Limited,2023-07-04,2023,585.0
+IDEAFORGE,Ideaforge Technology Limited,2023-07-07,2023,672.0
+CYIENTDLM,Cyient DLM Limited,2023-07-10,2023,265.0
+SENCO,Senco Gold Limited,2023-07-14,2023,317.0
+UTKARSHBNK,Utkarsh Small Finance Bank Limited,2023-07-21,2023,25.0
+NETWEB,Netweb Technologies India Limited,2023-07-27,2023,500.0
+YATHARTH,Yatharth Hospital and Trauma Care Services Limited,2023-08-07,2023,300.0
+SBFC,SBFC Finance Limited,2023-08-16,2023,57.0
+CONCORDBIO,Concord Biotech Limited,2023-08-18,2023,741.0
+TVSSCS,TVS Supply Chain Solutions Limited,2023-08-23,2023,197.0
+AEROFLEX,Aeroflex Industries Limited,2023-08-31,2023,108.0
+VPRPL,Vishnu Prakash R Punglia Limited,2023-09-05,2023,99.0
+RISHABH,Rishabh Instruments Limited,2023-09-11,2023,441.0
+JLHL,Jupiter Life Line Hospitals Limited,2023-09-18,2023,735.0
+RRKABEL,R R Kabel Limited,2023-09-20,2023,1035.0
+EMSLIMITED,EMS Limited,2023-09-21,2023,211.0
+SAMHI,SAMHI Hotels Limited,2023-09-22,2023,126.0
+ZAGGLE,Zaggle Prepaid Ocean Services Limited,2023-09-22,2023,164.0
+KALAMANDIR,Sai Silks (Kalamandir) Limited,2023-09-27,2023,222.0
+SIGNATURE,Signatureglobal (India) Limited,2023-09-27,2023,385.0
+YATRA,Yatra Online Limited,2023-09-28,2023,142.0
+JSWINFRA,JSW Infrastructure Limited,2023-10-03,2023,119.0
+MVGJL,Manoj Vaibhav Gems N Jewellers Limited,2023-10-03,2023,215.0
+UDS,Updater Services Limited,2023-10-04,2023,300.0
+IRMENERGY,IRM ENERGY LIMITED,2023-10-26,2023,505.0
+BLUEJET,Blue Jet Healthcare Limited,2023-11-01,2023,346.0
+CELLO,Cello World Limited,2023-11-06,2023,648.0
+HONASA,Honasa Consumer Limited,2023-11-07,2023,324.0
+ASKAUTOLTD,ASK Automotive Limited,2023-11-15,2023,282.0
+FEDFINA,Fedbank Financial Services Limited,2023-11-30,2023,140.0
+GANDHAR,Gandhar Oil Refinery (India) Limited,2023-11-30,2023,169.0
+TATATECH,Tata Technologies Limited,2023-11-30,2023,500.0
+FLAIR,Flair Writing Industries Limited,2023-12-01,2023,304.0
+DOMS,DOMS Industries Limited,2023-12-20,2023,790.0
+INDIASHLTR,India Shelter Finance Corporation Limited,2023-12-20,2023,493.0
+INOXINDIA,INOX India Limited,2023-12-21,2023,660.0
+MUTHOOTMF,Muthoot Microfin Limited,2023-12-26,2023,291.0
+SURAJEST,Suraj Estate Developers Limited,2023-12-26,2023,360.0
+HAPPYFORGE,Happy Forging Limited,2023-12-27,2023,850.0
+MUFTI,Credo Brands Marketing Limited,2023-12-27,2023,280.0
+AZAD,Azad Engineering Limited,2023-12-28,2023,524.0
+INNOVACAP,Innova Captab Limited,2023-12-29,2023,448.0
+JYOTICNC,Jyoti CNC Automation Limited,2024-01-16,2024,331.0
+MEDIASSIST,Medi Assist Healthcare Services Limited,2024-01-23,2024,418.0
+EPACK,EPACK Durable Limited,2024-01-30,2024,230.0
+BLSE,BLS E- Services Limited,2024-02-06,2024,135.0
+PARKHOTELS,Apeejay Surrendra Park Hotels Limited,2024-02-12,2024,155.0
+CAPITALSFB,Capital Small Finance Bank Limited,2024-02-14,2024,468.0
+JSFB,Jana Small Finance Bank Limited,2024-02-14,2024,414.0
+RPTECH,Rashi Peripherals Limited,2024-02-14,2024,311.0
+ENTERO,Entero Healthcare Solutions Limited,2024-02-16,2024,1258.0
+JUNIPER,Juniper Hotels Limited,2024-02-28,2024,360.0
+GPTHEALTH,GPT Healthcare Limited,2024-02-29,2024,186.0
+EXICOM,Exicom Telesystems Limited,2024-03-05,2024,142.0
+RKSWAMY,R K Swamy Limited,2024-03-12,2024,288.0
+JGCHEM,J G Chemicals Limited,2024-03-13,2024,221.0
+GOPAL,Gopal Snacks Limited,2024-03-14,2024,401.0
+PVSL,Popular Vehicles and Services Limited,2024-03-19,2024,295.0
+KRYSTAL,Krystal Integrated Services Limited,2024-03-21,2024,715.0
+BHARTIHEXA,Bharti Hexacom Limited,2024-04-12,2024,570.0
+JNKINDIA,JNK India Limited,2024-04-30,2024,415.0
+INDGN,Indegene Limited,2024-05-13,2024,452.0
+AADHARHFC,Aadhar Housing Finance Limited,2024-05-15,2024,315.0
+TBOTEK,TBO Tek Limited,2024-05-15,2024,920.0
+GODIGIT,Go Digit General Insurance Limited,2024-05-23,2024,272.0
+AWFIS,Awfis Space Solutions Limited,2024-05-30,2024,383.0
+KRONOX,Kronox Lab SciencesLimited,2024-06-10,2024,136.0
+IXIGO,Le Travenues Technology Limited,2024-06-18,2024,93.0
+DEEDEV,DEE Development Engineers Limited,2024-06-26,2024,203.0
+STANLEY,Stanley Lifestyles Limited,2024-06-28,2024,369.0
+ABDL,Allied Blenders and Distillers Limited,2024-07-02,2024,281.0
+BANSALWIRE,Bansal Wire Industries Limited,2024-07-10,2024,256.0
+EMCURE,Emcure Pharmaceuticals Limited,2024-07-10,2024,1008.0
+SANSTAR,Sanstar Limited,2024-07-26,2024,95.0
+AKUMS,Akums Drugs and Pharmaceuticals Limited,2024-08-06,2024,679.0
+CEIGALL,Ceigall India Limited,2024-08-08,2024,401.0
+OLAELEC,Ola Electric Mobility Limited,2024-08-09,2024,76.0
+FIRSTCRY,Brainbees Solutions Limited,2024-08-13,2024,465.0
+UNIECOM,Unicommerce eSolutions Limited,2024-08-13,2024,108.0
+INTERARCH,Interarch Building Products Limited,2024-08-26,2024,900.0
+PREMIERENE,Premier Energies Limited,2024-09-03,2024,450.0
+ECOSMOBLTY,Ecos (India) Mobility & Hospitality Limited,2024-09-04,2024,334.0
+STYLEBAAZA,Baazar Style Retail Limited,2024-09-06,2024,389.0
+BAJAJHFL,Bajaj Housing Finance Limited,2024-09-16,2024,70.0
+KROSS,Kross Limited,2024-09-16,2024,240.0
+PNGJL,P N Gadgil Jewellers Limited,2024-09-17,2024,480.0
+ARKADE,Arkade Developers Limited,2024-09-24,2024,128.0
+WCIL,Western Carriers (India) Limited,2024-09-24,2024,172.0
+KRN,KRN Heat Exchanger and Refrigeration Limited,2024-10-03,2024,220.0
+GARUDA,Garuda Construction and Engineering Limited,2024-10-15,2024,95.0
+HYUNDAI,Hyundai Motor India Limited,2024-10-22,2024,1960.0
+DBEIL,Deepak Builders & Engineers India Limited,2024-10-28,2024,203.0
+WAAREEENER,Waaree Energies Limited,2024-10-28,2024,1503.0
+GODAVARIB,Godavari Biorefineries Limited,2024-10-30,2024,352.0
+SAGILITY,Sagility India Limited,2024-11-12,2024,30.0
+ACMESOLAR,ACME Solar Holdings Limited,2024-11-13,2024,289.0
+SWIGGY,Swiggy Limited,2024-11-13,2024,390.0
+NIVABUPA,Niva Bupa Health Insurance Company Limited,2024-11-14,2024,74.0
+BLACKBUCK,Zinka Logistics Solutions Limited,2024-11-22,2024,273.0
+EIEL,Enviro Infra Engineers Limited,2024-11-29,2024,148.0
+SURAKSHA,Suraksha Diagnostic Limited,2024-12-06,2024,441.0
+MOBIKWIK,One MobiKwik Systems Limited,2024-12-18,2024,279.0
+SAILIFE,Sai Life Sciences Limited,2024-12-18,2024,549.0
+VMM,Vishal Mega Mart Limited,2024-12-18,2024,78.0
+IKS,Inventurus Knowledge Solutions Limited,2024-12-19,2024,1329.0
+IGIL,International Gemmological Institute (India) Limited,2024-12-20,2024,417.0
+CEWATER,Concord Enviro Systems Limited,2024-12-27,2024,701.0
+DAMCAPITAL,DAM Capital Advisors Limited,2024-12-27,2024,283.0
+SANATHAN,Sanathan Textiles Limited,2024-12-27,2024,321.0
+TRANSRAILL,Transrail Lighting Limited,2024-12-27,2024,432.0
+CARRARO,Carraro India Limited,2024-12-30,2024,704.0
+SENORES,Senores Pharmaceuticals Limited,2024-12-30,2024,391.0
+VENTIVE,Ventive Hospitality Limited,2024-12-30,2024,643.0
+UNIMECH,Unimech Aerospace and Manufacturing Limited,2024-12-31,2024,785.0
+INDOFARM,Indo Farm Equipment Limited,2025-01-07,2025,215.0
+SGLTL,Standard Glass Lining Technology Limited,2025-01-13,2025,140.0
+QUADFUTURE,Quadrant Future Tek Limited,2025-01-14,2025,290.0
+LAXMIDENTL,Laxmi Dental Limited,2025-01-20,2025,428.0
+AGARWALEYE,Dr. Agarwal's Health Care Limited,2025-02-04,2025,402.0
+AJAXENGG,Ajax Engineering Limited,2025-02-17,2025,629.0
+HEXT,Hexaware Technologies Limited,2025-02-19,2025,708.0
+QPOWER,Quality Power Electrical Equipments Limited,2025-02-24,2025,425.0
+ATHERENERG,Ather Energy Limited,2025-05-06,2025,321.0
+BELRISE,Belrise Industries Limited,2025-05-28,2025,90.0
+THELEELA,Schloss Bangalore Limited,2025-06-02,2025,435.0
+OSWALPUMPS,Oswal Pumps Limited,2025-06-20,2025,614.0
+ARISINFRA,Arisinfra Solutions Limited,2025-06-25,2025,222.0
+ELLEN,Ellenbarrie Industrial Gases Limited,2025-07-01,2025,400.0
+KALPATARU,Kalpataru Limited,2025-07-01,2025,414.0
+HDBFS,HDB Financial Services Limited,2025-07-02,2025,740.0
+SAMBHV,Sambhv Steel Tubes Limited,2025-07-02,2025,82.0
+CRIZAC,CRIZAC LIMITED,2025-07-09,2025,245.0
+TRAVELFOOD,Travel Food Services Limited,2025-07-14,2025,1100.0
+SMARTWORKS,Smartworks Coworking Spaces Limited,2025-07-17,2025,407.0
+ANTHEM,Anthem Biosciences Limited,2025-07-21,2025,570.0
+EBGNG,GNG Electronics Limited,2025-07-30,2025,237.0
+INDIQUBE,Indiqube Spaces Limited,2025-07-30,2025,237.0
+BRIGHOTEL,Brigade Hotel Ventures Limited,2025-07-31,2025,90.0
+SHANTIGOLD,Shanti Gold International Limited,2025-08-01,2025,199.0
+CPPLUS,Aditya Infotech Limited,2025-08-05,2025,675.0
+LAXMIINDIA,Laxmi India Finance Limited,2025-08-05,2025,158.0
+LOTUSDEV,Sri Lotus Developers and Realty Limited,2025-08-06,2025,150.0
+MBEL,M&B Engineering Limited,2025-08-06,2025,385.0
+ALLTIME,All Time Plastics Limited,2025-08-14,2025,275.0
+JSWCEMENT,JSW Cement Limited,2025-08-14,2025,147.0
+BLUESTONE,BlueStone Jewellery and Lifestyle Limited,2025-08-19,2025,517.0
+REGAAL,Regaal Resources Limited,2025-08-20,2025,102.0
+GEMAROMA,Gem Aromatics Limited,2025-08-26,2025,325.0
+SHREEJISPG,Shreeji Shipping Global Limited,2025-08-26,2025,252.0
+VIKRAMSOLR,Vikram Solar Limited,2025-08-26,2025,332.0
+MEIL,Mangal Electrical Industries Limited,2025-08-28,2025,561.0
+VIKRAN,Vikran Engineering Limited,2025-09-03,2025,97.0
+SHRINGARMS,Shringar House of Mangalsutra Limited,2025-09-17,2025,165.0
+URBANCO,Urban Company Limited,2025-09-17,2025,103.0
+EUROPRATIK,Euro Pratik Sales Limited,2025-09-23,2025,247.0
+IVALUE,Ivalue Infosolutions Limited,2025-09-25,2025,299.0
+GKENERGY,GK Energy Limited,2025-09-26,2025,153.0
+SAATVIK,Saatvik Green Energy Limited,2025-09-26,2025,465.0
+ATLANTAELE,Atlanta Electricals Limited,2025-09-29,2025,754.0
+GANESHCP,Ganesh Consumer Products Limited,2025-09-29,2025,322.0
+ARSSBL,Anand Rathi Share and Stock Brokers Limited,2025-09-30,2025,414.0
+JARO,Jaro Institute of Technology Management and Research Limited,2025-09-30,2025,890.0
+SOLARWORLD,Solarworld Energy Solutions Limited,2025-09-30,2025,351.0
+STYL,Seshaasai Technologies Limited,2025-09-30,2025,423.0
+EPACKPEB,Epack Prefab Technologies Limited,2025-10-01,2025,204.0
+JAINREC,Jain Resource Recycling Limited,2025-10-01,2025,232.0
+TRUALT,TruAlt Bioenergy Limited,2025-10-03,2025,496.0
+PACEDIGITK,Pace Digitek Limited,2025-10-06,2025,219.0
+GLOTTIS,Glottis Limited,2025-10-07,2025,129.0
+WEWORK,WeWork India Management Limited,2025-10-10,2025,648.0
+LGEINDIA,LG Electronics India Limited,2025-10-14,2025,1140.0
+CRAMC,Canara Robeco Asset Management Company Limited,2025-10-16,2025,266.0
+RUBICON,Rubicon Research Limited,2025-10-16,2025,485.0
+MIDWESTLTD,Midwest Limited,2025-10-24,2025,1065.0
+ORKLAINDIA,Orkla India Limited,2025-11-06,2025,730.0
+STUDDS,Studds Accessories Limited,2025-11-07,2025,585.0
+LENSKART,Lenskart Solutions Limited,2025-11-10,2025,402.0
+GROWW,Billionbrains Garage Ventures Limited,2025-11-12,2025,100.0
+PINELABS,Pine Labs Limited,2025-11-14,2025,221.0
+EMMVEE,Emmvee Photovoltaic Power Limited,2025-11-18,2025,217.0
+PWL,Physicswallah Limited,2025-11-18,2025,109.0
+TENNIND,Tenneco Clean Air India Limited,2025-11-19,2025,397.0
+UTLSOLAR,Fujiyama Power Systems Limited,2025-11-20,2025,228.0
+CAPILLARY,Capillary Technologies India Limited,2025-11-21,2025,577.0
+EXCELSOFT,Excelsoft Technologies Limited,2025-11-26,2025,120.0
+SUDEEPPHRM,Sudeep Pharma Limited,2025-11-28,2025,593.0
+AEQUS,Aequs Limited,2025-12-10,2025,124.0
+MEESHO,Meesho Limited,2025-12-10,2025,111.0
+VIDYAWIRES,Vidya Wires Limited,2025-12-10,2025,52.0
+CORONA,Corona Remedies Limited,2025-12-15,2025,1062.0
+WAKEFIT,Wakefit Innovations Limited,2025-12-15,2025,195.0
+NEPHROPLUS,Nephrocare Health Services Limited,2025-12-17,2025,460.0
+PARKHOSPS,Park Medi World Limited,2025-12-17,2025,162.0
+ICICIAMC,ICICI Prudential Asset Management Company Limited,2025-12-19,2025,2165.0
+KSHINTL,KSH International Limited,2025-12-23,2025,384.0
+GKSL,Gujarat Kidney and Super Speciality Limited,2025-12-30,2025,114.0
+BHARATCOAL,Bharat Coking Coal Limited,2026-01-19,2026,23.0
+AMAGI,Amagi Media Labs Limited,2026-01-21,2026,361.0
+SHADOWFAX,Shadowfax Technologies Limited,2026-01-28,2026,124.0
+ADANIENPP1,Adani Enterprises Limited,2026-02-10,2026,450.0
+AYE,Aye Finance Limited,2026-02-16,2026,129.0
+FRACTAL,Fractal Analytics Limited,2026-02-16,2026,900.0
+CLEANMAX,Clean Max Enviro Energy Solutions Limited,2026-03-02,2026,1053.0
+PNGSREVA,PNGS Reva Diamond Jewellery Limited,2026-03-04,2026,386.0
+OMNI,Omnitech Engineering Limited,2026-03-05,2026,227.0
+SEDEMAC,Sedemac Mechatronics Limited,2026-03-11,2026,1352.0
+RSL,Rajputana Stainless Limited,2026-03-19,2026,122.0
+INNOVISION,Innovision Limited,2026-03-23,2026,519.0
+GSPCROP,GSP Crop Science Limited,2026-03-24,2026,320.0
+CMPDI,Central Mine Planning & Design Institute Limited,2026-03-30,2026,172.0
+AMIRCHAND,Amir Chand Jagdish Kumar (Exports) Limited,2026-04-02,2026,212.0
+POWERICA,Powerica Limited,2026-04-02,2026,395.0
+SAIPARENT,Sai Parenteral's Limited,2026-04-02,2026,392.0
+KISSHT,Onemi Technology Solutions Limited,2026-05-08,2026,171.0
+CMRGREEN,CMR Green Technologies Limited,2026-06-10,2026,192.0
+TURTLEMINT,Turtlemint Fintech Solutions Limited,2026-06-29,2026,152.0
+CORDELIA,Waterways Leisure Tourism Limited,2026-07-01,2026,808.0
+KNACK,Knack Packaging Limited,2026-07-08,2026,170.0
+KUSUMGAR,Kusumgar Limited,2026-07-15,2026,419.0
+LASERPOWER,Laser Power & Infra Limited,2026-07-16,2026,214.0
+SBIFUNDS,SBI Funds Management Limited,2026-07-21,2026,574.0
+CMLL,Caliber Mining and Logistics Limited,2026-07-24,2026,424.0
+INDOMIM,INDO-MIM Limited,2026-07-30,2026,485.0
+LCL,Lohia Corp Limited,2026-07-30,2026,425.0
+MANIPALHOS,Manipal Health Enterprises Limited,2026-08-05,2026,590.0
+JNPR,Juniper Green Energy Limited,2026-08-06,2026,225.0
+MVELECTRO,MV Electrosystems Limited,2026-08-06,2026,425.0
+ARDEE,Ardee Industries Limited,2026-08-12,2026,53.0
+LEAP,Leap India Limited,2026-08-14,2026,159.0
+TECHNOCRAF,Technocraft Ventures Limited,2026-08-14,2026,212.0
+DHOOTTRANS,Dhoot Transmission Limited,2026-08-17,2026,871.0
+MOLBIO,Molbio Diagnostics Limited,2026-08-17,2026,807.0
+MILKYMIST,Milky Mist Dairy Food Limited,2026-08-18,2026,140.0
+BLEL,Behari Lal Engineering Limited,2026-08-19,2026,285.0
+SHIPROCKET,Shiprocket Limited,2026-08-19,2026,97.0
+HORIZONIND,Horizon Industrial Parks Limited,2026-08-24,2026,60.0
+LALITHAA,Lalithaa Jewellery Mart Limited,2026-08-24,2026,201.0
+SHANKESH,Shankesh Jewellers Limited,2026-08-25,2026,93.0
+SUNSHINE,Sunshine Pictures Limited,2026-08-25,2026,360.0
+GAJA,Gaja Alternative Asset Management Limited,2026-08-26,2026,160.0
+TEMPSENS,Tempsens Instruments (India) Limited,2026-08-28,2026,300.0
+AUGMONT,Augmont Enterprises Limited,2026-08-31,2026,788.0
+SKYWAYS,Skyways Air Services Limited,2026-09-01,2026,138.0
+SYMBIOTEC,Symbiotec Pharmalab Limited,2026-09-01,2026,988.0
+LUMINO,Lumino Industries Limited,2026-09-03,2026,82.0
+ESDS,ESDS Software Solution Limited,2026-09-04,2026,429.0
+PERNIASPOP,Purple Style Labs Limited,2026-09-07,2026,575.0
+DEEPA,Deepa Jewellers Limited,2026-09-08,2026,177.0
+PRANAV,Pranav Constructions Limited,2026-09-15,2026,124.0
+GLASSWALL,Glass Wall Systems (India) Limited,2026-09-16,2026,182.0
+KANOHAR,Kanohar Electricals Limited,2026-09-16,2026,632.0
+PRASOLCHEM,Prasol Chemicals Limited,2026-09-16,2026,676.0
+ARCIL,Asset Reconstruction Company (India) Limited,2026-09-17,2026,139.0
+KARAMTARA,Karamtara Engineering Limited,2026-09-17,2026,254.0
+LCCPROJECT,LCC Projects Limited,2026-09-17,2026,146.0
+MPIMANIPAL,Manipal Payment and Identity Solutions Limited,2026-09-17,2026,339.0
+RENTOMOJO,Rentomojo Limited,2026-09-17,2026,404.0
+STEAMHOUSE,Steamhouse India Limited,2026-09-17,2026,81.0
+HEROMOTORS,Hero Motors Limited,2026-09-23,2026,84.0
+SSRETAIL,SS Retail Limited,2026-09-23,2026,424.0
+VARMORA,Varmora Granito Limited,2026-09-29,2026,148.0
+ARMEE,ArMee Infotech Limited,2026-09-30,2026,375.0
+ELEVATE,Elevate Campuses Limited,2026-09-30,2026,362.0
+AONESTEELS,A-One Steels India Limited,2026-10-01,2026,405.0
+MONEYVIEW,Moneyview Limited,2026-10-01,2026,34.0
+ACEVECTOR,AceVector Limited,2026-10-05,2026,32.0
+GERMAN,German Green Steel and Power Limited,2026-10-05,2026,139.0
+ORIENTCABL,Orient Cables (India) Limited,2026-10-05,2026,272.0
+RUNWALENTR,Runwal Enterprises Limited,2026-10-05,2026,305.0
+HDFIRE,HD Fire Protect Limited,2026-10-21,2026,271.0
+FUSIONCX,Fusion CX Limited,2026-10-22,2026,289.0
+BONFIG,Bonfiglioli Transmissions Limited,2026-10-23,2026,586.0
+SMT,Sahajanand Medical Technologies Limited,2026-10-23,2026,344.0
+TONBO,Tonbo Imaging India Limited,2026-10-23,2026,700.0
+ZETWERK,Zetwerk Manufacturing Businesses Limited,2026-10-23,2026,151.0
+JPL,Jio Platforms Limited,2026-10-28,2026,1119.0
+PARASHLTH,Paras Healthcare Limited,2026-10-28,2026,693.0

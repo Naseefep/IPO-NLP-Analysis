@@ -25,6 +25,7 @@ def run(args):
                 "status": "started", "mode": "SYNTHETIC_DEMO" if args.demo else "research",
                 "lookback_calendar_days": args.lookback_days, "text_field": "headline", "model": args.model,
                 "inputs": {str(p): digest(p) for p in [args.ipos, args.prices, args.news]}, "packages": {}}
+    manifest["holdout_from"] = args.holdout_from
     for pkg in ["pandas", "numpy", "statsmodels", "scipy", "transformers", "torch"]:
         try:
             manifest["packages"][pkg] = importlib.metadata.version(pkg)
@@ -59,6 +60,12 @@ def run(args):
         panel = panel.merge(agg, on="symbol", how="left", validate="one_to_one")
         panel["article_count"] = panel.article_count.fillna(0).astype(int)
         panel.to_csv(out / "analysis_panel.csv", index=False)
+        panel[["symbol","company","listing_date","article_count"]].sort_values("listing_date").to_csv(out / "ipo_news_counts.csv",index=False)
+        coverage=panel.assign(listing_year=pd.to_datetime(panel.listing_date).dt.year).groupby("listing_year").agg(
+            verified_ipos=("symbol","size"),ipos_with_news=("article_count",lambda x:int(x.gt(0).sum())),
+            eligible_headlines=("article_count","sum"),median_headlines=("article_count","median"))
+        coverage.to_csv(out / "yearly_coverage.csv")
+        manifest["counts"]["ipos_with_news"]=int(panel.article_count.gt(0).sum())
         coefficients, correlations, diagnostics, skipped = estimate(panel)
         for name, table in [("coefficients", coefficients), ("correlations", correlations), ("diagnostics", diagnostics)]:
             table.to_csv(out / f"{name}.csv", index=False)
@@ -66,7 +73,7 @@ def run(args):
         metrics = []
         for score in [c for c in ["finbert_score", "lm_score"] if c in panel]:
             for target in TARGETS:
-                metric, predictions = holdout(panel, score, target)
+                metric, predictions = holdout(panel, score, target, cutoff_date=args.holdout_from)
                 metrics.append(metric)
                 if not predictions.empty:
                     predictions.to_csv(out / f"holdout_{score}_{target}.csv", index=False)
@@ -108,6 +115,7 @@ def main():
     p.add_argument("--finbert-revision")
     p.add_argument("--lookback-days", type=int, default=30)
     p.add_argument("--output", default="outputs/research")
+    p.add_argument("--holdout-from", help="Predeclared first listing date in the test set, e.g. 2026-01-01")
     p.add_argument("--demo", action="store_true", help="Mark all outputs as synthetic demonstration")
     run(p.parse_args())
 

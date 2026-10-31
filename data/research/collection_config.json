@@ -1,0 +1,13 @@
+{
+  "start_year": 2020,
+  "end_year": 2026,
+  "as_of": "2026-10-31",
+  "target_per_year": 25,
+  "sampling": "evenly spaced listing-date ranks, with next chronological candidates as price-verification reserves",
+  "news_window_calendar_days": 30,
+  "query_strategy": "full issuer name, distinctive aliases, plus two half-window searches",
+  "minimum_news_requirement": "none at sampling; missing coverage retained in IPO panel",
+  "retrieved_utc": "2026-10-30T21:41:44.980706+00:00",
+  "supplementary_alias_protocol": "up to two extra unique issuer-prefix/declared-abbreviation queries, selected before scoring",
+  "supplementary_retrieved_utc": "2026-10-31T04:02:31.957910+00:00"
+}

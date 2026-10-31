@@ -1,0 +1,163 @@
+symbol,company,listing_date,article_count
+SBICARD,SBI Cards and Payment Services Limited,2020-03-16,14
+ROSSARI,Rossari Biotech Limited,2020-07-23,4
+HAPPSTMNDS,Happiest Minds Technologies Limited,2020-09-17,11
+ROUTE,Route Mobile Limited,2020-09-21,2
+CHEMCON,Chemcon Speciality Chemicals Limited,2020-10-01,6
+ANGELBRKG,Angel Broking Limited,2020-10-05,3
+MAZDOCK,Mazagon Dock Shipbuilders Limited,2020-10-12,6
+UTIAMC,UTI Asset Management Company Limited,2020-10-12,10
+EQUITASBNK,Equitas Small Finance Bank Limited,2020-11-02,6
+GLAND,Gland Pharma Limited,2020-11-20,5
+BURGERKING,Burger King India Limited,2020-12-14,11
+BECTORFOOD,Mrs. Bectors Food Specialities Limited,2020-12-24,17
+AWHCL,Antony Waste Handling Cell Limited,2021-01-01,6
+HOMEFIRST,Home First Finance Company India Limited,2021-02-03,6
+HERANBA,Heranba Industries Limited,2021-03-05,4
+EASEMYTRIP,Easy Trip Planners Limited,2021-03-19,4
+LXCHEM,Laxmi Organic Industries Limited,2021-03-25,5
+SURYODAY,Suryoday Small Finance Bank Limited,2021-03-26,9
+LODHA,Macrotech Developers Limited,2021-04-19,1
+SONACOMS,Sona BLW Precision Forgings Limited,2021-06-24,1
+KIMS,Krishna Institute of Medical Sciences Limited,2021-06-28,3
+GRINFRA,G R Infraprojects Limited,2021-07-19,1
+TATVA,Tatva Chintan Pharma Chem Limited,2021-07-29,6
+ROLEXRINGS,Rolex Rings Limited,2021-08-09,15
+WINDLAS,Windlas Biotech Limited,2021-08-16,12
+APTUS,Aptus Value Housing Finance India Limited,2021-08-24,7
+AMIORG,Ami Organics Limited,2021-09-14,13
+SANSERA,Sansera Engineering Limited,2021-09-24,12
+FINOPB,FINO Payments Bank Limited,2021-11-12,11
+SJS,S J S Enterprises Limited,2021-11-15,0
+SAPPHIRE,Sapphire Foods India Limited,2021-11-18,7
+GOCOLORS,Go Fashion (India) Limited,2021-11-30,7
+TEGA,Tega Industries Limited,2021-12-13,11
+RATEGAIN,RateGain Travel Technologies Limited,2021-12-17,3
+MAPMYINDIA,C.E. Info Systems Limited,2021-12-21,0
+DATAPATTNS,Data Patterns (India) Limited,2021-12-24,12
+CMSINFO,CMS Info Systems Limited,2021-12-31,9
+AGSTRA,AGS Transact Technologies Limited,2022-01-31,1
+AWL,Adani Wilmar Limited,2022-02-08,14
+MANYAVAR,Vedant Fashions Limited,2022-02-16,14
+CAMPUS,Campus Activewear Limited,2022-05-09,4
+RAINBOW,Rainbow Childrens Medicare Limited,2022-05-10,0
+LICI,Life Insurance Corporation of India,2022-05-17,89
+DELHIVERY,Delhivery Limited,2022-05-24,15
+PARADEEP,Paradeep Phosphates Limited,2022-05-27,11
+EMUDHRA,eMudhra Limited,2022-06-01,5
+AETHER,Aether Industries Limited,2022-06-03,5
+SYRMA,Syrma SGS Technology Limited,2022-08-26,9
+HARSHA,Harsha Engineers International Limited,2022-09-26,10
+EMIL,Electronics Mart India Limited,2022-10-17,5
+TRACXN,Tracxn Technologies Limited,2022-10-20,4
+MEDANTA,Global Health Limited,2022-11-16,8
+BIKAJI,Bikaji Foods International Limited,2022-11-16,10
+ACI,Archean Chemical Industries Limited,2022-11-21,3
+KAYNES,Kaynes Technology India Limited,2022-11-22,7
+INOXGREEN,Inox Green Energy Services Limited,2022-11-23,4
+RUSTOMJEE,Keystone Realtors Limited,2022-11-24,5
+UNIPARTS,Uniparts India Limited,2022-12-12,3
+SULA,Sula Vineyards Limited,2022-12-22,18
+AHL,Abans Holdings Limited,2022-12-23,0
+KFINTECH,KFin Technologies Limited,2022-12-29,8
+ELIN,Elin Electronics Limited,2022-12-30,8
+RADIANTCMS,Radiant Cash Management Services Limited,2023-01-04,3
+AVALON,Avalon Technologies Limited,2023-04-18,15
+IKIO,IKIO Lighting Limited,2023-06-16,12
+IDEAFORGE,Ideaforge Technology Limited,2023-07-07,19
+SENCO,Senco Gold Limited,2023-07-14,14
+NETWEB,Netweb Technologies India Limited,2023-07-27,7
+SBFC,SBFC Finance Limited,2023-08-16,8
+CONCORDBIO,Concord Biotech Limited,2023-08-18,15
+AEROFLEX,Aeroflex Industries Limited,2023-08-31,12
+RISHABH,Rishabh Instruments Limited,2023-09-11,7
+RRKABEL,R R Kabel Limited,2023-09-20,2
+SAMHI,SAMHI Hotels Limited,2023-09-22,7
+KALAMANDIR,Sai Silks (Kalamandir) Limited,2023-09-27,13
+YATRA,Yatra Online Limited,2023-09-28,1
+MVGJL,Manoj Vaibhav Gems N Jewellers Limited,2023-10-03,7
+IRMENERGY,IRM ENERGY LIMITED,2023-10-26,9
+CELLO,Cello World Limited,2023-11-06,8
+ASKAUTOLTD,ASK Automotive Limited,2023-11-15,14
+TATATECH,Tata Technologies Limited,2023-11-30,31
+FEDFINA,Fedbank Financial Services Limited,2023-11-30,10
+DOMS,DOMS Industries Limited,2023-12-20,19
+INOXINDIA,INOX India Limited,2023-12-21,14
+SURAJEST,Suraj Estate Developers Limited,2023-12-26,8
+MUFTI,Credo Brands Marketing Limited,2023-12-27,10
+INNOVACAP,Innova Captab Limited,2023-12-29,19
+JYOTICNC,Jyoti CNC Automation Limited,2024-01-16,16
+MEDIASSIST,Medi Assist Healthcare Services Limited,2024-01-23,12
+BLSE,BLS E- Services Limited,2024-02-06,9
+JSFB,Jana Small Finance Bank Limited,2024-02-14,17
+JUNIPER,Juniper Hotels Limited,2024-02-28,12
+RKSWAMY,R K Swamy Limited,2024-03-12,3
+PVSL,Popular Vehicles and Services Limited,2024-03-19,7
+JNKINDIA,JNK India Limited,2024-04-30,7
+TBOTEK,TBO Tek Limited,2024-05-15,15
+STANLEY,Stanley Lifestyles Limited,2024-06-28,16
+EMCURE,Emcure Pharmaceuticals Limited,2024-07-10,10
+CEIGALL,Ceigall India Limited,2024-08-08,12
+UNIECOM,Unicommerce eSolutions Limited,2024-08-13,4
+PREMIERENE,Premier Energies Limited,2024-09-03,11
+BAJAJHFL,Bajaj Housing Finance Limited,2024-09-16,36
+ARKADE,Arkade Developers Limited,2024-09-24,7
+GARUDA,Garuda Construction and Engineering Limited,2024-10-15,10
+WAAREEENER,Waaree Energies Limited,2024-10-28,25
+ACMESOLAR,ACME Solar Holdings Limited,2024-11-13,13
+BLACKBUCK,Zinka Logistics Solutions Limited,2024-11-22,4
+MOBIKWIK,One MobiKwik Systems Limited,2024-12-18,8
+IKS,Inventurus Knowledge Solutions Limited,2024-12-19,6
+DAMCAPITAL,DAM Capital Advisors Limited,2024-12-27,17
+CARRARO,Carraro India Limited,2024-12-30,13
+UNIMECH,Unimech Aerospace and Manufacturing Limited,2024-12-31,25
+INDOFARM,Indo Farm Equipment Limited,2025-01-07,28
+LAXMIDENTL,Laxmi Dental Limited,2025-01-20,10
+QPOWER,Quality Power Electrical Equipments Limited,2025-02-24,11
+THELEELA,Schloss Bangalore Limited,2025-06-02,4
+KALPATARU,Kalpataru Limited,2025-07-01,11
+CRIZAC,CRIZAC LIMITED,2025-07-09,13
+ANTHEM,Anthem Biosciences Limited,2025-07-21,28
+SHANTIGOLD,Shanti Gold International Limited,2025-08-01,15
+LOTUSDEV,Sri Lotus Developers and Realty Limited,2025-08-06,19
+JSWCEMENT,JSW Cement Limited,2025-08-14,42
+SHREEJISPG,Shreeji Shipping Global Limited,2025-08-26,18
+VIKRAN,Vikran Engineering Limited,2025-09-03,18
+EUROPRATIK,Euro Pratik Sales Limited,2025-09-23,8
+ATLANTAELE,Atlanta Electricals Limited,2025-09-29,15
+JARO,Jaro Institute of Technology Management and Research Limited,2025-09-30,6
+JAINREC,Jain Resource Recycling Limited,2025-10-01,18
+GLOTTIS,Glottis Limited,2025-10-07,5
+CRAMC,Canara Robeco Asset Management Company Limited,2025-10-16,21
+STUDDS,Studds Accessories Limited,2025-11-07,13
+PINELABS,Pine Labs Limited,2025-11-14,39
+UTLSOLAR,Fujiyama Power Systems Limited,2025-11-20,21
+SUDEEPPHRM,Sudeep Pharma Limited,2025-11-28,21
+VIDYAWIRES,Vidya Wires Limited,2025-12-10,22
+PARKHOSPS,Park Medi World Limited,2025-12-17,19
+GKSL,Gujarat Kidney and Super Speciality Limited,2025-12-30,14
+BHARATCOAL,Bharat Coking Coal Limited,2026-01-19,38
+AMAGI,Amagi Media Labs Limited,2026-01-21,21
+PNGSREVA,PNGS Reva Diamond Jewellery Limited,2026-03-04,7
+RSL,Rajputana Stainless Limited,2026-03-19,12
+CMPDI,Central Mine Planning & Design Institute Limited,2026-03-30,19
+KISSHT,Onemi Technology Solutions Limited,2026-05-08,26
+CORDELIA,Waterways Leisure Tourism Limited,2026-07-01,67
+LASERPOWER,Laser Power & Infra Limited,2026-07-16,49
+LCL,Lohia Corp Limited,2026-07-30,64
+MVELECTRO,MV Electrosystems Limited,2026-08-06,39
+TECHNOCRAF,Technocraft Ventures Limited,2026-08-14,66
+BLEL,Behari Lal Engineering Limited,2026-08-19,39
+LALITHAA,Lalithaa Jewellery Mart Limited,2026-08-24,64
+GAJA,Gaja Alternative Asset Management Limited,2026-08-26,53
+SYMBIOTEC,Symbiotec Pharmalab Limited,2026-09-01,37
+PERNIASPOP,Purple Style Labs Limited,2026-09-07,76
+GLASSWALL,Glass Wall Systems (India) Limited,2026-09-16,67
+KARAMTARA,Karamtara Engineering Limited,2026-09-17,62
+RENTOMOJO,Rentomojo Limited,2026-09-17,72
+SSRETAIL,SS Retail Limited,2026-09-23,28
+AONESTEELS,A-One Steels India Limited,2026-10-01,59
+GERMAN,German Green Steel and Power Limited,2026-10-05,69
+HDFIRE,HD Fire Protect Limited,2026-10-21,73
+TONBO,Tonbo Imaging India Limited,2026-10-23,92
+PARASHLTH,Paras Healthcare Limited,2026-10-28,73

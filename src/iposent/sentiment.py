@@ -65,6 +65,8 @@ class FinBERT:
                 probs = self.model(**batch).logits.softmax(-1).cpu().numpy()
             for owner, prob in zip(owners[start:start+self.batch_size], probs):
                 accum[owner].append(prob)
+            if start % (self.batch_size * 16) == 0:
+                print(f"FinBERT: {min(start+self.batch_size,len(chunks))}/{len(chunks)} text chunks scored",flush=True)
         rows = []
         for i in range(len(texts)):
             p = np.mean(accum[i], axis=0) if accum[i] else np.full(3, np.nan)

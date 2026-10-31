@@ -30,5 +30,14 @@ if __name__=="__main__":
             c=c[c.term.eq(c.score)&c.specification.eq("controlled")].copy()
             c["sensitivity"]=name
             tables.append(c)
+    covered=base.merge(aggregate(articles),on="symbol",how="left",validate="one_to_one")
+    covered.article_count=covered.article_count.fillna(0)
+    for name, panel in [("minimum_5_headlines",covered[covered.article_count>=5]),
+                        ("exclude_2026",covered[pd.to_datetime(covered.listing_date).dt.year<2026])]:
+        c,_,_,skipped=estimate(panel)
+        if not c.empty:
+            c=c[c.term.eq(c.score)&c.specification.eq("controlled")].copy()
+            c["sensitivity"]=name
+            tables.append(c)
     if tables:
         pd.concat(tables,ignore_index=True).to_csv(out/"sensitivity.csv",index=False)

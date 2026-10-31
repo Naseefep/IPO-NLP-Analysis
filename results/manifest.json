@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-29T05:25:48.922701+00:00",
+  "created_utc": "2026-10-31T06:12:48.506126+00:00",
   "python": "3.12.10",
   "status": "complete",
   "mode": "research",
@@ -7,9 +7,9 @@
   "text_field": "headline",
   "model": "both",
   "inputs": {
-    "data/research/ipos.csv": "c361e80ad9fa6d1e4eb8ec57842bf9d49217d902a0f5be0b88021779c93c5f42",
-    "data/research/prices.csv": "7bba9defcfd4b9b89fa1f6c2c4fa4c40f4907437eaf78ecb2ea0c149fb9f973a",
-    "data/research/news.csv": "06faef5201e08c92a3ee71b75d027b930fc7ed47ead0f94a2117be107385f841"
+    "data/research/ipos.csv": "e230254a825f6471a8bbe9da32bcd6a2dae7dc24b076c10257efe0705d55d7a4",
+    "data/research/prices.csv": "ee30c0c0c99e9210a09940facaf36334ffcf25b0607b057804ce0728b05b1a7e",
+    "data/research/news.csv": "a225d68176b076a5db79e87ec20a13d3088601d55c2ae06f195c26a85596b533"
   },
   "packages": {
     "pandas": "2.3.3",
@@ -19,16 +19,19 @@
     "transformers": "4.57.6",
     "torch": "2.15.0+cpu"
   },
+  "holdout_from": "2026-01-01",
   "counts": {
-    "ipos": 46,
-    "news_input": 828,
-    "news_retained": 406,
-    "verified_prices": 46
+    "ipos": 162,
+    "news_input": 11247,
+    "news_retained": 2830,
+    "verified_prices": 162,
+    "ipos_with_news": 158
   },
   "news_rejections": {
-    "": 406,
-    "relevance_not_verified": 230,
-    "at_or_after_cutoff": 192
+    "duplicate": 4077,
+    "": 2830,
+    "relevance_not_verified": 2265,
+    "at_or_after_cutoff": 2075
   },
   "lm_dictionary_sha256": "147cb24a1687ccde60363a0fa29c62be4097debcc698c01a83e51bb8a176dbb3",
   "lm_dictionary_path": "data/lexicons/Loughran-McDonald_MasterDictionary_1993-2025.csv",

@@ -1,178 +1,175 @@
-# Financial news sentiment and Indian IPO outcomes
+# Financial news sentiment and IPO listing-day performance, 2020-2026
 
-A reproducible study of pre-listing headline sentiment, listing-day returns and
-daily high-low volatility for an explicitly bounded sample of 2023 NSE mainboard
-IPOs. It compares **FinBERT** with the **Loughran-McDonald financial dictionary**.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naseefep/IPO-NLP-Analysis/blob/main/notebooks/ipo_sentiment.ipynb)
 
-The Python package provides input validation, strict news cutoffs, verified
-exchange prices, audit files, robust inference, chronological prediction checks
-and a report generated from results.
+A reproducible comparison of **FinBERT** and the **Loughran-McDonald financial
+dictionary**, using a date-stratified sample of NSE mainboard IPOs from every
+year from 2020 through 2026. **2026 is year to date through 31 October.**
 
 ## Start here
 
-- [Research report (PDF)](reports/report.pdf) and [editable text](reports/report.md).
-- [Jupyter / Colab notebook](notebooks/ipo_sentiment.ipynb).
-- `results/`: frozen empirical output tables, audits, chart and run manifest.
-- `data/research/`: study input tables and source provenance.
-- `src/iposent/`: reusable analysis code.
+- [Full project report (PDF)](reports/report.pdf) and [editable report](reports/report.md).
+- [Open the notebook in Colab](https://colab.research.google.com/github/Naseefep/IPO-NLP-Analysis/blob/main/notebooks/ipo_sentiment.ipynb).
+- [IPO-by-IPO news counts](results/ipo_news_counts.csv).
+- [Year-wise coverage](results/yearly_coverage.csv).
+- [Study input tables](data/research/) and [frozen results](results/).
 
-## Verified study snapshot
+## Study coverage
 
-The study sample has **46 exchange-verified IPOs** and **406 eligible headlines
-covering 44 IPOs**. FinBERT's controlled return coefficient has raw p = 0.047 and
-Holm-adjusted p = 0.189. None of the four primary sentiment tests passes the
-adjusted 5% threshold. For held-out listing returns, RMSE is 43.15 percentage
-points for the historical-mean baseline and 45.11 for controls plus FinBERT.
-The report explains why these results do not establish reliable forecasting value.
+**162 exchange-verified IPOs** and **2,830 eligible distinct headlines**
+covering **158 IPOs**. Headline observations are
+retained only after local publication-date, issuer-relevance and duplicate checks.
+These are headlines and metadata, not full article bodies.
 
-## Install
+| Listing year | Verified IPOs | IPOs with news | Eligible headlines |
+|---|---:|---:|---:|
+| 2020 | 12 | 12 | 95 |
+| 2021 | 25 | 23 | 165 |
+| 2022 | 25 | 23 | 260 |
+| 2023 | 25 | 25 | 284 |
+| 2024 | 25 | 25 | 315 |
+| 2025 | 25 | 25 | 439 |
+| 2026 YTD | 25 | 25 | 1272 |
 
-Python 3.10+ is required; Python 3.12 is recommended. From this folder:
+Annual selection targets 25 IPOs at evenly spaced listing-date ranks. The smaller
+2020 frame has 12 candidates, all retained. No sentiment score, return or p-value
+is used to pick the date strata. Missing-news IPOs stay in the price panel but
+are excluded from sentiment regressions. The sample is not a full IPO census.
+
+## Main result
+
+The controlled FinBERT return coefficient is 79.628, with raw p = 0.0018
+and Holm-adjusted p = 0.0073. Across the four controlled sentiment
+tests, 1 passes the adjusted 5% threshold.
+Read the report for confidence intervals, 2026 prediction errors and limitations.
+Textual sentiment accuracy, association and return prediction are separate claims.
+
+## Run in Google Colab
+
+1. Click **Open in Colab** above.
+2. Click **Copy to Drive** to keep an editable copy.
+3. Run the first code cell: it downloads the public repository automatically.
+4. Run the saved-results cell to inspect the published study without a model download.
+5. Run the installation cell, then the analysis and output cells in order.
+
+Click the **play button on the left of a code cell** to run it. No ZIP upload,
+Drive mount or API key is required. A full model run downloads FinBERT weights
+and the authors' official dictionary. A GPU is optional; CPU execution is supported.
+
+## Local installation and reproduction
+
+Python 3.10+ is supported; Python 3.12 is recommended.
 
 ```bash
 python -m venv .venv
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
+# Windows PowerShell: .venv\Scripts\Activate.ps1
 # macOS/Linux: source .venv/bin/activate
 python -m pip install -e ".[finbert]"
-```
-
-The base install is lightweight and supports dictionary analysis. FinBERT also
-downloads approximately 440 MB of model weights on first use; a GPU is optional.
-`requirements-lock.txt` records the verified environment. For a CPU-only torch
-wheel, install torch from the official PyTorch CPU index before the editable install.
-
-## Reproduce the empirical study
-
-```bash
 python scripts/download_lm.py
-ipo-sentiment --ipos data/research/ipos.csv --prices data/research/prices.csv --news data/research/news.csv --model both --lm-dictionary data/lexicons/Loughran-McDonald_MasterDictionary_1993-2025.csv --output outputs/my-reproduction
+ipo-sentiment --ipos data/research/ipos.csv --prices data/research/prices.csv --news data/research/news.csv --model both --holdout-from 2026-01-01 --lm-dictionary data/lexicons/Loughran-McDonald_MasterDictionary_1993-2025.csv --output outputs/my-reproduction
 ```
 
-Choose a new output folder for every run. The command never mixes new files with
-old outputs. The manifest records input and dictionary hashes, package versions,
-the immutable FinBERT revision, exclusions and model status. Compare the new
-tables with `results/`; small floating-point differences can occur across runtimes.
+Choose a **new or empty output folder** for each run. The manifest records input
+SHA-256 hashes, package versions, window, model revision and exclusion counts.
+`requirements-lock.txt` records the verified dependency versions; the CPU torch
+wheel uses the official PyTorch CPU index. Model weights and dictionary files are
+downloaded separately, not bundled with the code.
 
-The local model cache and original dictionary are excluded from Git and the ZIP.
-The dictionary downloader validates the response and tries the authors' official
-spreadsheet export if their CSV download is unavailable.
-
-After the main run, `python scripts/sensitivity.py` reproduces the exploratory
-checks from `results/article_scores.csv`. `python scripts/build_report.py`
-regenerates the PDF and editable report from the frozen `results/` folder
-(install the `report` extra first). `python scripts/verify_results.py` checks
-the frozen output's input hashes, probability scores and date boundaries.
-
-## Collect the source dataset
+## Collect the historical sources
 
 ```bash
-python scripts/collect_2023.py
+python scripts/collect_multiyear.py --target-per-year 25 --as-of 2026-10-31
+python scripts/enrich_news.py
 ```
 
-This downloads the current NSE past-issues feed, selects EQ issues both opened
-and listed in 2023, and matches the exact listing date and symbol/series in the
-official NSE bhavcopy. The issue price must equal the first-day PREVCLOSE field.
-It caches raw public responses locally and records hashes and source URLs.
-It then retrieves historical RSS candidates using a dated company query.
-Live sources can change, so use the bundled input tables for the frozen study.
+These commands write a new source collection to `data/multiyear/` and cache raw
+public responses under `data/raw/`. They do not overwrite the published research
+inputs. Use the frozen `data/research/` inputs to reproduce the report, since
+live search results and the NSE feed can change.
 
-This is a **feed-defined sample**, not a claim to cover every Indian IPO in 2023.
-SME issues, REITs and InvITs are outside the selected EQ sample. Never add an IPO
-solely because its first-day price resembles an issue price.
+Financial verification uses official legacy and UDiFF NSE bhavcopies, matching
+the exact date and EQ-series identity. Official symbol-change records support
+documented ticker renames. Feed issue price must equal the first-day reference
+price. Invalid OHLC and unmatched prices are excluded with reasons.
+
+News searches use full issuer names, declared distinctive aliases, unique issuer
+prefixes and split time windows. `sampling_frame.csv`, `selection_audit.csv`,
+`issuer_aliases.csv`, `query_log.csv` and `sources.json` document the process.
+The analysis independently reapplies all eligibility rules after retrieval.
 
 ## Research choices
 
-1. Retain news in `[listing midnight IST - 30 calendar days, listing midnight IST)`.
-   Listing-day articles are excluded even when they have only a calendar date.
-   The search query is only discovery; local timestamp filtering is authoritative.
-2. Require the normalised company phrase and the word IPO in a headline. This
-   deterministic relevance rule is recorded, not presented as human annotation.
-   Company aliases can improve coverage but must be declared before estimation.
-3. Deduplicate within each IPO by normalised headline or identical URL. Store
-   every rejected candidate with a reason. Near-duplicate syndicated stories can remain.
-4. Score headlines without removing negation or stopwords. Remove the publisher
-   suffix when it exactly matches the RSS source. Do not add snippets that repeat
-   a headline or contain search-page boilerplate.
-5. FinBERT score is `P(positive) - P(negative)`. Preserve all three probabilities.
-   Overlength text is chunked without silent truncation and chunk probabilities
-   are averaged. The short-headline study does not need long-document chunking.
-6. LM score is `(positive tokens - negative tokens) / all alphabetic tokens`.
-   Removed category flags are excluded. Retain coverage and uncertainty measures.
-   No lexicon matches means zero polarity; no eligible news means missing sentiment.
-7. Average each method's article scores equally within an IPO. No price outcomes
-   enter scoring or headline selection. Compare methods on the same retained corpus.
-8. Return is `100 * (listing close / issue price - 1)`, in percentage points.
-   Parkinson daily range proxy is `ln(high/low)/sqrt(4*ln(2))`, in daily units.
-   It is not an annualised measure or observed intraday realised volatility.
-9. Fit simple and controlled OLS separately for each sentiment method and target.
-   Controls: log issue price, log(1 + headline count), within-year listing-date trend
-   and year indicators if multiple years exist. Use HC3 standard errors and t-based
-   confidence intervals. Reject singular designs and unit-leverage inference.
-   Apply Holm adjustment to the four controlled sentiment tests.
-10. Separately hold out the latest 25% of unique listing dates, keeping same-date
-    IPOs together. Compare historical-mean, controls-only and controls-plus-sentiment
-    predictions on identical rows. Forecasting controls are log issue price and
-    log headline count; no future-year dummy is estimated. Report MAE and RMSE.
+1. News window: 30 calendar days before listing, ending immediately before
+   listing-day midnight IST. Exclude all listing-day or later items and invalid dates.
+2. Relevance: declared issuer-name/alias match plus IPO in the headline. This is
+   a deterministic rule, not independent human annotation.
+3. Deduplication: identical URLs or normalised headline text within the IPO,
+   after removing an exact RSS publisher suffix. Near-duplicate syndication can remain.
+4. FinBERT: `P(positive) - P(negative)`, preserving all three probabilities.
+   Long text is token-chunked without silent truncation. No stemming or stopword removal.
+5. LM: `(positive tokens - negative tokens) / all alphabetic tokens`, excluding
+   removed category flags. Retain polarity coverage and uncertainty separately.
+6. IPO sentiment: equal-weighted mean of eligible headline scores. No news is
+   missing sentiment, not neutral sentiment.
+7. Outcomes: issue-to-close listing return in percentage points, and the
+   Parkinson daily high-low proxy, without annualisation.
+8. Controlled OLS: sentiment, log issue price, log(1 + headline count), year
+   indicators and within-year date trend; HC3 SE and pointwise 95% t intervals.
+   Holm adjustment covers the four controlled sentiment tests.
+9. Prediction: train on IPOs before 2026 and test on covered 2026 IPOs. Compare
+   historical mean, controls-only and controls-plus-sentiment models on identical rows.
+10. Sensitivity: 14-day window, exclude GMP titles, at least five headlines per
+    IPO, and association models excluding 2026. These are exploratory checks.
 
-## Offline software demonstration
+## Diagnostics and report generation
 
 ```bash
+python scripts/sensitivity.py
+python scripts/make_figures.py
+python scripts/verify_results.py
+python -m pip install -e ".[report]"
+python scripts/build_report.py
+```
+
+These supporting scripts use the frozen `results/` folder. The report contains
+the introduction, literature, objectives, methods, yearly coverage, empirical
+findings, prediction test, sensitivity checks, limitations, references and a
+company-by-company appendix with headline counts for every year.
+
+## Offline tests and fictional demonstration
+
+```bash
+python -m unittest discover -s tests -v
 python scripts/create_demo.py
 ipo-sentiment --ipos data/demo/ipos.csv --prices data/demo/prices.csv --news data/demo/news.csv --model lm --lm-dictionary data/demo/toy_dictionary.csv --demo --output outputs/demo
-python -m unittest discover -s tests -v
 ```
 
-The fictional companies, prices, headlines and toy word list test the software.
-They are clearly marked synthetic and are never used in the research report.
-GitHub Actions runs these tests without downloading FinBERT or a dictionary.
+The demo companies, prices, headlines and tiny word list are fictional fixtures.
+They test the software and never contribute to the research report. GitHub
+Actions runs offline tests and the demo without downloading model weights.
 
-## Use your own data
+## Interpretation and limits
 
-See `data/templates/` and the column specification in `docs/data_dictionary.md`.
-`scripts/collect_prices.py` and `scripts/collect_news.py` create candidates for
-other years; independent price and relevance verification is required. They do
-not automatically certify a complete historical corpus.
+Retrospective RSS discovery is incomplete and changes with time. Older stories,
+brand-only titles and revised metadata can affect coverage. Exact deduplication
+does not remove all dependence between articles. The study has no independent
+Indian IPO sentiment gold labels and does not claim local classification accuracy.
 
-## Limits and interpretation
+The current model and dictionary vintages make this retrospective measurement,
+not a certified historically deployable trading strategy. HC3 does not eliminate
+omitted variables, endogeneity or common market shocks. Association is not
+causation; a null result does not prove market efficiency. IPO allocation,
+risk-adjusted benchmarks, financing and trading costs are outside the design.
 
-Retrospective RSS retrieval, incomplete coverage, headline-only text, a small
-single-year sample and unmeasured IPO characteristics limit inference. The
-current dictionary/model vintage makes this a retrospective measurement study,
-not a certified historically deployable trading strategy. A non-significant
-coefficient does not establish market efficiency. An association does not identify
-a causal effect. See the report for actual estimates and prediction errors.
-
-## Publish on GitHub
-
-The release ZIP contains the source, input metadata, frozen results and report.
-Extract it, open a terminal in the project folder and run:
-
-```bash
-git init
-git add .
-git commit -m "Add reproducible IPO sentiment study"
-git branch -M main
-```
-
-Create an empty repository in your GitHub account, then use its actual URL:
-
-```bash
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
-Review the source terms in `THIRD_PARTY_NOTICES.md` before distributing third-party
-materials. The project's MIT license applies to original code. No model weights,
-private documents, credentials or local environments belong in the repository.
-
-## References
+## References and rights
 
 - Araci (2019), [FinBERT](https://arxiv.org/abs/1908.10063).
-- Loughran & McDonald (2011), *When Is a Liability Not a Liability? Textual Analysis,
-  Dictionaries, and 10-Ks*, Journal of Finance 66(1), 35-65;
-  [authors' dictionary](https://sraf.nd.edu/loughranmcdonald-master-dictionary/).
-- Parkinson (1980), *The Extreme Value Method for Estimating the Variance of the
-  Rate of Return*, Journal of Business 53(1), 61-65.
-- [NSE reports](https://www.nseindia.com/all-reports) and the source URLs recorded
-  for each observation.
+- Huang, Wang and Yang (2023), [FinBERT and financial text](https://doi.org/10.1111/1911-3846.12832).
+- Loughran and McDonald (2011), [financial dictionaries](https://doi.org/10.1111/j.1540-6261.2010.01625.x);
+  [official dictionary](https://sraf.nd.edu/loughranmcdonald-master-dictionary/).
+- Parkinson (1980), [daily high-low estimator](https://doi.org/10.1086/296071).
+- [NSE source reports](https://www.nseindia.com/all-reports); exact source URLs and hashes accompany the data.
+
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The MIT license covers
+original project code; model weights, dictionary, exchange records and publisher
+material retain their original terms.

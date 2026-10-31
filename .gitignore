@@ -9,6 +9,7 @@ data/raw/*
 data/lexicons/*
 !data/lexicons/README.md
 outputs/
+data/multiyear/
 original/
 tmp/
 *.egg-info/

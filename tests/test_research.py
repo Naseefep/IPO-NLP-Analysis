@@ -76,6 +76,23 @@ class ResearchTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_ipos(pd.concat([self.ipos,self.ipos]))
 
+    def test_publisher_suffix_does_not_create_distinct_stories(self):
+        n=self.news(["2024-01-30"]*2)
+        n.loc[0,["headline","source"]]=["ABC IPO demand increases - Publisher A","Publisher A"]
+        n.loc[1,["headline","source"]]=["ABC IPO demand increases - Publisher B","Publisher B"]
+        keep,audit=filter_news(self.ipos,n)
+        self.assertEqual(len(keep),1)
+        self.assertEqual(keep.text.iloc[0],"ABC IPO demand increases")
+        self.assertEqual(audit.rejection.iloc[1],"duplicate")
+
+    def test_predeclared_year_holdout(self):
+        rng=np.random.default_rng(7)
+        d=pd.DataFrame(dict(symbol=[f"T{i}" for i in range(40)],listing_date=pd.date_range("2024-01-01",periods=40,freq="25D"),issue_price=rng.uniform(50,500,40),article_count=rng.integers(1,20,40),lm_score=rng.normal(size=40),listing_return_pct=rng.normal(size=40)))
+        metric,pred=holdout(d,"lm_score","listing_return_pct",cutoff_date="2026-01-01")
+        self.assertEqual(metric['status'],'ok')
+        self.assertTrue((pred.listing_date>=pd.Timestamp('2026-01-01')).all())
+        self.assertEqual(metric['split_rule'],'predeclared_calendar_cutoff')
+
     def test_holdout_keeps_whole_dates(self):
         rng=np.random.default_rng(4)
         dates=pd.date_range("2023-01-01",periods=20,freq="7D").repeat(2)

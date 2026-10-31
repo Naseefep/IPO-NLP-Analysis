@@ -9,19 +9,21 @@ def md(text):
 def code(text):
     cells.append(dict(cell_type="code",metadata={},execution_count=None,outputs=[],source=text.splitlines(keepends=True)))
 
-md("""# Financial news sentiment and Indian IPO outcomes
+md("""# Financial news sentiment and IPO listing-day performance, 2020-2026
 Naseef E. P. | October 2026
 
 Compare FinBERT and Loughran-McDonald sentiment on dated pre-listing headlines.
-The frozen sample, audit trail and report are included in the project ZIP.
+The study spans 2020-2026, with 2026 observed through 31 October. The frozen
+sample, audit trail and project report are included in the repository.
 Read `README.md` and `reports/report.pdf` for the scope and actual findings.
 
-**Local Jupyter:** open this notebook from the repository. **Colab:** upload the
-project ZIP in the next cell. The first complete model run downloads weights;
-CPU inference is supported. No API keys are required.
+**Local Jupyter:** open this notebook from the repository. **Colab:** the first
+cell downloads the public project automatically. No ZIP upload is needed.
+Run cells in order using the play button on their left. The first complete model
+run downloads weights; CPU inference is supported. No API keys are required.
 """)
 code("""from pathlib import Path
-import os, sys, zipfile
+import os, sys, subprocess
 try:
     import google.colab
     IN_COLAB = True
@@ -29,21 +31,10 @@ except ImportError:
     IN_COLAB = False
 
 if IN_COLAB:
-    from google.colab import files
-    uploaded = files.upload()  # select ipo-sentiment-research.zip
-    archive = next(Path(name) for name in uploaded if name.endswith('.zip'))
-    destination = Path('/content/ipo-study').resolve()
-    destination.mkdir(exist_ok=True)
-    with zipfile.ZipFile(archive) as z:
-        for member in z.infolist():
-            resolved = (destination / member.filename).resolve()
-            if destination != resolved and destination not in resolved.parents:
-                raise ValueError('Unsafe archive member')
-        z.extractall(destination)
-    candidates = list(destination.rglob('pyproject.toml'))
-    if len(candidates) != 1:
-        raise ValueError('Expected one project in the archive')
-    project = candidates[0].parent
+    project = Path('/content/ipo-sentiment-2020-2026')
+    if not (project / 'pyproject.toml').exists():
+        subprocess.check_call(['git', 'clone', '--branch', 'main',
+            'https://github.com/Naseefep/IPO-NLP-Analysis.git', str(project)])
 else:
     project = Path.cwd()
     if not (project / 'pyproject.toml').exists():
@@ -52,12 +43,17 @@ else:
         raise FileNotFoundError('Open the notebook from this project folder')
 os.chdir(project)
 print('Project:', project)
+if (project / '.git').exists():
+    print('Source commit:', subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD'], text=True).strip())
+else:
+    print('Source: extracted project archive')
 """)
 md("## 1. Inspect the frozen study before downloading a model")
 code("""import json
 import pandas as pd
 manifest = json.loads(Path('results/manifest.json').read_text())
 print(manifest['counts'])
+display(pd.read_csv('results/yearly_coverage.csv'))
 print('Model revision:', manifest.get('finbert_revision'))
 panel = pd.read_csv('results/analysis_panel.csv')
 display(panel[['symbol', 'listing_date', 'article_count', 'finbert_score', 'lm_score', 'listing_return_pct']])
@@ -78,6 +74,7 @@ subprocess.check_call([
     '--prices', 'data/research/prices.csv',
     '--news', 'data/research/news.csv',
     '--model', 'both',
+    '--holdout-from', '2026-01-01',
     '--lm-dictionary', 'data/lexicons/Loughran-McDonald_MasterDictionary_1993-2025.csv',
     '--output', run_folder,
 ])

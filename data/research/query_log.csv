@@ -1,0 +1,603 @@
+symbol,year,query_id,label,query,count,status
+SBICARD,2020,0c55bf8fcfab0687,full,"""SBI Cards and Payment Services"" IPO after:2020-02-15 before:2020-03-16",11,ok
+SBICARD,2020,819a283a5c51f5f5,alias,"""SBI Card"" IPO after:2020-02-15 before:2020-03-16",20,ok
+SBICARD,2020,3afaabd103088015,first_half,"""SBI Card"" IPO after:2020-02-15 before:2020-03-01",4,ok
+SBICARD,2020,0e8b5a57292d6595,second_half,"""SBI Card"" IPO after:2020-03-01 before:2020-03-16",18,ok
+ROSSARI,2020,dd8977369fc43acc,full,"""Rossari Biotech"" IPO after:2020-06-23 before:2020-07-23",8,ok
+ROSSARI,2020,0322eaa3054af671,first_half,"""Rossari Biotech"" IPO after:2020-06-23 before:2020-07-08",1,ok
+ROSSARI,2020,947da52743198ae7,second_half,"""Rossari Biotech"" IPO after:2020-07-08 before:2020-07-23",8,ok
+HAPPSTMNDS,2020,3f9379df7e11ca61,full,"""Happiest Minds Technologies"" IPO after:2020-08-18 before:2020-09-17",16,ok
+HAPPSTMNDS,2020,5b25258f88531308,alias,"""Happiest Minds"" IPO after:2020-08-18 before:2020-09-17",17,ok
+HAPPSTMNDS,2020,8d9f83a77c7f682c,first_half,"""Happiest Minds"" IPO after:2020-08-18 before:2020-09-02",1,ok
+HAPPSTMNDS,2020,5d145c9be2a300db,second_half,"""Happiest Minds"" IPO after:2020-09-02 before:2020-09-17",17,ok
+ROUTE,2020,f8cb6a71e4610904,full,"""Route Mobile"" IPO after:2020-08-22 before:2020-09-21",10,ok
+ROUTE,2020,77e164038affc7bc,first_half,"""Route Mobile"" IPO after:2020-08-22 before:2020-09-06",0,ok
+ROUTE,2020,680e5b1bac5156ba,second_half,"""Route Mobile"" IPO after:2020-09-06 before:2020-09-21",10,ok
+CHEMCON,2020,0bd52d85e36a0ff6,full,"""Chemcon Speciality Chemicals"" IPO after:2020-09-01 before:2020-10-01",12,ok
+CHEMCON,2020,b9403ece04c3f182,first_half,"""Chemcon Speciality Chemicals"" IPO after:2020-09-01 before:2020-09-16",6,ok
+CHEMCON,2020,d98088cdff2f5fbf,second_half,"""Chemcon Speciality Chemicals"" IPO after:2020-09-16 before:2020-10-01",12,ok
+ANGELBRKG,2020,fc0443b4b810c4d8,full,"""Angel Broking"" IPO after:2020-09-05 before:2020-10-05",11,ok
+ANGELBRKG,2020,5ce4bb5e137e7a12,first_half,"""Angel Broking"" IPO after:2020-09-05 before:2020-09-20",9,ok
+ANGELBRKG,2020,3543106a9936aa92,second_half,"""Angel Broking"" IPO after:2020-09-20 before:2020-10-05",10,ok
+MAZDOCK,2020,3ee6c2cd42df7d68,full,"""Mazagon Dock Shipbuilders"" IPO after:2020-09-12 before:2020-10-12",12,ok
+MAZDOCK,2020,bcc20e15238c04f3,first_half,"""Mazagon Dock Shipbuilders"" IPO after:2020-09-12 before:2020-09-27",4,ok
+MAZDOCK,2020,c90217d5c908bddc,second_half,"""Mazagon Dock Shipbuilders"" IPO after:2020-09-27 before:2020-10-12",10,ok
+UTIAMC,2020,4b2f1968d63f42db,full,"""UTI Asset Management Company"" IPO after:2020-09-12 before:2020-10-12",9,ok
+UTIAMC,2020,611ecab760648003,first_half,"""UTI Asset Management Company"" IPO after:2020-09-12 before:2020-09-27",2,ok
+UTIAMC,2020,9c529dce34c6478a,second_half,"""UTI Asset Management Company"" IPO after:2020-09-27 before:2020-10-12",7,ok
+EQUITASBNK,2020,2c234f34b14dc66b,full,"""Equitas Small Finance Bank"" IPO after:2020-10-03 before:2020-11-02",12,ok
+EQUITASBNK,2020,94f75fb8a587ef3c,first_half,"""Equitas Small Finance Bank"" IPO after:2020-10-03 before:2020-10-18",5,ok
+EQUITASBNK,2020,be1968215cae4174,second_half,"""Equitas Small Finance Bank"" IPO after:2020-10-18 before:2020-11-02",10,ok
+GLAND,2020,d2f798977be8a2db,full,"""Gland Pharma"" IPO after:2020-10-21 before:2020-11-20",10,ok
+GLAND,2020,4eda0d20b91badb5,first_half,"""Gland Pharma"" IPO after:2020-10-21 before:2020-11-05",5,ok
+GLAND,2020,279c0a930cca2eeb,second_half,"""Gland Pharma"" IPO after:2020-11-05 before:2020-11-20",8,ok
+BURGERKING,2020,e934060c45cd52b0,full,"""Burger King India"" IPO after:2020-11-14 before:2020-12-14",12,ok
+BURGERKING,2020,6b6ecaeee519c290,first_half,"""Burger King India"" IPO after:2020-11-14 before:2020-11-29",3,ok
+BURGERKING,2020,566c98141aa71570,second_half,"""Burger King India"" IPO after:2020-11-29 before:2020-12-14",10,ok
+BECTORFOOD,2020,e3dd0824573dfbe3,full,"""Mrs. Bectors Food Specialities"" IPO after:2020-11-24 before:2020-12-24",22,ok
+BECTORFOOD,2020,66a4fd17dd5dccba,alias,"""Bectors Food"" IPO after:2020-11-24 before:2020-12-24",25,ok
+BECTORFOOD,2020,f10790f29575e4bd,first_half,"""Bectors Food"" IPO after:2020-11-24 before:2020-12-09",1,ok
+BECTORFOOD,2020,fbec6401c37905fd,second_half,"""Bectors Food"" IPO after:2020-12-09 before:2020-12-24",25,ok
+AWHCL,2021,82c361b59ed40ffe,full,"""Antony Waste Handling Cell"" IPO after:2020-12-02 before:2021-01-01",11,ok
+AWHCL,2021,cd542ed17cd7bd2b,first_half,"""Antony Waste Handling Cell"" IPO after:2020-12-02 before:2020-12-17",1,ok
+AWHCL,2021,08a476eb01a8e4e6,second_half,"""Antony Waste Handling Cell"" IPO after:2020-12-17 before:2021-01-01",11,ok
+HOMEFIRST,2021,569909ffc1610086,full,"""Home First Finance Company India"" IPO after:2021-01-04 before:2021-02-03",6,ok
+HOMEFIRST,2021,3d94797394f6fc8d,first_half,"""Home First Finance Company India"" IPO after:2021-01-04 before:2021-01-19",1,ok
+HOMEFIRST,2021,d07d79dc01262e08,second_half,"""Home First Finance Company India"" IPO after:2021-01-19 before:2021-02-03",6,ok
+HERANBA,2021,c701876a981f6ab6,full,"""Heranba Industries"" IPO after:2021-02-03 before:2021-03-05",9,ok
+HERANBA,2021,67dbe8fc756ff272,alias,"""Heranba"" IPO after:2021-02-03 before:2021-03-05",10,ok
+HERANBA,2021,de1ea62e9eb4e4fe,first_half,"""Heranba"" IPO after:2021-02-03 before:2021-02-18",0,ok
+HERANBA,2021,1ab0bcfdcaff0887,second_half,"""Heranba"" IPO after:2021-02-18 before:2021-03-05",10,ok
+EASEMYTRIP,2021,2670db0beed77744,full,"""Easy Trip Planners"" IPO after:2021-02-17 before:2021-03-19",9,ok
+EASEMYTRIP,2021,b151d9f42f38ae75,first_half,"""Easy Trip Planners"" IPO after:2021-02-17 before:2021-03-04",0,ok
+EASEMYTRIP,2021,12509a5a0307839b,second_half,"""Easy Trip Planners"" IPO after:2021-03-04 before:2021-03-19",9,ok
+LXCHEM,2021,2773cc6254b806f7,full,"""Laxmi Organic Industries"" IPO after:2021-02-23 before:2021-03-25",9,ok
+LXCHEM,2021,dc983bc6127a5fa6,alias,"""Laxmi Organic"" IPO after:2021-02-23 before:2021-03-25",9,ok
+LXCHEM,2021,f9064abbb81f9f48,first_half,"""Laxmi Organic"" IPO after:2021-02-23 before:2021-03-10",2,ok
+LXCHEM,2021,0d010f117d5a3713,second_half,"""Laxmi Organic"" IPO after:2021-03-10 before:2021-03-25",7,ok
+SURYODAY,2021,f326fd5872cdac06,full,"""Suryoday Small Finance Bank"" IPO after:2021-02-24 before:2021-03-26",12,ok
+SURYODAY,2021,4c600bf079da68bf,first_half,"""Suryoday Small Finance Bank"" IPO after:2021-02-24 before:2021-03-11",0,ok
+SURYODAY,2021,f2ebfbc834e9be24,second_half,"""Suryoday Small Finance Bank"" IPO after:2021-03-11 before:2021-03-26",12,ok
+LODHA,2021,7478589d56551d18,full,"""Macrotech Developers"" IPO after:2021-03-20 before:2021-04-19",10,ok
+LODHA,2021,6ef37f4fb8f4185a,first_half,"""Macrotech Developers"" IPO after:2021-03-20 before:2021-04-04",4,ok
+LODHA,2021,8cb913680e1642a4,second_half,"""Macrotech Developers"" IPO after:2021-04-04 before:2021-04-19",9,ok
+SONACOMS,2021,596782832f372a8c,full,"""Sona BLW Precision Forgings"" IPO after:2021-05-25 before:2021-06-24",16,ok
+SONACOMS,2021,4f700edcd3c9297f,first_half,"""Sona BLW Precision Forgings"" IPO after:2021-05-25 before:2021-06-09",0,ok
+SONACOMS,2021,e5700e6255835771,second_half,"""Sona BLW Precision Forgings"" IPO after:2021-06-09 before:2021-06-24",16,ok
+KIMS,2021,1958070f63a94a26,full,"""Krishna Institute of Medical Sciences"" IPO after:2021-05-29 before:2021-06-28",10,ok
+KIMS,2021,6ff22d846f2b244f,first_half,"""Krishna Institute of Medical Sciences"" IPO after:2021-05-29 before:2021-06-13",1,ok
+KIMS,2021,31efd55e197f452d,second_half,"""Krishna Institute of Medical Sciences"" IPO after:2021-06-13 before:2021-06-28",10,ok
+GRINFRA,2021,c81e6e7c4b586a93,full,"""G R Infraprojects"" IPO after:2021-06-19 before:2021-07-19",11,ok
+GRINFRA,2021,34ed923cea2b5df1,first_half,"""G R Infraprojects"" IPO after:2021-06-19 before:2021-07-04",2,ok
+GRINFRA,2021,ee983e1df3575805,second_half,"""G R Infraprojects"" IPO after:2021-07-04 before:2021-07-19",10,ok
+TATVA,2021,b72814134fd6a53b,full,"""Tatva Chintan Pharma Chem"" IPO after:2021-06-29 before:2021-07-29",8,ok
+TATVA,2021,f4cff049e38e6218,first_half,"""Tatva Chintan Pharma Chem"" IPO after:2021-06-29 before:2021-07-14",1,ok
+TATVA,2021,4222abb703a33c03,second_half,"""Tatva Chintan Pharma Chem"" IPO after:2021-07-14 before:2021-07-29",8,ok
+ROLEXRINGS,2021,9c366b79888a472d,full,"""Rolex Rings"" IPO after:2021-07-10 before:2021-08-09",19,ok
+ROLEXRINGS,2021,b065ba0c115cc395,first_half,"""Rolex Rings"" IPO after:2021-07-10 before:2021-07-25",0,ok
+ROLEXRINGS,2021,0a10868d10302c00,second_half,"""Rolex Rings"" IPO after:2021-07-25 before:2021-08-09",19,ok
+WINDLAS,2021,2bc2e42da1a4c81e,full,"""Windlas Biotech"" IPO after:2021-07-17 before:2021-08-16",16,ok
+WINDLAS,2021,828b3dc9641e83ed,first_half,"""Windlas Biotech"" IPO after:2021-07-17 before:2021-08-01",5,ok
+WINDLAS,2021,32e434949f327907,second_half,"""Windlas Biotech"" IPO after:2021-08-01 before:2021-08-16",14,ok
+APTUS,2021,53bf529a6bb75782,full,"""Aptus Value Housing Finance India"" IPO after:2021-07-25 before:2021-08-24",6,ok
+APTUS,2021,df527e8386ac6af0,first_half,"""Aptus Value Housing Finance India"" IPO after:2021-07-25 before:2021-08-09",3,ok
+APTUS,2021,6dd8db338533611b,second_half,"""Aptus Value Housing Finance India"" IPO after:2021-08-09 before:2021-08-24",5,ok
+AMIORG,2021,85b14ca291fa7a6b,full,"""Ami Organics"" IPO after:2021-08-15 before:2021-09-14",14,ok
+AMIORG,2021,836de21d28e59070,first_half,"""Ami Organics"" IPO after:2021-08-15 before:2021-08-30",9,ok
+AMIORG,2021,f2f7cc48274fe745,second_half,"""Ami Organics"" IPO after:2021-08-30 before:2021-09-14",10,ok
+SANSERA,2021,1416ccacc86699cd,full,"""Sansera Engineering"" IPO after:2021-08-25 before:2021-09-24",17,ok
+SANSERA,2021,5d7969aa629f0c61,first_half,"""Sansera Engineering"" IPO after:2021-08-25 before:2021-09-09",0,ok
+SANSERA,2021,60777c5b8d28bca1,second_half,"""Sansera Engineering"" IPO after:2021-09-09 before:2021-09-24",17,ok
+FINOPB,2021,047a788c40cac22f,full,"""FINO Payments Bank"" IPO after:2021-10-13 before:2021-11-12",14,ok
+FINOPB,2021,288de0bb64b10154,first_half,"""FINO Payments Bank"" IPO after:2021-10-13 before:2021-10-28",10,ok
+FINOPB,2021,8dcebb4d1ffe828f,second_half,"""FINO Payments Bank"" IPO after:2021-10-28 before:2021-11-12",9,ok
+SJS,2021,3b00a84371de8943,full,"""S J S Enterprises"" IPO after:2021-10-16 before:2021-11-15",9,ok
+SJS,2021,19f15c8284458b8e,first_half,"""S J S Enterprises"" IPO after:2021-10-16 before:2021-10-31",6,ok
+SJS,2021,3aa8cea262b4faed,second_half,"""S J S Enterprises"" IPO after:2021-10-31 before:2021-11-15",3,ok
+SAPPHIRE,2021,5527d0dfed3b2d0b,full,"""Sapphire Foods India"" IPO after:2021-10-19 before:2021-11-18",7,ok
+SAPPHIRE,2021,c61dcd9a6836cf31,first_half,"""Sapphire Foods India"" IPO after:2021-10-19 before:2021-11-03",1,ok
+SAPPHIRE,2021,63ec64e8b6a85f3f,second_half,"""Sapphire Foods India"" IPO after:2021-11-03 before:2021-11-18",8,ok
+GOCOLORS,2021,f8dba95dac897f35,full,"""Go Fashion (India)"" IPO after:2021-10-31 before:2021-11-30",7,ok
+GOCOLORS,2021,80f77d545c0ade22,first_half,"""Go Fashion (India)"" IPO after:2021-10-31 before:2021-11-15",0,ok
+GOCOLORS,2021,5cfebbc0cafc8b64,second_half,"""Go Fashion (India)"" IPO after:2021-11-15 before:2021-11-30",7,ok
+TEGA,2021,4670faad818daa6f,full,"""Tega Industries"" IPO after:2021-11-13 before:2021-12-13",14,ok
+TEGA,2021,ca1b58472acb6774,first_half,"""Tega Industries"" IPO after:2021-11-13 before:2021-11-28",2,ok
+TEGA,2021,d890ace5127fc9df,second_half,"""Tega Industries"" IPO after:2021-11-28 before:2021-12-13",12,ok
+RATEGAIN,2021,14573225b7dc3c8d,full,"""RateGain Travel Technologies"" IPO after:2021-11-17 before:2021-12-17",9,ok
+RATEGAIN,2021,a50700f31452c7d4,alias,"""RateGain Travel"" IPO after:2021-11-17 before:2021-12-17",9,ok
+RATEGAIN,2021,1b0e6769a4518f74,first_half,"""RateGain Travel"" IPO after:2021-11-17 before:2021-12-02",2,ok
+RATEGAIN,2021,0f76cb5ed5333e74,second_half,"""RateGain Travel"" IPO after:2021-12-02 before:2021-12-17",9,ok
+MAPMYINDIA,2021,0cf2a8b266386667,full,"""C.E. Info Systems"" IPO after:2021-11-21 before:2021-12-21",10,ok
+MAPMYINDIA,2021,b5bb671c1ddceea5,first_half,"""C.E. Info Systems"" IPO after:2021-11-21 before:2021-12-06",2,ok
+MAPMYINDIA,2021,5d28fba5000d230f,second_half,"""C.E. Info Systems"" IPO after:2021-12-06 before:2021-12-21",10,ok
+DATAPATTNS,2021,5fe24f1af85ef052,full,"""Data Patterns (India)"" IPO after:2021-11-24 before:2021-12-24",11,ok
+DATAPATTNS,2021,dee7787f0051c493,first_half,"""Data Patterns (India)"" IPO after:2021-11-24 before:2021-12-09",2,ok
+DATAPATTNS,2021,d104cf2dd4dddacb,second_half,"""Data Patterns (India)"" IPO after:2021-12-09 before:2021-12-24",10,ok
+CMSINFO,2021,c918d6ddf39425df,full,"""CMS Info Systems"" IPO after:2021-12-01 before:2021-12-31",13,ok
+CMSINFO,2021,a9ea754b56aac4b2,first_half,"""CMS Info Systems"" IPO after:2021-12-01 before:2021-12-16",1,ok
+CMSINFO,2021,735c52ed9194b040,second_half,"""CMS Info Systems"" IPO after:2021-12-16 before:2021-12-31",14,ok
+AGSTRA,2022,cc4376de7dc2dfa3,full,"""AGS Transact Technologies"" IPO after:2022-01-01 before:2022-01-31",6,ok
+AGSTRA,2022,6b2074b90fec2cfc,alias,"""AGS Transact"" IPO after:2022-01-01 before:2022-01-31",7,ok
+AGSTRA,2022,1e2b17057d3a5f2e,first_half,"""AGS Transact"" IPO after:2022-01-01 before:2022-01-16",0,ok
+AGSTRA,2022,9ce393f4734ce7b2,second_half,"""AGS Transact"" IPO after:2022-01-16 before:2022-01-31",7,ok
+AWL,2022,7c1846a01f54f936,full,"""Adani Wilmar"" IPO after:2022-01-09 before:2022-02-08",17,ok
+AWL,2022,607ae3a00da2ce6b,first_half,"""Adani Wilmar"" IPO after:2022-01-09 before:2022-01-24",8,ok
+AWL,2022,3590444adb6b0102,second_half,"""Adani Wilmar"" IPO after:2022-01-24 before:2022-02-08",12,ok
+CAMPUS,2022,2c060ada2d4a4474,full,"""Campus Activewear"" IPO after:2022-04-09 before:2022-05-09",9,ok
+CAMPUS,2022,06e2536e93ab47db,first_half,"""Campus Activewear"" IPO after:2022-04-09 before:2022-04-24",4,ok
+CAMPUS,2022,9e3b19586cd924d0,second_half,"""Campus Activewear"" IPO after:2022-04-24 before:2022-05-09",9,ok
+RAINBOW,2022,9fdd0e24a6eae4a8,full,"""Rainbow Childrens Medicare"" IPO after:2022-04-10 before:2022-05-10",4,ok
+RAINBOW,2022,a33e6558714c5703,first_half,"""Rainbow Childrens Medicare"" IPO after:2022-04-10 before:2022-04-25",2,ok
+RAINBOW,2022,b79ee761e6855e5e,second_half,"""Rainbow Childrens Medicare"" IPO after:2022-04-25 before:2022-05-10",3,ok
+LICI,2022,6e21013f98263aac,full,"""Life Insurance Corporation of India"" IPO after:2022-04-17 before:2022-05-17",77,ok
+LICI,2022,68d9e3684e6aab1f,first_half,"""Life Insurance Corporation of India"" IPO after:2022-04-17 before:2022-05-02",23,ok
+LICI,2022,240ad989a902c8e6,second_half,"""Life Insurance Corporation of India"" IPO after:2022-05-02 before:2022-05-17",56,ok
+DELHIVERY,2022,519becbbcecfef4d,full,"""Delhivery"" IPO after:2022-04-24 before:2022-05-24",21,ok
+DELHIVERY,2022,ee5ae16ac223a02d,first_half,"""Delhivery"" IPO after:2022-04-24 before:2022-05-09",10,ok
+DELHIVERY,2022,38bfe348263df0b6,second_half,"""Delhivery"" IPO after:2022-05-09 before:2022-05-24",14,ok
+PARADEEP,2022,6efed741c4811b43,full,"""Paradeep Phosphates"" IPO after:2022-04-27 before:2022-05-27",14,ok
+PARADEEP,2022,1320683552d9b0f3,first_half,"""Paradeep Phosphates"" IPO after:2022-04-27 before:2022-05-12",1,ok
+PARADEEP,2022,a48b003d4104cce1,second_half,"""Paradeep Phosphates"" IPO after:2022-05-12 before:2022-05-27",13,ok
+EMUDHRA,2022,abe8b9b55293fbf8,full,"""eMudhra"" IPO after:2022-05-02 before:2022-06-01",10,ok
+EMUDHRA,2022,1533931d9d1efb70,first_half,"""eMudhra"" IPO after:2022-05-02 before:2022-05-17",2,ok
+EMUDHRA,2022,e2378e8ba920144b,second_half,"""eMudhra"" IPO after:2022-05-17 before:2022-06-01",10,ok
+AETHER,2022,ed34b6b265d80d19,full,"""Aether Industries"" IPO after:2022-05-04 before:2022-06-03",11,ok
+AETHER,2022,b3b8ada701428750,alias,"""Aether"" IPO after:2022-05-04 before:2022-06-03",11,ok
+AETHER,2022,06f409d48c1d5d36,first_half,"""Aether"" IPO after:2022-05-04 before:2022-05-19",1,ok
+AETHER,2022,ca785ec5937cfe78,second_half,"""Aether"" IPO after:2022-05-19 before:2022-06-03",11,ok
+SYRMA,2022,b6440381b988b90e,full,"""Syrma SGS Technology"" IPO after:2022-07-27 before:2022-08-26",15,ok
+SYRMA,2022,2e8ff36343aaa033,alias,"""Syrma SGS"" IPO after:2022-07-27 before:2022-08-26",13,ok
+SYRMA,2022,9e37e3eeec2b2da3,first_half,"""Syrma SGS"" IPO after:2022-07-27 before:2022-08-11",3,ok
+SYRMA,2022,73cbc606bb6554eb,second_half,"""Syrma SGS"" IPO after:2022-08-11 before:2022-08-26",11,ok
+HARSHA,2022,b502443fdef3e898,full,"""Harsha Engineers International"" IPO after:2022-08-27 before:2022-09-26",15,ok
+HARSHA,2022,19ab77c6d9e58e93,alias,"""Harsha Engineers"" IPO after:2022-08-27 before:2022-09-26",16,ok
+HARSHA,2022,df3fa04a22ad29f8,first_half,"""Harsha Engineers"" IPO after:2022-08-27 before:2022-09-11",2,ok
+HARSHA,2022,e4a81f3d4f850eb9,second_half,"""Harsha Engineers"" IPO after:2022-09-11 before:2022-09-26",15,ok
+EMIL,2022,5651c7e58953f997,full,"""Electronics Mart India"" IPO after:2022-09-17 before:2022-10-17",9,ok
+EMIL,2022,c0b302ad4f919df2,first_half,"""Electronics Mart India"" IPO after:2022-09-17 before:2022-10-02",1,ok
+EMIL,2022,8fd8dee3c740a573,second_half,"""Electronics Mart India"" IPO after:2022-10-02 before:2022-10-17",9,ok
+TRACXN,2022,ad4251051bc3fb63,full,"""Tracxn Technologies"" IPO after:2022-09-20 before:2022-10-20",9,ok
+TRACXN,2022,8897b98a86219797,alias,"""Tracxn"" IPO after:2022-09-20 before:2022-10-20",9,ok
+TRACXN,2022,e2ce25aa32797f7d,first_half,"""Tracxn"" IPO after:2022-09-20 before:2022-10-05",3,ok
+TRACXN,2022,8f2a362773ef54ec,second_half,"""Tracxn"" IPO after:2022-10-05 before:2022-10-20",9,ok
+BIKAJI,2022,8642ca5f5e014b2a,full,"""Bikaji Foods International"" IPO after:2022-10-17 before:2022-11-16",13,ok
+BIKAJI,2022,3ad6e94bd8bfc32b,alias,"""Bikaji Foods"" IPO after:2022-10-17 before:2022-11-16",16,ok
+BIKAJI,2022,6daaf963b2708c4a,first_half,"""Bikaji Foods"" IPO after:2022-10-17 before:2022-11-01",2,ok
+BIKAJI,2022,a4dc201b5c087656,second_half,"""Bikaji Foods"" IPO after:2022-11-01 before:2022-11-16",14,ok
+MEDANTA,2022,abe3d0f32b9cb2a0,full,"""Global Health"" IPO after:2022-10-17 before:2022-11-16",18,ok
+MEDANTA,2022,2a9ca3ebe4a7004b,first_half,"""Global Health"" IPO after:2022-10-17 before:2022-11-01",10,ok
+MEDANTA,2022,dca9713b3658de91,second_half,"""Global Health"" IPO after:2022-11-01 before:2022-11-16",11,ok
+ACI,2022,a92300433651da1c,full,"""Archean Chemical Industries"" IPO after:2022-10-22 before:2022-11-21",9,ok
+ACI,2022,bbdd34a930cb26d4,alias,"""Archean Chemical"" IPO after:2022-10-22 before:2022-11-21",9,ok
+ACI,2022,ef7bb64a9fa84637,first_half,"""Archean Chemical"" IPO after:2022-10-22 before:2022-11-06",3,ok
+ACI,2022,ccfbf212aabb4ac3,second_half,"""Archean Chemical"" IPO after:2022-11-06 before:2022-11-21",10,ok
+KAYNES,2022,523230b7ef9251f1,full,"""Kaynes Technology India"" IPO after:2022-10-23 before:2022-11-22",11,ok
+KAYNES,2022,f623f8aa4dae33c9,first_half,"""Kaynes Technology India"" IPO after:2022-10-23 before:2022-11-07",3,ok
+KAYNES,2022,3d1d9ea23c3b1753,second_half,"""Kaynes Technology India"" IPO after:2022-11-07 before:2022-11-22",10,ok
+INOXGREEN,2022,9ad1c4efee9976b5,full,"""Inox Green Energy Services"" IPO after:2022-10-24 before:2022-11-23",9,ok
+INOXGREEN,2022,9cc31f2c51694840,first_half,"""Inox Green Energy Services"" IPO after:2022-10-24 before:2022-11-08",0,ok
+INOXGREEN,2022,1e6e5d2d540da265,second_half,"""Inox Green Energy Services"" IPO after:2022-11-08 before:2022-11-23",9,ok
+RUSTOMJEE,2022,97df4b570c441cf7,full,"""Keystone Realtors"" IPO after:2022-10-25 before:2022-11-24",9,ok
+RUSTOMJEE,2022,3bb88adf2dbba96e,first_half,"""Keystone Realtors"" IPO after:2022-10-25 before:2022-11-09",2,ok
+RUSTOMJEE,2022,a8ba4a4444dce168,second_half,"""Keystone Realtors"" IPO after:2022-11-09 before:2022-11-24",9,ok
+UNIPARTS,2022,4afd0ab38a239b07,full,"""Uniparts India"" IPO after:2022-11-12 before:2022-12-12",9,ok
+UNIPARTS,2022,bdf427f765301c6f,first_half,"""Uniparts India"" IPO after:2022-11-12 before:2022-11-27",4,ok
+UNIPARTS,2022,9c6c226face1c3ea,second_half,"""Uniparts India"" IPO after:2022-11-27 before:2022-12-12",9,ok
+SULA,2022,d74ee5d5cd1d7c98,full,"""Sula Vineyards"" IPO after:2022-11-22 before:2022-12-22",33,ok
+SULA,2022,fb055dcb0f070d80,first_half,"""Sula Vineyards"" IPO after:2022-11-22 before:2022-12-07",5,ok
+SULA,2022,ed5e5e8a98a85196,second_half,"""Sula Vineyards"" IPO after:2022-12-07 before:2022-12-22",33,ok
+AHL,2022,33abfa287d6b70bf,full,"""Abans Holdings"" IPO after:2022-11-23 before:2022-12-23",2,ok
+AHL,2022,cc82dfac8e188c48,first_half,"""Abans Holdings"" IPO after:2022-11-23 before:2022-12-08",1,ok
+AHL,2022,2e3b9d16b51e99ba,second_half,"""Abans Holdings"" IPO after:2022-12-08 before:2022-12-23",1,ok
+KFINTECH,2022,78114674f6a1e4ca,full,"""KFin Technologies"" IPO after:2022-11-29 before:2022-12-29",15,ok
+KFINTECH,2022,ae6c2bff583bf63b,first_half,"""KFin Technologies"" IPO after:2022-11-29 before:2022-12-14",8,ok
+KFINTECH,2022,7b2867169c577338,second_half,"""KFin Technologies"" IPO after:2022-12-14 before:2022-12-29",15,ok
+ELIN,2022,a9289f2b582434ae,full,"""Elin Electronics"" IPO after:2022-11-30 before:2022-12-30",10,ok
+ELIN,2022,b609c62c531775f8,first_half,"""Elin Electronics"" IPO after:2022-11-30 before:2022-12-15",0,ok
+ELIN,2022,fd448bb6561ac364,second_half,"""Elin Electronics"" IPO after:2022-12-15 before:2022-12-30",10,ok
+MANYAVAR,2022,8141e5f51e5bd2f9,full,"""Vedant Fashions"" IPO after:2022-01-17 before:2022-02-16",21,ok
+MANYAVAR,2022,d3845e1e448fe881,first_half,"""Vedant Fashions"" IPO after:2022-01-17 before:2022-02-01",8,ok
+MANYAVAR,2022,a90b78e721f13a62,second_half,"""Vedant Fashions"" IPO after:2022-02-01 before:2022-02-16",15,ok
+RADIANTCMS,2023,4b629d6dd8cc88a9,full,"""Radiant Cash Management Services"" IPO after:2022-12-05 before:2023-01-04",7,ok
+RADIANTCMS,2023,b008ff60e6f3c262,first_half,"""Radiant Cash Management Services"" IPO after:2022-12-05 before:2022-12-20",1,ok
+RADIANTCMS,2023,35e0e9d0f329fc40,second_half,"""Radiant Cash Management Services"" IPO after:2022-12-20 before:2023-01-04",8,ok
+AVALON,2023,5b6c1d5daf581b26,full,"""Avalon Technologies"" IPO after:2023-03-19 before:2023-04-18",20,ok
+AVALON,2023,742362e260139ff3,alias,"""Avalon"" IPO after:2023-03-19 before:2023-04-18",21,ok
+AVALON,2023,3f024377dc2e0ad4,first_half,"""Avalon"" IPO after:2023-03-19 before:2023-04-03",14,ok
+AVALON,2023,9bfeb6e7aa7aefba,second_half,"""Avalon"" IPO after:2023-04-03 before:2023-04-18",11,ok
+IKIO,2023,666e82a6525309ef,full,"""IKIO Lighting"" IPO after:2023-05-17 before:2023-06-16",17,ok
+IKIO,2023,41afc68f907c6a00,first_half,"""IKIO Lighting"" IPO after:2023-05-17 before:2023-06-01",2,ok
+IKIO,2023,26218f4378e17ca6,second_half,"""IKIO Lighting"" IPO after:2023-06-01 before:2023-06-16",17,ok
+IDEAFORGE,2023,3182f13a1393cb55,full,"""Ideaforge Technology"" IPO after:2023-06-07 before:2023-07-07",18,ok
+IDEAFORGE,2023,a07971a038044410,alias,"""Ideaforge"" IPO after:2023-06-07 before:2023-07-07",27,ok
+IDEAFORGE,2023,1dd912887a241a6d,first_half,"""Ideaforge"" IPO after:2023-06-07 before:2023-06-22",7,ok
+IDEAFORGE,2023,ec99e55270eeab06,second_half,"""Ideaforge"" IPO after:2023-06-22 before:2023-07-07",24,ok
+SENCO,2023,99ac5c32ce01a24c,full,"""Senco Gold"" IPO after:2023-06-14 before:2023-07-14",19,ok
+SENCO,2023,705a8e7493e00d8f,first_half,"""Senco Gold"" IPO after:2023-06-14 before:2023-06-29",6,ok
+SENCO,2023,dcb2d3632ac39c85,second_half,"""Senco Gold"" IPO after:2023-06-29 before:2023-07-14",19,ok
+NETWEB,2023,1594eb9b8a8391b1,full,"""Netweb Technologies India"" IPO after:2023-06-27 before:2023-07-27",7,ok
+NETWEB,2023,d5c0a9af2cb12dc0,first_half,"""Netweb Technologies India"" IPO after:2023-06-27 before:2023-07-12",0,ok
+NETWEB,2023,712b542b62204c42,second_half,"""Netweb Technologies India"" IPO after:2023-07-12 before:2023-07-27",7,ok
+SBFC,2023,48771389e5c41559,full,"""SBFC Finance"" IPO after:2023-07-17 before:2023-08-16",14,ok
+SBFC,2023,28b041dcddc085c5,first_half,"""SBFC Finance"" IPO after:2023-07-17 before:2023-08-01",4,ok
+SBFC,2023,fd9f3928674aa6cf,second_half,"""SBFC Finance"" IPO after:2023-08-01 before:2023-08-16",13,ok
+CONCORDBIO,2023,27079f1ab5681db3,full,"""Concord Biotech"" IPO after:2023-07-19 before:2023-08-18",23,ok
+CONCORDBIO,2023,fe0462021cad5d7c,first_half,"""Concord Biotech"" IPO after:2023-07-19 before:2023-08-03",10,ok
+CONCORDBIO,2023,55b22068374d15bf,second_half,"""Concord Biotech"" IPO after:2023-08-03 before:2023-08-18",16,ok
+AEROFLEX,2023,0b763f2e4fa2f25f,full,"""Aeroflex Industries"" IPO after:2023-08-01 before:2023-08-31",22,ok
+AEROFLEX,2023,1b78350e01e2b390,alias,"""Aeroflex"" IPO after:2023-08-01 before:2023-08-31",24,ok
+AEROFLEX,2023,3af3b988705712e2,first_half,"""Aeroflex"" IPO after:2023-08-01 before:2023-08-16",4,ok
+AEROFLEX,2023,ba56f38f6e256e79,second_half,"""Aeroflex"" IPO after:2023-08-16 before:2023-08-31",21,ok
+RISHABH,2023,ab256895a0577b47,full,"""Rishabh Instruments"" IPO after:2023-08-12 before:2023-09-11",14,ok
+RISHABH,2023,3cd6c9aec01cb3d3,first_half,"""Rishabh Instruments"" IPO after:2023-08-12 before:2023-08-27",3,ok
+RISHABH,2023,19715540f21af6bf,second_half,"""Rishabh Instruments"" IPO after:2023-08-27 before:2023-09-11",13,ok
+RRKABEL,2023,663cf484bab36eac,full,"""R R Kabel"" IPO after:2023-08-21 before:2023-09-20",26,ok
+RRKABEL,2023,36707fa5105187b0,first_half,"""R R Kabel"" IPO after:2023-08-21 before:2023-09-05",2,ok
+RRKABEL,2023,fd63faacaeca3952,second_half,"""R R Kabel"" IPO after:2023-09-05 before:2023-09-20",25,ok
+SAMHI,2023,987767107ff6c37d,full,"""SAMHI Hotels"" IPO after:2023-08-23 before:2023-09-22",13,ok
+SAMHI,2023,6ce2c9851bfa8d0b,first_half,"""SAMHI Hotels"" IPO after:2023-08-23 before:2023-09-07",7,ok
+SAMHI,2023,006008b4332765ef,second_half,"""SAMHI Hotels"" IPO after:2023-09-07 before:2023-09-22",12,ok
+KALAMANDIR,2023,51e7480049cfbf9d,full,"""Sai Silks (Kalamandir)"" IPO after:2023-08-28 before:2023-09-27",16,ok
+KALAMANDIR,2023,36c19a0f982385e9,first_half,"""Sai Silks (Kalamandir)"" IPO after:2023-08-28 before:2023-09-12",0,ok
+KALAMANDIR,2023,1a4f86b8f7d3433d,second_half,"""Sai Silks (Kalamandir)"" IPO after:2023-09-12 before:2023-09-27",16,ok
+YATRA,2023,ae78c1939ebb3764,full,"""Yatra Online"" IPO after:2023-08-29 before:2023-09-28",9,ok
+YATRA,2023,7420a7e147200823,first_half,"""Yatra Online"" IPO after:2023-08-29 before:2023-09-13",4,ok
+YATRA,2023,3522fa692a6e9fef,second_half,"""Yatra Online"" IPO after:2023-09-13 before:2023-09-28",9,ok
+MVGJL,2023,391888abaa75bd3c,full,"""Manoj Vaibhav Gems N Jewellers"" IPO after:2023-09-03 before:2023-10-03",12,ok
+MVGJL,2023,9316a54764d764c2,first_half,"""Manoj Vaibhav Gems N Jewellers"" IPO after:2023-09-03 before:2023-09-18",4,ok
+MVGJL,2023,1de99a759f76fb1d,second_half,"""Manoj Vaibhav Gems N Jewellers"" IPO after:2023-09-18 before:2023-10-03",10,ok
+IRMENERGY,2023,42284671f2d8163e,full,"""IRM ENERGY"" IPO after:2023-09-26 before:2023-10-26",14,ok
+IRMENERGY,2023,e0258a223947b3da,first_half,"""IRM ENERGY"" IPO after:2023-09-26 before:2023-10-11",3,ok
+IRMENERGY,2023,75c3228786d21ed2,second_half,"""IRM ENERGY"" IPO after:2023-10-11 before:2023-10-26",13,ok
+CELLO,2023,da258b718049f205,full,"""Cello World"" IPO after:2023-10-07 before:2023-11-06",15,ok
+CELLO,2023,da57e1dd2c207661,first_half,"""Cello World"" IPO after:2023-10-07 before:2023-10-22",1,ok
+CELLO,2023,a7544d4c0efc6093,second_half,"""Cello World"" IPO after:2023-10-22 before:2023-11-06",15,ok
+ASKAUTOLTD,2023,d01e1772dc75e44a,full,"""ASK Automotive"" IPO after:2023-10-16 before:2023-11-15",19,ok
+ASKAUTOLTD,2023,399c835098f22ad8,first_half,"""ASK Automotive"" IPO after:2023-10-16 before:2023-10-31",0,ok
+ASKAUTOLTD,2023,1e1f19c54797ab1a,second_half,"""ASK Automotive"" IPO after:2023-10-31 before:2023-11-15",19,ok
+FEDFINA,2023,4f80f8c016eeebca,full,"""Fedbank Financial Services"" IPO after:2023-10-31 before:2023-11-30",14,ok
+FEDFINA,2023,6d85c25ea061b87d,first_half,"""Fedbank Financial Services"" IPO after:2023-10-31 before:2023-11-15",0,ok
+FEDFINA,2023,68eefa63f590d7e5,second_half,"""Fedbank Financial Services"" IPO after:2023-11-15 before:2023-11-30",14,ok
+TATATECH,2023,c55f952e445260c6,full,"""Tata Technologies"" IPO after:2023-10-31 before:2023-11-30",77,ok
+TATATECH,2023,41b91f0266d3178d,first_half,"""Tata Technologies"" IPO after:2023-10-31 before:2023-11-15",10,ok
+TATATECH,2023,ebb449eb563d4704,second_half,"""Tata Technologies"" IPO after:2023-11-15 before:2023-11-30",74,ok
+DOMS,2023,6dc7d3be4e181987,full,"""DOMS Industries"" IPO after:2023-11-20 before:2023-12-20",32,ok
+DOMS,2023,a21dc9fd22f1d868,first_half,"""DOMS Industries"" IPO after:2023-11-20 before:2023-12-05",6,ok
+DOMS,2023,cd3f8531b8a24b6c,second_half,"""DOMS Industries"" IPO after:2023-12-05 before:2023-12-20",28,ok
+INOXINDIA,2023,7505009f46c0a3bf,full,"""INOX India"" IPO after:2023-11-21 before:2023-12-21",23,ok
+INOXINDIA,2023,97cc8b00277cd062,first_half,"""INOX India"" IPO after:2023-11-21 before:2023-12-06",1,ok
+INOXINDIA,2023,08a3e2aadf4d7103,second_half,"""INOX India"" IPO after:2023-12-06 before:2023-12-21",22,ok
+SURAJEST,2023,e5cc9df17fff365f,full,"""Suraj Estate Developers"" IPO after:2023-11-26 before:2023-12-26",10,ok
+SURAJEST,2023,5d64f38409dfab7e,first_half,"""Suraj Estate Developers"" IPO after:2023-11-26 before:2023-12-11",1,ok
+SURAJEST,2023,704623e4fe1423b2,second_half,"""Suraj Estate Developers"" IPO after:2023-12-11 before:2023-12-26",10,ok
+MUFTI,2023,d58d41cb0865d3d8,full,"""Credo Brands Marketing"" IPO after:2023-11-27 before:2023-12-27",16,ok
+MUFTI,2023,78a9df71dc3cf9ec,first_half,"""Credo Brands Marketing"" IPO after:2023-11-27 before:2023-12-12",0,ok
+MUFTI,2023,616db13cd031bd17,second_half,"""Credo Brands Marketing"" IPO after:2023-12-12 before:2023-12-27",16,ok
+INNOVACAP,2023,8afd845f6615a40d,full,"""Innova Captab"" IPO after:2023-11-29 before:2023-12-29",28,ok
+INNOVACAP,2023,8a92f13947c913c7,first_half,"""Innova Captab"" IPO after:2023-11-29 before:2023-12-14",3,ok
+INNOVACAP,2023,fa46b91a153d3927,second_half,"""Innova Captab"" IPO after:2023-12-14 before:2023-12-29",27,ok
+JYOTICNC,2024,6ecba1ec3c47bd7d,full,"""Jyoti CNC Automation"" IPO after:2023-12-17 before:2024-01-16",26,ok
+JYOTICNC,2024,09c929b346d24a55,first_half,"""Jyoti CNC Automation"" IPO after:2023-12-17 before:2024-01-01",0,ok
+JYOTICNC,2024,cf8b5e78f793c09a,second_half,"""Jyoti CNC Automation"" IPO after:2024-01-01 before:2024-01-16",26,ok
+BLSE,2024,8722107f6e4aa778,full,"""BLS E- Services"" IPO after:2024-01-07 before:2024-02-06",13,ok
+BLSE,2024,e9ee859e5645a54e,first_half,"""BLS E- Services"" IPO after:2024-01-07 before:2024-01-22",2,ok
+BLSE,2024,2f6e36a2730e7d44,second_half,"""BLS E- Services"" IPO after:2024-01-22 before:2024-02-06",13,ok
+JSFB,2024,6d12ec6a4e1c9a97,full,"""Jana Small Finance Bank"" IPO after:2024-01-15 before:2024-02-14",23,ok
+JSFB,2024,d38b82bd26266646,first_half,"""Jana Small Finance Bank"" IPO after:2024-01-15 before:2024-01-30",2,ok
+JSFB,2024,295cd58e741dd1db,second_half,"""Jana Small Finance Bank"" IPO after:2024-01-30 before:2024-02-14",22,ok
+JUNIPER,2024,33bb659f3a9d05dd,full,"""Juniper Hotels"" IPO after:2024-01-29 before:2024-02-28",16,ok
+JUNIPER,2024,bc6d901d4e07fd07,first_half,"""Juniper Hotels"" IPO after:2024-01-29 before:2024-02-13",5,ok
+JUNIPER,2024,1a78562a8b47114d,second_half,"""Juniper Hotels"" IPO after:2024-02-13 before:2024-02-28",15,ok
+RKSWAMY,2024,65ccfc380dd61a55,full,"""R K Swamy"" IPO after:2024-02-11 before:2024-03-12",10,ok
+RKSWAMY,2024,24a585cd28f26801,first_half,"""R K Swamy"" IPO after:2024-02-11 before:2024-02-26",0,ok
+RKSWAMY,2024,897d2e73e1b09853,second_half,"""R K Swamy"" IPO after:2024-02-26 before:2024-03-12",10,ok
+PVSL,2024,4b52950cbbb34dad,full,"""Popular Vehicles and Services"" IPO after:2024-02-18 before:2024-03-19",11,ok
+PVSL,2024,428974c9645b2755,first_half,"""Popular Vehicles and Services"" IPO after:2024-02-18 before:2024-03-04",1,ok
+PVSL,2024,ccde1cd418e83fdc,second_half,"""Popular Vehicles and Services"" IPO after:2024-03-04 before:2024-03-19",12,ok
+JNKINDIA,2024,4e839576cabdebe2,full,"""JNK India"" IPO after:2024-03-31 before:2024-04-30",12,ok
+JNKINDIA,2024,f6041b76e730718f,first_half,"""JNK India"" IPO after:2024-03-31 before:2024-04-15",1,ok
+JNKINDIA,2024,9c14482e1474efa9,second_half,"""JNK India"" IPO after:2024-04-15 before:2024-04-30",12,ok
+TBOTEK,2024,a440586c8a03692b,full,"""TBO Tek"" IPO after:2024-04-15 before:2024-05-15",20,ok
+TBOTEK,2024,f737d57c56b309a4,first_half,"""TBO Tek"" IPO after:2024-04-15 before:2024-04-30",2,ok
+TBOTEK,2024,e4c6867a1aa55435,second_half,"""TBO Tek"" IPO after:2024-04-30 before:2024-05-15",17,ok
+STANLEY,2024,d0ba1afda42b6ba6,full,"""Stanley Lifestyles"" IPO after:2024-05-29 before:2024-06-28",21,ok
+STANLEY,2024,a17462701f7544da,first_half,"""Stanley Lifestyles"" IPO after:2024-05-29 before:2024-06-13",0,ok
+STANLEY,2024,1d5a1a5cd65df76a,second_half,"""Stanley Lifestyles"" IPO after:2024-06-13 before:2024-06-28",21,ok
+EMCURE,2024,9f09fb566eef6ccd,full,"""Emcure Pharmaceuticals"" IPO after:2024-06-10 before:2024-07-10",37,ok
+EMCURE,2024,6f3c847dca946e9b,first_half,"""Emcure Pharmaceuticals"" IPO after:2024-06-10 before:2024-06-25",9,ok
+EMCURE,2024,74d9468887d18837,second_half,"""Emcure Pharmaceuticals"" IPO after:2024-06-25 before:2024-07-10",35,ok
+CEIGALL,2024,2d975cd9aafb7ece,full,"""Ceigall India"" IPO after:2024-07-09 before:2024-08-08",17,ok
+CEIGALL,2024,78b08781e6adfa98,first_half,"""Ceigall India"" IPO after:2024-07-09 before:2024-07-24",5,ok
+CEIGALL,2024,cbb631a5fce61836,second_half,"""Ceigall India"" IPO after:2024-07-24 before:2024-08-08",14,ok
+UNIECOM,2024,d0f5030a8093eaa1,full,"""Unicommerce eSolutions"" IPO after:2024-07-14 before:2024-08-13",11,ok
+UNIECOM,2024,9afd93345a5fdf81,first_half,"""Unicommerce eSolutions"" IPO after:2024-07-14 before:2024-07-29",1,ok
+UNIECOM,2024,35f2d1e508921015,second_half,"""Unicommerce eSolutions"" IPO after:2024-07-29 before:2024-08-13",10,ok
+PREMIERENE,2024,5e519b8e685ee305,full,"""Premier Energies"" IPO after:2024-08-04 before:2024-09-03",16,ok
+PREMIERENE,2024,4d09674b35a3a2e5,first_half,"""Premier Energies"" IPO after:2024-08-04 before:2024-08-19",1,ok
+PREMIERENE,2024,28efaef205bca73e,second_half,"""Premier Energies"" IPO after:2024-08-19 before:2024-09-03",16,ok
+BAJAJHFL,2024,da3eeb930f2f117d,full,"""Bajaj Housing Finance"" IPO after:2024-08-17 before:2024-09-16",51,ok
+BAJAJHFL,2024,bff3e63b99f52bf8,first_half,"""Bajaj Housing Finance"" IPO after:2024-08-17 before:2024-09-01",0,ok
+BAJAJHFL,2024,13ea4e16271e2f9a,second_half,"""Bajaj Housing Finance"" IPO after:2024-09-01 before:2024-09-16",51,ok
+ARKADE,2024,047235528b5d60a1,full,"""Arkade Developers"" IPO after:2024-08-25 before:2024-09-24",10,ok
+ARKADE,2024,524412a89397a553,first_half,"""Arkade Developers"" IPO after:2024-08-25 before:2024-09-09",1,ok
+ARKADE,2024,a6308237cbc3b669,second_half,"""Arkade Developers"" IPO after:2024-09-09 before:2024-09-24",10,ok
+GARUDA,2024,342900b0b6611c43,full,"""Garuda Construction and Engineering"" IPO after:2024-09-15 before:2024-10-15",12,ok
+GARUDA,2024,0c83f4bc8a89cf45,first_half,"""Garuda Construction and Engineering"" IPO after:2024-09-15 before:2024-09-30",0,ok
+GARUDA,2024,754602351ee0cbdc,second_half,"""Garuda Construction and Engineering"" IPO after:2024-09-30 before:2024-10-15",12,ok
+WAAREEENER,2024,950ffea2087e5909,full,"""Waaree Energies"" IPO after:2024-09-28 before:2024-10-28",37,ok
+WAAREEENER,2024,e2fe23ee7c1e8c0b,first_half,"""Waaree Energies"" IPO after:2024-09-28 before:2024-10-13",1,ok
+WAAREEENER,2024,8bf698a8de769adf,second_half,"""Waaree Energies"" IPO after:2024-10-13 before:2024-10-28",37,ok
+ACMESOLAR,2024,f6d4865f4b2ad6ee,full,"""ACME Solar Holdings"" IPO after:2024-10-14 before:2024-11-13",20,ok
+ACMESOLAR,2024,daba68d492f84114,first_half,"""ACME Solar Holdings"" IPO after:2024-10-14 before:2024-10-29",5,ok
+ACMESOLAR,2024,0b98600043da2292,second_half,"""ACME Solar Holdings"" IPO after:2024-10-29 before:2024-11-13",20,ok
+BLACKBUCK,2024,0a471930fc09dade,full,"""Zinka Logistics Solutions"" IPO after:2024-10-23 before:2024-11-22",10,ok
+BLACKBUCK,2024,dbf825bda5d5becc,first_half,"""Zinka Logistics Solutions"" IPO after:2024-10-23 before:2024-11-07",0,ok
+BLACKBUCK,2024,1899391d5528bdba,second_half,"""Zinka Logistics Solutions"" IPO after:2024-11-07 before:2024-11-22",10,ok
+MOBIKWIK,2024,cd16e4aa0e0319c7,full,"""One MobiKwik Systems"" IPO after:2024-11-18 before:2024-12-18",18,ok
+MOBIKWIK,2024,509255099b9616a2,first_half,"""One MobiKwik Systems"" IPO after:2024-11-18 before:2024-12-03",0,ok
+MOBIKWIK,2024,44c0b028209b7c0b,second_half,"""One MobiKwik Systems"" IPO after:2024-12-03 before:2024-12-18",19,ok
+IKS,2024,ea68efd4d7bed5c3,full,"""Inventurus Knowledge Solutions"" IPO after:2024-11-19 before:2024-12-19",18,ok
+IKS,2024,804dea1b872f5344,first_half,"""Inventurus Knowledge Solutions"" IPO after:2024-11-19 before:2024-12-04",0,ok
+IKS,2024,f703d84cb8472afe,second_half,"""Inventurus Knowledge Solutions"" IPO after:2024-12-04 before:2024-12-19",18,ok
+DAMCAPITAL,2024,c78a74ae037c5981,full,"""DAM Capital Advisors"" IPO after:2024-11-27 before:2024-12-27",23,ok
+DAMCAPITAL,2024,c36cd50571621c5b,first_half,"""DAM Capital Advisors"" IPO after:2024-11-27 before:2024-12-12",10,ok
+DAMCAPITAL,2024,6f8c37109c0db04a,second_half,"""DAM Capital Advisors"" IPO after:2024-12-12 before:2024-12-27",22,ok
+CARRARO,2024,40ca1f4267dd59c4,full,"""Carraro India"" IPO after:2024-11-30 before:2024-12-30",19,ok
+CARRARO,2024,ee886a2ec9b22e3d,first_half,"""Carraro India"" IPO after:2024-11-30 before:2024-12-15",7,ok
+CARRARO,2024,889a3e1824673eb9,second_half,"""Carraro India"" IPO after:2024-12-15 before:2024-12-30",17,ok
+UNIMECH,2024,fa8902f99da2bfb2,full,"""Unimech Aerospace and Manufacturing"" IPO after:2024-12-01 before:2024-12-31",25,ok
+UNIMECH,2024,9d4d734b0c97d228,first_half,"""Unimech Aerospace and Manufacturing"" IPO after:2024-12-01 before:2024-12-16",1,ok
+UNIMECH,2024,da473b897886454c,second_half,"""Unimech Aerospace and Manufacturing"" IPO after:2024-12-16 before:2024-12-31",25,ok
+MEDIASSIST,2024,482aa2046f848593,full,"""Medi Assist Healthcare Services"" IPO after:2023-12-24 before:2024-01-23",15,ok
+MEDIASSIST,2024,09d3fd8e3e50a9fa,first_half,"""Medi Assist Healthcare Services"" IPO after:2023-12-24 before:2024-01-08",0,ok
+MEDIASSIST,2024,e2eeb0b68ebee063,second_half,"""Medi Assist Healthcare Services"" IPO after:2024-01-08 before:2024-01-23",15,ok
+INDOFARM,2025,9640df59f5957a5b,full,"""Indo Farm Equipment"" IPO after:2024-12-08 before:2025-01-07",36,ok
+INDOFARM,2025,4bc7d2e6aff60a66,first_half,"""Indo Farm Equipment"" IPO after:2024-12-08 before:2024-12-23",3,ok
+INDOFARM,2025,d973ee288900b4b2,second_half,"""Indo Farm Equipment"" IPO after:2024-12-23 before:2025-01-07",37,ok
+LAXMIDENTL,2025,5aec179df6a2806c,full,"""Laxmi Dental"" IPO after:2024-12-21 before:2025-01-20",14,ok
+LAXMIDENTL,2025,a6190daa0a6a2026,first_half,"""Laxmi Dental"" IPO after:2024-12-21 before:2025-01-05",0,ok
+LAXMIDENTL,2025,b5698e0e11ffd715,second_half,"""Laxmi Dental"" IPO after:2025-01-05 before:2025-01-20",14,ok
+QPOWER,2025,94394f6e40bc2680,full,"""Quality Power Electrical Equipments"" IPO after:2025-01-25 before:2025-02-24",12,ok
+QPOWER,2025,7f733fe8aa1875a3,first_half,"""Quality Power Electrical Equipments"" IPO after:2025-01-25 before:2025-02-09",0,ok
+QPOWER,2025,8cf8e5be294e30e0,second_half,"""Quality Power Electrical Equipments"" IPO after:2025-02-09 before:2025-02-24",11,ok
+THELEELA,2025,30c2bc045a5c3983,full,"""Schloss Bangalore"" IPO after:2025-05-03 before:2025-06-02",20,ok
+THELEELA,2025,20cac42d0d2f9263,first_half,"""Schloss Bangalore"" IPO after:2025-05-03 before:2025-05-18",1,ok
+THELEELA,2025,f4db9a332fea9239,second_half,"""Schloss Bangalore"" IPO after:2025-05-18 before:2025-06-02",19,ok
+KALPATARU,2025,ba83a801aab779cd,full,"""Kalpataru"" IPO after:2025-06-01 before:2025-07-01",15,ok
+KALPATARU,2025,15c161ff3014a8f6,first_half,"""Kalpataru"" IPO after:2025-06-01 before:2025-06-16",2,ok
+KALPATARU,2025,94c8dc9c2c82648f,second_half,"""Kalpataru"" IPO after:2025-06-16 before:2025-07-01",15,ok
+CRIZAC,2025,257aacaecf699480,full,"""CRIZAC"" IPO after:2025-06-09 before:2025-07-09",20,ok
+CRIZAC,2025,4925760869853833,first_half,"""CRIZAC"" IPO after:2025-06-09 before:2025-06-24",0,ok
+CRIZAC,2025,f5b0e0f33bebc4d6,second_half,"""CRIZAC"" IPO after:2025-06-24 before:2025-07-09",19,ok
+ANTHEM,2025,8fe6d779d8d5e4ae,full,"""Anthem Biosciences"" IPO after:2025-06-21 before:2025-07-21",37,ok
+ANTHEM,2025,16326c6c444cb30f,first_half,"""Anthem Biosciences"" IPO after:2025-06-21 before:2025-07-06",1,ok
+ANTHEM,2025,d2efae34605de5f7,second_half,"""Anthem Biosciences"" IPO after:2025-07-06 before:2025-07-21",36,ok
+SHANTIGOLD,2025,a6c4e6b2f54cdd06,full,"""Shanti Gold International"" IPO after:2025-07-02 before:2025-08-01",22,ok
+SHANTIGOLD,2025,f47fc683b9104859,alias,"""Shanti Gold"" IPO after:2025-07-02 before:2025-08-01",22,ok
+SHANTIGOLD,2025,d86f4e19373ffe98,first_half,"""Shanti Gold"" IPO after:2025-07-02 before:2025-07-17",0,ok
+SHANTIGOLD,2025,4e231c66b76f927f,second_half,"""Shanti Gold"" IPO after:2025-07-17 before:2025-08-01",22,ok
+LOTUSDEV,2025,23d79f8d3ecd84bd,full,"""Sri Lotus Developers and Realty"" IPO after:2025-07-07 before:2025-08-06",20,ok
+LOTUSDEV,2025,7c67123aa1ea381b,first_half,"""Sri Lotus Developers and Realty"" IPO after:2025-07-07 before:2025-07-22",0,ok
+LOTUSDEV,2025,0413d96e37fe246f,second_half,"""Sri Lotus Developers and Realty"" IPO after:2025-07-22 before:2025-08-06",17,ok
+JSWCEMENT,2025,498066498c85e083,full,"""JSW Cement"" IPO after:2025-07-15 before:2025-08-14",72,ok
+JSWCEMENT,2025,a1645858854675c9,first_half,"""JSW Cement"" IPO after:2025-07-15 before:2025-07-30",0,ok
+JSWCEMENT,2025,4ca20a93a9a28fc1,second_half,"""JSW Cement"" IPO after:2025-07-30 before:2025-08-14",52,ok
+SHREEJISPG,2025,82e8dd2ce70fb334,full,"""Shreeji Shipping Global"" IPO after:2025-07-27 before:2025-08-26",24,ok
+SHREEJISPG,2025,af0ead417a40127e,first_half,"""Shreeji Shipping Global"" IPO after:2025-07-27 before:2025-08-11",1,ok
+SHREEJISPG,2025,2065eba42eb3b493,second_half,"""Shreeji Shipping Global"" IPO after:2025-08-11 before:2025-08-26",23,ok
+VIKRAN,2025,5c707f14319ad90a,full,"""Vikran Engineering"" IPO after:2025-08-04 before:2025-09-03",29,ok
+VIKRAN,2025,96848785d33264f9,first_half,"""Vikran Engineering"" IPO after:2025-08-04 before:2025-08-19",3,ok
+VIKRAN,2025,669f0604aac7dce9,second_half,"""Vikran Engineering"" IPO after:2025-08-19 before:2025-09-03",29,ok
+EUROPRATIK,2025,b88aeef3532e9117,full,"""Euro Pratik Sales"" IPO after:2025-08-24 before:2025-09-23",12,ok
+EUROPRATIK,2025,63e7a72721766298,first_half,"""Euro Pratik Sales"" IPO after:2025-08-24 before:2025-09-08",0,ok
+EUROPRATIK,2025,1f00c4da8b9635cb,second_half,"""Euro Pratik Sales"" IPO after:2025-09-08 before:2025-09-23",12,ok
+ATLANTAELE,2025,ea46b3a13453c7d6,full,"""Atlanta Electricals"" IPO after:2025-08-30 before:2025-09-29",24,ok
+ATLANTAELE,2025,3f5b11a8dbabbca7,first_half,"""Atlanta Electricals"" IPO after:2025-08-30 before:2025-09-14",10,ok
+ATLANTAELE,2025,6a210b328b1446ae,second_half,"""Atlanta Electricals"" IPO after:2025-09-14 before:2025-09-29",23,ok
+JARO,2025,a130a9ab42b8b647,full,"""Jaro Institute of Technology Management and Research"" IPO after:2025-08-31 before:2025-09-30",9,ok
+JARO,2025,fa779ef4bdb45277,first_half,"""Jaro Institute of Technology Management and Research"" IPO after:2025-08-31 before:2025-09-15",0,ok
+JARO,2025,6eb5ddb6e56998d6,second_half,"""Jaro Institute of Technology Management and Research"" IPO after:2025-09-15 before:2025-09-30",9,ok
+JAINREC,2025,6663b3bb30f95b87,full,"""Jain Resource Recycling"" IPO after:2025-09-01 before:2025-10-01",24,ok
+JAINREC,2025,b453f6f0bfa1da27,first_half,"""Jain Resource Recycling"" IPO after:2025-09-01 before:2025-09-16",7,ok
+JAINREC,2025,681fc5951610b933,second_half,"""Jain Resource Recycling"" IPO after:2025-09-16 before:2025-10-01",24,ok
+GLOTTIS,2025,7e7750c11ddcb9ad,full,"""Glottis"" IPO after:2025-09-07 before:2025-10-07",10,ok
+GLOTTIS,2025,e3b6c8ed2227e1bf,first_half,"""Glottis"" IPO after:2025-09-07 before:2025-09-22",4,ok
+GLOTTIS,2025,c928456066eb5062,second_half,"""Glottis"" IPO after:2025-09-22 before:2025-10-07",10,ok
+CRAMC,2025,fb28ef4700f00101,full,"""Canara Robeco Asset Management Company"" IPO after:2025-09-16 before:2025-10-16",25,ok
+CRAMC,2025,a779fbb1e15bd470,first_half,"""Canara Robeco Asset Management Company"" IPO after:2025-09-16 before:2025-10-01",3,ok
+CRAMC,2025,045e12eeb3d85edb,second_half,"""Canara Robeco Asset Management Company"" IPO after:2025-10-01 before:2025-10-16",23,ok
+STUDDS,2025,2807cb0755d69e5f,full,"""Studds Accessories"" IPO after:2025-10-08 before:2025-11-07",22,ok
+STUDDS,2025,9467120737b83c39,first_half,"""Studds Accessories"" IPO after:2025-10-08 before:2025-10-23",0,ok
+STUDDS,2025,9f8d302846a6d42c,second_half,"""Studds Accessories"" IPO after:2025-10-23 before:2025-11-07",20,ok
+PINELABS,2025,b8e25ca74c28a0fb,full,"""Pine Labs"" IPO after:2025-10-15 before:2025-11-14",46,ok
+PINELABS,2025,de4ab1a2724f2c30,first_half,"""Pine Labs"" IPO after:2025-10-15 before:2025-10-30",14,ok
+PINELABS,2025,6fce606b16a67be7,second_half,"""Pine Labs"" IPO after:2025-10-30 before:2025-11-14",46,ok
+UTLSOLAR,2025,7fd2c12076c51dc8,full,"""Fujiyama Power Systems"" IPO after:2025-10-21 before:2025-11-20",33,ok
+UTLSOLAR,2025,7282dc246cb1e900,first_half,"""Fujiyama Power Systems"" IPO after:2025-10-21 before:2025-11-05",6,ok
+UTLSOLAR,2025,3580a66a8ad0e967,second_half,"""Fujiyama Power Systems"" IPO after:2025-11-05 before:2025-11-20",33,ok
+SUDEEPPHRM,2025,2d815dcee84ad79e,full,"""Sudeep Pharma"" IPO after:2025-10-29 before:2025-11-28",34,ok
+SUDEEPPHRM,2025,46b4005551668e46,first_half,"""Sudeep Pharma"" IPO after:2025-10-29 before:2025-11-13",0,ok
+SUDEEPPHRM,2025,ecef6b8438ea0058,second_half,"""Sudeep Pharma"" IPO after:2025-11-13 before:2025-11-28",35,ok
+VIDYAWIRES,2025,f70397c8049d2d24,full,"""Vidya Wires"" IPO after:2025-11-10 before:2025-12-10",42,ok
+VIDYAWIRES,2025,9be4d19680da389e,first_half,"""Vidya Wires"" IPO after:2025-11-10 before:2025-11-25",0,ok
+VIDYAWIRES,2025,11e1d8147eeffcc8,second_half,"""Vidya Wires"" IPO after:2025-11-25 before:2025-12-10",38,ok
+PARKHOSPS,2025,e600fa9d1b1360b1,full,"""Park Medi World"" IPO after:2025-11-17 before:2025-12-17",33,ok
+PARKHOSPS,2025,7674ff26c7a0e143,first_half,"""Park Medi World"" IPO after:2025-11-17 before:2025-12-02",4,ok
+PARKHOSPS,2025,1780ebe87d01e807,second_half,"""Park Medi World"" IPO after:2025-12-02 before:2025-12-17",33,ok
+GKSL,2025,6b40587cce3937a3,full,"""Gujarat Kidney and Super Speciality"" IPO after:2025-11-30 before:2025-12-30",13,ok
+GKSL,2025,4f9b31114ded183c,first_half,"""Gujarat Kidney and Super Speciality"" IPO after:2025-11-30 before:2025-12-15",0,ok
+GKSL,2025,1f1389d1a1789494,second_half,"""Gujarat Kidney and Super Speciality"" IPO after:2025-12-15 before:2025-12-30",13,ok
+BHARATCOAL,2026,f1384de6396fc218,full,"""Bharat Coking Coal"" IPO after:2025-12-20 before:2026-01-19",40,ok
+BHARATCOAL,2026,e15675fde8bdb61d,first_half,"""Bharat Coking Coal"" IPO after:2025-12-20 before:2026-01-04",14,ok
+BHARATCOAL,2026,6bb04076335538c8,second_half,"""Bharat Coking Coal"" IPO after:2026-01-04 before:2026-01-19",39,ok
+PNGSREVA,2026,ecdc9b8feb9f3e32,full,"""PNGS Reva Diamond Jewellery"" IPO after:2026-02-02 before:2026-03-04",12,ok
+PNGSREVA,2026,c9d34909d8f750f0,first_half,"""PNGS Reva Diamond Jewellery"" IPO after:2026-02-02 before:2026-02-17",8,ok
+PNGSREVA,2026,5e9c452660fa42da,second_half,"""PNGS Reva Diamond Jewellery"" IPO after:2026-02-17 before:2026-03-04",12,ok
+RSL,2026,b2a652685c74ec0a,full,"""Rajputana Stainless"" IPO after:2026-02-17 before:2026-03-19",15,ok
+RSL,2026,522f81a44756b47f,first_half,"""Rajputana Stainless"" IPO after:2026-02-17 before:2026-03-04",10,ok
+RSL,2026,d8f8181f6823c9a9,second_half,"""Rajputana Stainless"" IPO after:2026-03-04 before:2026-03-19",14,ok
+CMPDI,2026,eac9b52b7f85d5b4,full,"""Central Mine Planning & Design Institute"" IPO after:2026-02-28 before:2026-03-30",40,ok
+CMPDI,2026,4c033fd8b1a64cd6,first_half,"""Central Mine Planning & Design Institute"" IPO after:2026-02-28 before:2026-03-15",3,ok
+CMPDI,2026,ea246b308d9625a7,second_half,"""Central Mine Planning & Design Institute"" IPO after:2026-03-15 before:2026-03-30",42,ok
+KISSHT,2026,5cd2bb01dbeb4219,full,"""Onemi Technology Solutions"" IPO after:2026-04-08 before:2026-05-08",43,ok
+KISSHT,2026,4f5c8690981f354a,first_half,"""Onemi Technology Solutions"" IPO after:2026-04-08 before:2026-04-23",1,ok
+KISSHT,2026,5a82c4c336cfb0df,second_half,"""Onemi Technology Solutions"" IPO after:2026-04-23 before:2026-05-08",42,ok
+CORDELIA,2026,b4395ff762692e18,full,"""Waterways Leisure Tourism"" IPO after:2026-06-01 before:2026-07-01",100,ok
+CORDELIA,2026,be23eac52ed4294c,first_half,"""Waterways Leisure Tourism"" IPO after:2026-06-01 before:2026-06-16",2,ok
+CORDELIA,2026,2b91586d707f2159,second_half,"""Waterways Leisure Tourism"" IPO after:2026-06-16 before:2026-07-01",100,ok
+LASERPOWER,2026,2f0e645c06fbba9e,full,"""Laser Power & Infra"" IPO after:2026-06-16 before:2026-07-16",48,ok
+LASERPOWER,2026,417ee89b2ec3ac27,first_half,"""Laser Power & Infra"" IPO after:2026-06-16 before:2026-07-01",0,ok
+LASERPOWER,2026,0f5fc84bea0a04fe,second_half,"""Laser Power & Infra"" IPO after:2026-07-01 before:2026-07-16",48,ok
+LCL,2026,2fed4c1002be672a,full,"""Lohia Corp"" IPO after:2026-06-30 before:2026-07-30",95,ok
+LCL,2026,4e877c025b34c2f9,first_half,"""Lohia Corp"" IPO after:2026-06-30 before:2026-07-15",0,ok
+LCL,2026,36d709dad1d9ba59,second_half,"""Lohia Corp"" IPO after:2026-07-15 before:2026-07-30",50,ok
+MVELECTRO,2026,7fbd6c8c1fe3c139,full,"""MV Electrosystems"" IPO after:2026-07-07 before:2026-08-06",45,ok
+MVELECTRO,2026,c12c9fe94b778ee3,first_half,"""MV Electrosystems"" IPO after:2026-07-07 before:2026-07-22",0,ok
+MVELECTRO,2026,7070ed6b72125a86,second_half,"""MV Electrosystems"" IPO after:2026-07-22 before:2026-08-06",46,ok
+TECHNOCRAF,2026,3762641cc97e082f,full,"""Technocraft Ventures"" IPO after:2026-07-15 before:2026-08-14",100,ok
+TECHNOCRAF,2026,1ce9d5d776d6cdda,first_half,"""Technocraft Ventures"" IPO after:2026-07-15 before:2026-07-30",0,ok
+TECHNOCRAF,2026,927effb6c70c8e39,second_half,"""Technocraft Ventures"" IPO after:2026-07-30 before:2026-08-14",49,ok
+BLEL,2026,33ef7566bd9469ca,full,"""Behari Lal Engineering"" IPO after:2026-07-20 before:2026-08-19",47,ok
+BLEL,2026,0fefd3c89337243c,first_half,"""Behari Lal Engineering"" IPO after:2026-07-20 before:2026-08-04",0,ok
+BLEL,2026,6976dfe7806a8dbc,second_half,"""Behari Lal Engineering"" IPO after:2026-08-04 before:2026-08-19",47,ok
+LALITHAA,2026,b27b0b30d2ac0e1f,full,"""Lalithaa Jewellery Mart"" IPO after:2026-07-25 before:2026-08-24",42,ok
+LALITHAA,2026,de78a7fdfcff909c,first_half,"""Lalithaa Jewellery Mart"" IPO after:2026-07-25 before:2026-08-09",3,ok
+LALITHAA,2026,67dd6314cd9d6ff1,second_half,"""Lalithaa Jewellery Mart"" IPO after:2026-08-09 before:2026-08-24",100,ok
+GAJA,2026,222e2c94d9bac5c3,full,"""Gaja Alternative Asset Management"" IPO after:2026-07-27 before:2026-08-26",100,ok
+GAJA,2026,794efded7223d2d0,first_half,"""Gaja Alternative Asset Management"" IPO after:2026-07-27 before:2026-08-11",0,ok
+GAJA,2026,232afa56fb7de776,second_half,"""Gaja Alternative Asset Management"" IPO after:2026-08-11 before:2026-08-26",48,ok
+SYMBIOTEC,2026,f09fa4fc1044ebed,full,"""Symbiotec Pharmalab"" IPO after:2026-08-02 before:2026-09-01",46,ok
+SYMBIOTEC,2026,af065fe514cee61b,first_half,"""Symbiotec Pharmalab"" IPO after:2026-08-02 before:2026-08-17",0,ok
+SYMBIOTEC,2026,189732b8f5207293,second_half,"""Symbiotec Pharmalab"" IPO after:2026-08-17 before:2026-09-01",46,ok
+PERNIASPOP,2026,63945b1d971f707f,full,"""Purple Style Labs"" IPO after:2026-08-08 before:2026-09-07",100,ok
+PERNIASPOP,2026,eb7c466b1b0081a6,first_half,"""Purple Style Labs"" IPO after:2026-08-08 before:2026-08-23",9,ok
+PERNIASPOP,2026,efae80841daa9686,second_half,"""Purple Style Labs"" IPO after:2026-08-23 before:2026-09-07",100,ok
+GLASSWALL,2026,c968a6a377790795,full,"""Glass Wall Systems (India)"" IPO after:2026-08-17 before:2026-09-16",47,ok
+GLASSWALL,2026,82c6880ad0a0defd,first_half,"""Glass Wall Systems (India)"" IPO after:2026-08-17 before:2026-09-01",0,ok
+GLASSWALL,2026,f33521493865b454,second_half,"""Glass Wall Systems (India)"" IPO after:2026-09-01 before:2026-09-16",47,ok
+KARAMTARA,2026,59455a91cca4db46,full,"""Karamtara Engineering"" IPO after:2026-08-18 before:2026-09-17",45,ok
+KARAMTARA,2026,c54f73ded2ace631,first_half,"""Karamtara Engineering"" IPO after:2026-08-18 before:2026-09-02",2,ok
+KARAMTARA,2026,22949c98ab25310b,second_half,"""Karamtara Engineering"" IPO after:2026-09-02 before:2026-09-17",100,ok
+RENTOMOJO,2026,6e912febfbcd1add,full,"""Rentomojo"" IPO after:2026-08-18 before:2026-09-17",100,ok
+RENTOMOJO,2026,c2b31c56262c0b47,first_half,"""Rentomojo"" IPO after:2026-08-18 before:2026-09-02",10,ok
+RENTOMOJO,2026,5bc0e521fd652cb2,second_half,"""Rentomojo"" IPO after:2026-09-02 before:2026-09-17",100,ok
+SSRETAIL,2026,61b91794b6aa94fd,full,"""SS Retail"" IPO after:2026-08-24 before:2026-09-23",43,ok
+SSRETAIL,2026,290bf3852a0d21f4,first_half,"""SS Retail"" IPO after:2026-08-24 before:2026-09-08",10,ok
+SSRETAIL,2026,714178cf749287ef,second_half,"""SS Retail"" IPO after:2026-09-08 before:2026-09-23",43,ok
+AONESTEELS,2026,1b8c7ee0f15eb2f5,full,"""A-One Steels India"" IPO after:2026-09-01 before:2026-10-01",93,ok
+AONESTEELS,2026,53c6e7bf30ee3315,first_half,"""A-One Steels India"" IPO after:2026-09-01 before:2026-09-16",9,ok
+AONESTEELS,2026,2e2c89f14a91fee8,second_half,"""A-One Steels India"" IPO after:2026-09-16 before:2026-10-01",89,ok
+GERMAN,2026,7cf515a5c50aab1a,full,"""German Green Steel and Power"" IPO after:2026-09-05 before:2026-10-05",77,ok
+GERMAN,2026,c339be24d6c5860f,first_half,"""German Green Steel and Power"" IPO after:2026-09-05 before:2026-09-20",0,ok
+GERMAN,2026,cf3a1242f7937d81,second_half,"""German Green Steel and Power"" IPO after:2026-09-20 before:2026-10-05",78,ok
+HDFIRE,2026,5e7eb5287da61834,full,"""HD Fire Protect"" IPO after:2026-09-21 before:2026-10-21",100,ok
+HDFIRE,2026,1924ac3e91c29fb3,first_half,"""HD Fire Protect"" IPO after:2026-09-21 before:2026-10-06",34,ok
+HDFIRE,2026,3e4542b479c99332,second_half,"""HD Fire Protect"" IPO after:2026-10-06 before:2026-10-21",100,ok
+TONBO,2026,ff35ca1ecfb87d2b,full,"""Tonbo Imaging India"" IPO after:2026-09-23 before:2026-10-23",100,ok
+TONBO,2026,88220842bcd6a607,first_half,"""Tonbo Imaging India"" IPO after:2026-09-23 before:2026-10-08",31,ok
+TONBO,2026,73a60341be3803be,second_half,"""Tonbo Imaging India"" IPO after:2026-10-08 before:2026-10-23",55,ok
+PARASHLTH,2026,d18eabbfa98bb1e5,full,"""Paras Healthcare"" IPO after:2026-09-28 before:2026-10-28",100,ok
+PARASHLTH,2026,3b55161bb32eaf61,first_half,"""Paras Healthcare"" IPO after:2026-09-28 before:2026-10-13",2,ok
+PARASHLTH,2026,447840b8add1e429,second_half,"""Paras Healthcare"" IPO after:2026-10-13 before:2026-10-28",100,ok
+AMAGI,2026,5f907911ef692668,full,"""Amagi Media Labs"" IPO after:2025-12-22 before:2026-01-21",46,ok
+AMAGI,2026,b09a76eff96835ed,first_half,"""Amagi Media Labs"" IPO after:2025-12-22 before:2026-01-06",1,ok
+AMAGI,2026,44b902858656c63e,second_half,"""Amagi Media Labs"" IPO after:2026-01-06 before:2026-01-21",45,ok
+SBICARD,2020,e0a6eceb5993f331,unique_issuer_alias,"""SBI Cards and"" IPO after:2020-02-15 before:2020-03-16",15,ok
+CHEMCON,2020,51662451483b5359,unique_issuer_alias,"""Chemcon Speciality"" IPO after:2020-09-01 before:2020-10-01",12,ok
+MAZDOCK,2020,7729aa05ed01c673,unique_issuer_alias,"""Mazagon Dock"" IPO after:2020-09-12 before:2020-10-12",10,ok
+UTIAMC,2020,202cd0a5841ddf32,unique_issuer_alias,"""UTI Asset"" IPO after:2020-09-12 before:2020-10-12",9,ok
+UTIAMC,2020,c993573954df2df7,unique_issuer_alias,"""UTI AMC"" IPO after:2020-09-12 before:2020-10-12",12,ok
+EQUITASBNK,2020,23b76f5371fd77bb,unique_issuer_alias,"""Equitas Small Finance"" IPO after:2020-10-03 before:2020-11-02",12,ok
+EQUITASBNK,2020,34146855839cf63c,unique_issuer_alias,"""Equitas Small"" IPO after:2020-10-03 before:2020-11-02",11,ok
+BURGERKING,2020,ba743c0f30749e77,unique_issuer_alias,"""Burger King"" IPO after:2020-11-14 before:2020-12-14",14,ok
+BECTORFOOD,2020,4942ae773144c4e3,unique_issuer_alias,"""Mrs Bectors Food"" IPO after:2020-11-24 before:2020-12-24",25,ok
+AWHCL,2021,6972ccaac176e22b,unique_issuer_alias,"""Antony Waste Handling"" IPO after:2020-12-02 before:2021-01-01",11,ok
+AWHCL,2021,4870d0f805578bd0,unique_issuer_alias,"""Antony Waste"" IPO after:2020-12-02 before:2021-01-01",11,ok
+HOMEFIRST,2021,f356d83fe8005060,unique_issuer_alias,"""Home First Finance"" IPO after:2021-01-04 before:2021-02-03",11,ok
+HOMEFIRST,2021,af4d7ee057b651cc,unique_issuer_alias,"""Home First"" IPO after:2021-01-04 before:2021-02-03",10,ok
+EASEMYTRIP,2021,957a03bb52892cac,unique_issuer_alias,"""Easy Trip"" IPO after:2021-02-17 before:2021-03-19",8,ok
+SURYODAY,2021,53d2bc34099c8ecc,unique_issuer_alias,"""Suryoday Small Finance"" IPO after:2021-02-24 before:2021-03-26",12,ok
+SURYODAY,2021,6264b2e1d0f88680,unique_issuer_alias,"""Suryoday Small"" IPO after:2021-02-24 before:2021-03-26",12,ok
+SONACOMS,2021,1e158d934989b80a,unique_issuer_alias,"""Sona BLW Precision"" IPO after:2021-05-25 before:2021-06-24",17,ok
+SONACOMS,2021,0de19b799dc10858,unique_issuer_alias,"""Sona BLW"" IPO after:2021-05-25 before:2021-06-24",20,ok
+KIMS,2021,12ed86839fc39f31,unique_issuer_alias,"""Krishna Institute of"" IPO after:2021-05-29 before:2021-06-28",10,ok
+KIMS,2021,23ad415f76847b94,unique_issuer_alias,"""Krishna Institute"" IPO after:2021-05-29 before:2021-06-28",10,ok
+TATVA,2021,ef92e49011f846de,unique_issuer_alias,"""Tatva Chintan Pharma"" IPO after:2021-06-29 before:2021-07-29",10,ok
+TATVA,2021,f04c64c8108b51b6,unique_issuer_alias,"""Tatva Chintan"" IPO after:2021-06-29 before:2021-07-29",10,ok
+APTUS,2021,acc98e4840ea0e4c,unique_issuer_alias,"""Aptus Value Housing"" IPO after:2021-07-25 before:2021-08-24",8,ok
+APTUS,2021,778d0286bb1ccccf,unique_issuer_alias,"""Aptus Value"" IPO after:2021-07-25 before:2021-08-24",8,ok
+FINOPB,2021,3478d1c2bdb1cf19,unique_issuer_alias,"""FINO Payments"" IPO after:2021-10-13 before:2021-11-12",13,ok
+SAPPHIRE,2021,154ebb44c3ef714c,unique_issuer_alias,"""Sapphire Foods"" IPO after:2021-10-19 before:2021-11-18",10,ok
+GOCOLORS,2021,9b6638418fd1e129,unique_issuer_alias,"""Go Fashion"" IPO after:2021-10-31 before:2021-11-30",12,ok
+MAPMYINDIA,2021,aad3cd6e70a73cc6,unique_issuer_alias,"""C E Info"" IPO after:2021-11-21 before:2021-12-21",10,ok
+DATAPATTNS,2021,3e2fac63a98d39cf,unique_issuer_alias,"""Data Patterns"" IPO after:2021-11-24 before:2021-12-24",18,ok
+CMSINFO,2021,18273db3fe07eafe,unique_issuer_alias,"""CMS Info"" IPO after:2021-12-01 before:2021-12-31",14,ok
+RAINBOW,2022,8b126d7414f641a9,unique_issuer_alias,"""Rainbow Childrens"" IPO after:2022-04-10 before:2022-05-10",4,ok
+LICI,2022,052d5d03e5527d9e,unique_issuer_alias,"""Life Insurance"" IPO after:2022-04-17 before:2022-05-17",35,ok
+LICI,2022,c689bac2aa2a2562,unique_issuer_alias,"""LIC"" IPO after:2022-04-17 before:2022-05-17",100,ok
+EMIL,2022,d5f4cdd978dc635b,unique_issuer_alias,"""Electronics Mart"" IPO after:2022-09-17 before:2022-10-17",12,ok
+KAYNES,2022,bd150a98d89e2252,unique_issuer_alias,"""Kaynes Technology"" IPO after:2022-10-23 before:2022-11-22",13,ok
+INOXGREEN,2022,becf467b07b019b9,unique_issuer_alias,"""Inox Green Energy"" IPO after:2022-10-24 before:2022-11-23",10,ok
+INOXGREEN,2022,eb47c3256d7ae5b8,unique_issuer_alias,"""Inox Green"" IPO after:2022-10-24 before:2022-11-23",10,ok
+RADIANTCMS,2023,2bed38dc5aff357a,unique_issuer_alias,"""Radiant Cash Management"" IPO after:2022-12-05 before:2023-01-04",10,ok
+RADIANTCMS,2023,014a88fd6cbddb44,unique_issuer_alias,"""Radiant Cash"" IPO after:2022-12-05 before:2023-01-04",10,ok
+NETWEB,2023,db49e5e309126bab,unique_issuer_alias,"""Netweb Technologies"" IPO after:2023-06-27 before:2023-07-27",15,ok
+KALAMANDIR,2023,7f1660d23085c089,unique_issuer_alias,"""Sai Silks"" IPO after:2023-08-28 before:2023-09-27",19,ok
+MVGJL,2023,84864e2e33594f22,unique_issuer_alias,"""Manoj Vaibhav Gems"" IPO after:2023-09-03 before:2023-10-03",10,ok
+MVGJL,2023,1f6db47a54b3bfc3,unique_issuer_alias,"""Manoj Vaibhav"" IPO after:2023-09-03 before:2023-10-03",13,ok
+FEDFINA,2023,8a58c750e9e3d1a5,unique_issuer_alias,"""Fedbank Financial"" IPO after:2023-10-31 before:2023-11-30",14,ok
+SURAJEST,2023,4d8e92c9554a67d0,unique_issuer_alias,"""Suraj Estate"" IPO after:2023-11-26 before:2023-12-26",12,ok
+MUFTI,2023,531ff0eb59b50979,unique_issuer_alias,"""Credo Brands"" IPO after:2023-11-27 before:2023-12-27",20,ok
+JYOTICNC,2024,8cf82b9d383fc425,unique_issuer_alias,"""Jyoti CNC"" IPO after:2023-12-17 before:2024-01-16",25,ok
+JSFB,2024,9fb82a14a58889f5,unique_issuer_alias,"""Jana Small Finance"" IPO after:2024-01-15 before:2024-02-14",23,ok
+JSFB,2024,d614027528c70fa2,unique_issuer_alias,"""Jana Small"" IPO after:2024-01-15 before:2024-02-14",22,ok
+PVSL,2024,2c3eb39b22ee5804,unique_issuer_alias,"""Popular Vehicles and"" IPO after:2024-02-18 before:2024-03-19",10,ok
+PVSL,2024,e32ed92efa3ce08c,unique_issuer_alias,"""Popular Vehicles"" IPO after:2024-02-18 before:2024-03-19",12,ok
+BAJAJHFL,2024,1cda2e48f7449e3b,unique_issuer_alias,"""Bajaj Housing"" IPO after:2024-08-17 before:2024-09-16",51,ok
+GARUDA,2024,dfe61f5c1f17c1b3,unique_issuer_alias,"""Garuda Construction and"" IPO after:2024-09-15 before:2024-10-15",12,ok
+GARUDA,2024,96018904f9d728d3,unique_issuer_alias,"""Garuda Construction"" IPO after:2024-09-15 before:2024-10-15",12,ok
+ACMESOLAR,2024,ec8cf7ad4caca305,unique_issuer_alias,"""ACME Solar"" IPO after:2024-10-14 before:2024-11-13",20,ok
+BLACKBUCK,2024,82e79a1949f26ce9,unique_issuer_alias,"""Zinka Logistics"" IPO after:2024-10-23 before:2024-11-22",11,ok
+MOBIKWIK,2024,76fd76254460c188,unique_issuer_alias,"""One MobiKwik"" IPO after:2024-11-18 before:2024-12-18",21,ok
+IKS,2024,3aabdd5ad64deb92,unique_issuer_alias,"""Inventurus Knowledge"" IPO after:2024-11-19 before:2024-12-19",16,ok
+DAMCAPITAL,2024,145ed918bce729b0,unique_issuer_alias,"""DAM Capital"" IPO after:2024-11-27 before:2024-12-27",25,ok
+UNIMECH,2024,3da28678799b323e,unique_issuer_alias,"""Unimech Aerospace and"" IPO after:2024-12-01 before:2024-12-31",25,ok
+UNIMECH,2024,3d3951f34535b394,unique_issuer_alias,"""Unimech Aerospace"" IPO after:2024-12-01 before:2024-12-31",31,ok
+MEDIASSIST,2024,368cd9a9695b86ce,unique_issuer_alias,"""Medi Assist Healthcare"" IPO after:2023-12-24 before:2024-01-23",17,ok
+MEDIASSIST,2024,23433082ac1570c0,unique_issuer_alias,"""Medi Assist"" IPO after:2023-12-24 before:2024-01-23",18,ok
+INDOFARM,2025,a8e51cc1a32963c8,unique_issuer_alias,"""Indo Farm"" IPO after:2024-12-08 before:2025-01-07",35,ok
+QPOWER,2025,23631d004cd17f4b,unique_issuer_alias,"""Quality Power Electrical"" IPO after:2025-01-25 before:2025-02-24",12,ok
+QPOWER,2025,de9011625afb59a9,unique_issuer_alias,"""Quality Power"" IPO after:2025-01-25 before:2025-02-24",15,ok
+LOTUSDEV,2025,f8690ab5e8230329,unique_issuer_alias,"""Sri Lotus Developers"" IPO after:2025-07-07 before:2025-08-06",30,ok
+LOTUSDEV,2025,91fd809af8dc2e9b,unique_issuer_alias,"""Sri Lotus"" IPO after:2025-07-07 before:2025-08-06",26,ok
+SHREEJISPG,2025,5637cb68883d91e3,unique_issuer_alias,"""Shreeji Shipping"" IPO after:2025-07-27 before:2025-08-26",24,ok
+EUROPRATIK,2025,84003fd1a4ba17d9,unique_issuer_alias,"""Euro Pratik"" IPO after:2025-08-24 before:2025-09-23",12,ok
+JARO,2025,acb7e0f49f713b51,unique_issuer_alias,"""Jaro Institute of"" IPO after:2025-08-31 before:2025-09-30",14,ok
+JARO,2025,05db32d012dfc656,unique_issuer_alias,"""Jaro Institute"" IPO after:2025-08-31 before:2025-09-30",15,ok
+JAINREC,2025,40d591257daeb483,unique_issuer_alias,"""Jain Resource"" IPO after:2025-09-01 before:2025-10-01",24,ok
+CRAMC,2025,9656d70da0d31118,unique_issuer_alias,"""Canara Robeco Asset"" IPO after:2025-09-16 before:2025-10-16",34,ok
+CRAMC,2025,be128da90c05ea46,unique_issuer_alias,"""Canara Robeco"" IPO after:2025-09-16 before:2025-10-16",44,ok
+UTLSOLAR,2025,81a53ccd937bfb4b,unique_issuer_alias,"""Fujiyama Power"" IPO after:2025-10-21 before:2025-11-20",33,ok
+PARKHOSPS,2025,fbac021301b385ce,unique_issuer_alias,"""Park Medi"" IPO after:2025-11-17 before:2025-12-17",30,ok
+GKSL,2025,6819a3493d3a680d,unique_issuer_alias,"""Gujarat Kidney and"" IPO after:2025-11-30 before:2025-12-30",14,ok
+GKSL,2025,652a1f78564f91b1,unique_issuer_alias,"""Gujarat Kidney"" IPO after:2025-11-30 before:2025-12-30",20,ok
+BHARATCOAL,2026,d33aaad629b01ae7,unique_issuer_alias,"""Bharat Coking"" IPO after:2025-12-20 before:2026-01-19",38,ok
+PNGSREVA,2026,c930acb938dd4c1a,unique_issuer_alias,"""PNGS Reva Diamond"" IPO after:2026-02-02 before:2026-03-04",13,ok
+PNGSREVA,2026,ff837f05fcd13951,unique_issuer_alias,"""PNGS Reva"" IPO after:2026-02-02 before:2026-03-04",12,ok
+CMPDI,2026,89550554d9f5d118,unique_issuer_alias,"""Central Mine Planning"" IPO after:2026-02-28 before:2026-03-30",56,ok
+CMPDI,2026,a68df5da6de9ce37,unique_issuer_alias,"""Central Mine"" IPO after:2026-02-28 before:2026-03-30",50,ok
+KISSHT,2026,b1dccce6835f4708,unique_issuer_alias,"""Onemi Technology"" IPO after:2026-04-08 before:2026-05-08",53,ok
+CORDELIA,2026,9c551161e2017e94,unique_issuer_alias,"""Waterways Leisure"" IPO after:2026-06-01 before:2026-07-01",53,ok
+LASERPOWER,2026,7a6f0fde01ffc2b7,unique_issuer_alias,"""Laser Power"" IPO after:2026-06-16 before:2026-07-16",51,ok
+BLEL,2026,fccbc8e8e87ec1b6,unique_issuer_alias,"""Behari Lal"" IPO after:2026-07-20 before:2026-08-19",48,ok
+LALITHAA,2026,14c3685230d15a80,unique_issuer_alias,"""Lalithaa Jewellery"" IPO after:2026-07-25 before:2026-08-24",100,ok
+GAJA,2026,ca31e0e8990d5723,unique_issuer_alias,"""Gaja Alternative Asset"" IPO after:2026-07-27 before:2026-08-26",100,ok
+GAJA,2026,90538d5134e4342c,unique_issuer_alias,"""Gaja Alternative"" IPO after:2026-07-27 before:2026-08-26",47,ok
+PERNIASPOP,2026,772f7c4e523d58cf,unique_issuer_alias,"""Purple Style"" IPO after:2026-08-08 before:2026-09-07",43,ok
+GLASSWALL,2026,e446534d95ec453f,unique_issuer_alias,"""Glass Wall Systems"" IPO after:2026-08-17 before:2026-09-16",100,ok
+GLASSWALL,2026,29d07505b5486225,unique_issuer_alias,"""Glass Wall"" IPO after:2026-08-17 before:2026-09-16",100,ok
+AONESTEELS,2026,7fe55621ed16c4e9,unique_issuer_alias,"""A One Steels"" IPO after:2026-09-01 before:2026-10-01",46,ok
+GERMAN,2026,f7dcbf2c16c4a659,unique_issuer_alias,"""German Green Steel"" IPO after:2026-09-05 before:2026-10-05",100,ok
+GERMAN,2026,a65b1c7b73e155a2,unique_issuer_alias,"""German Green"" IPO after:2026-09-05 before:2026-10-05",45,ok
+TONBO,2026,b9fc61c5cd47966b,unique_issuer_alias,"""Tonbo Imaging"" IPO after:2026-09-23 before:2026-10-23",57,ok
+AMAGI,2026,96e7f143adf94276,unique_issuer_alias,"""Amagi Media"" IPO after:2025-12-22 before:2026-01-21",46,ok
